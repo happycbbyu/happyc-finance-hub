@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>해피씨쀼 재테크 허브 | CMA·예적금·ISA·연금저축·IRP 비교</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --primary: #FF6B4D; --pink: #E79796; --cream: #FAD9A5; --white: #FFFFFF;
+      --bg: #F5F6F8; --text: #1A1A1A; --sub: #6B7280; --border: #E5E7EB;
+      --radius: 16px; --shadow: 0 2px 16px rgba(0,0,0,.07); --shadow-md: 0 6px 28px rgba(0,0,0,.11);
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Noto Sans KR', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+    .hidden { display: none !important; }
+    .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+    .section { padding: 56px 0; }
+    .section-label { display: inline-flex; align-items: center; gap: 6px; background: #FFF0ED; color: var(--primary); padding: 4px 12px; border-radius: 100px; font-size: 12px; font-weight: 700; margin-bottom: 10px; }
+    .section-title { font-size: 22px; font-weight: 900; margin-bottom: 6px; }
+    .section-sub { color: var(--sub); font-size: 13px; margin-bottom: 28px; }
+    .anim { opacity: 0; transform: translateY(24px); transition: opacity .5s ease, transform .5s ease; }
+    .anim.visible { opacity: 1; transform: translateY(0); }
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 10px 20px; border-radius: 100px; font-family: inherit; font-size: 13px; font-weight: 700; cursor: pointer; text-decoration: none; border: none; transition: transform .15s, box-shadow .15s; }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { background: var(--primary); color: #fff; box-shadow: 0 4px 14px rgba(255,107,77,.35); }
+    .btn-white { background: #fff; color: var(--primary); box-shadow: 0 4px 14px rgba(0,0,0,.12); }
+    .btn-outline { background: transparent; border: 2px solid rgba(255,255,255,.4); color: #fff; }
+
+    /* ══ NAV ══ */
+    nav { position: sticky; top: 0; z-index: 200; background: rgba(255,255,255,.95); backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); }
+    .nav-inner { max-width: 900px; margin: 0 auto; padding: 10px 20px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    .nav-logo-img { height: 34px; width: auto; object-fit: contain; }
+    .nav-right { display: flex; align-items: center; gap: 8px; }
+    .nav-date { font-size: 11px; font-weight: 700; background: var(--cream); color: var(--text); padding: 3px 10px; border-radius: 100px; white-space: nowrap; }
+
+    /* ══ TAB NAV ══ */
+    .tab-nav-bar { position: sticky; top: 57px; z-index: 190; background: #fff; border-bottom: 2px solid var(--border); }
+    .tab-nav-inner { max-width: 900px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .tab-nav-scroll { display: flex; gap: 0; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; flex: 1; }
+    .tab-nav-scroll::-webkit-scrollbar { display: none; }
+    .tab-btn { padding: 14px 18px; font-family: inherit; font-size: 13px; font-weight: 700; color: var(--sub); background: none; border: none; border-bottom: 3px solid transparent; cursor: pointer; white-space: nowrap; transition: all .2s; margin-bottom: -2px; }
+    .tab-btn.active { color: var(--primary); border-bottom-color: var(--primary); }
+    .tab-btn:hover:not(.active) { color: var(--text); }
+    .tab-actions { display: flex; gap: 6px; flex-shrink: 0; }
+    .action-btn { padding: 6px 12px; border-radius: 8px; font-family: inherit; font-size: 11px; font-weight: 700; cursor: pointer; border: none; transition: all .2s; }
+    .excel-btn { background: #217346; color: #fff; }
+    .excel-btn:hover { background: #1a5c38; }
+    .yt-btn { background: #FF0000; color: #fff; }
+    .yt-btn:hover { background: #cc0000; }
+
+    /* ══ HERO ══ */
+    .hero { background: linear-gradient(135deg, var(--primary) 0%, var(--pink) 100%); color: #fff; padding: 48px 20px 0; text-align: center; position: relative; overflow: hidden; }
+    .hero::before { content:''; position:absolute; top:-60px; right:-60px; width:220px; height:220px; border-radius:50%; background:rgba(255,255,255,.08); }
+    .hero-inner { position: relative; z-index: 1; max-width: 560px; margin: 0 auto; }
+    .hero-label { display: inline-block; background: rgba(255,255,255,.2); padding: 5px 16px; border-radius: 100px; font-size: 12px; font-weight: 700; margin-bottom: 12px; }
+    .hero h1 { font-size: 28px; font-weight: 900; line-height: 1.3; margin-bottom: 10px; }
+    .hero h1 strong { display: block; font-size: 32px; }
+    .hero p { font-size: 13px; opacity: .88; margin-bottom: 20px; line-height: 1.6; }
+    .hero-tags { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin-bottom: 28px; }
+    .hero-tag { background: rgba(255,255,255,.18); color: #fff; padding: 4px 12px; border-radius: 100px; font-size: 11px; font-weight: 600; }
+    .hero-img-wrap { position: relative; height: 200px; }
+    .hero-char { position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); height: 195px; width: auto; object-fit: contain; filter: drop-shadow(0 8px 20px rgba(0,0,0,.2)); }
+    .hero-blob { position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 300px; height: 100px; background: rgba(255,255,255,.1); border-radius: 50% 50% 0 0; }
+
+    /* ══ COMING SOON ══ */
+    .coming-soon-wrap { min-height: 60vh; display: flex; align-items: center; justify-content: center; padding: 60px 20px; }
+    .coming-soon-card { background: #fff; border-radius: 24px; padding: 48px 40px; text-align: center; max-width: 480px; width: 100%; box-shadow: var(--shadow-md); }
+    .coming-soon-chars { display: flex; justify-content: center; gap: 16px; margin-bottom: 24px; }
+    .coming-soon-chars img { width: 80px; height: 80px; object-fit: contain; }
+    .coming-soon-title { font-size: 22px; font-weight: 900; margin-bottom: 10px; }
+    .coming-soon-desc { color: var(--sub); font-size: 14px; line-height: 1.7; margin-bottom: 24px; }
+    .coming-soon-list { background: var(--bg); border-radius: 12px; padding: 18px 20px; text-align: left; margin-bottom: 24px; }
+    .coming-soon-list li { font-size: 13px; color: var(--sub); padding: 4px 0; list-style: none; }
+    .coming-soon-list li::before { content: '📸 '; }
+    .coming-soon-badge { display: inline-block; background: #FFF0ED; color: var(--primary); padding: 6px 16px; border-radius: 100px; font-size: 12px; font-weight: 700; }
+
+    /* ══ 자기자본 ══ */
+    .top3-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; margin-bottom: 20px; }
+    .top3-card { background: #fff; border-radius: var(--radius); padding: 22px 16px; text-align: center; box-shadow: var(--shadow); border-top: 4px solid #eee; }
+    .top3-card.gold { border-top-color: #F5C518; } .top3-card.silver { border-top-color: #A8A9AD; } .top3-card.bronze { border-top-color: #CD7F32; }
+    .top3-rank { font-size: 30px; margin-bottom: 4px; } .top3-name { font-weight: 900; font-size: 14px; margin-bottom: 6px; }
+    .top3-app { font-size: 11px; color: var(--sub); background: var(--bg); padding: 2px 8px; border-radius: 4px; display: inline-block; margin-bottom: 8px; }
+    .top3-capital { font-size: 16px; font-weight: 700; color: var(--primary); } .top3-prev { font-size: 11px; color: var(--sub); margin-top: 3px; }
+    .top3-change { display: inline-block; margin-top: 6px; padding: 2px 10px; border-radius: 100px; font-size: 11px; font-weight: 700; background: #FFF0ED; color: var(--primary); }
+    .capital-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+    .capital-table th { background: #F9FAFB; padding: 10px 14px; font-size: 12px; font-weight: 700; color: var(--sub); text-align: left; border-bottom: 1px solid var(--border); }
+    .capital-table td { padding: 11px 14px; font-size: 13px; border-bottom: 1px solid var(--border); }
+    .capital-table tr:last-child td { border-bottom: none; } .capital-table tr:hover td { background: #FAFAFA; }
+    td.chg { color: var(--primary); font-weight: 700; } .app-tag { font-size: 11px; background: var(--bg); padding: 1px 7px; border-radius: 4px; margin-left: 4px; color: var(--sub); }
+    .source-note { font-size: 11px; color: var(--sub); margin-top: 10px; text-align: right; }
+
+    /* ══ 수수료 ══ */
+    .fee-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+    .fee-table th { background: #F9FAFB; padding: 10px 14px; font-size: 12px; font-weight: 700; color: var(--sub); text-align: left; border-bottom: 1px solid var(--border); }
+    .fee-table td { padding: 11px 14px; font-size: 13px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+    .fee-table tr:last-child td { border-bottom: none; } .fee-table tr:hover td { background: #FAFAFA; }
+    .fee-row-best { background: #FFF8F6 !important; } .fee-row-best td:nth-child(3) { color: var(--primary); font-weight: 700; }
+    .fee-na { color: #C4C9D4; font-style: italic; font-size: 12px; } .fee-warn { color: #d97706; font-weight: 600; }
+    .logo-cell { display: flex; align-items: center; gap: 10px; }
+    .logo-sq { width: 30px; height: 30px; border-radius: 8px; overflow: hidden; flex-shrink: 0; background: #f3f4f6; display: flex; align-items: center; justify-content: center; }
+    .logo-sq img { width: 100%; height: 100%; object-fit: contain; }
+
+    /* ══ 이벤트 캐러셀 ══ */
+    .tabs { display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap; }
+    .tab-filter-btn { padding: 7px 18px; border-radius: 100px; border: 2px solid var(--border); background: #fff; font-family: inherit; font-size: 13px; font-weight: 600; cursor: pointer; transition: all .2s; color: var(--sub); }
+    .tab-filter-btn.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .carousel-wrap { position: relative; }
+    .carousel-viewport { overflow: hidden; border-radius: var(--radius); }
+    .carousel-track { display: flex; transition: transform .38s cubic-bezier(.4,0,.2,1); }
+    .carousel-slide { min-width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; padding: 2px; }
+    .ev-card { background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; display: flex; flex-direction: column; transition: box-shadow .2s; }
+    .ev-card:hover { box-shadow: var(--shadow-md); }
+    .ev-card-head { padding: 13px 15px 11px; display: flex; align-items: center; gap: 10px; border-bottom: 1px solid var(--border); }
+    .ev-logo { width: 38px; height: 38px; border-radius: 9px; overflow: hidden; flex-shrink: 0; background: #f3f4f6; display: flex; align-items: center; justify-content: center; }
+    .ev-logo img { width: 100%; height: 100%; object-fit: contain; }
+    .ev-head-info { flex: 1; min-width: 0; }
+    .ev-name { font-weight: 900; font-size: 13px; } .ev-app { font-size: 11px; color: var(--sub); margin-top: 1px; } .ev-event-name { font-size: 10px; color: var(--sub); margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .ev-card-body { padding: 11px 15px; flex: 1; display: flex; flex-direction: column; gap: 8px; }
+    .ev-benefit { font-size: 16px; font-weight: 900; color: var(--primary); }
+    .ev-conds { list-style: none; flex: 1; }
+    .ev-conds li { font-size: 11px; padding: 4px 0; border-bottom: 1px dashed var(--border); display: flex; align-items: flex-start; gap: 5px; }
+    .ev-conds li:last-child { border-bottom: none; }
+    .cond-type { font-size: 10px; font-weight: 700; background: #F3F4F6; padding: 1px 5px; border-radius: 3px; color: var(--sub); flex-shrink: 0; margin-top: 1px; }
+    .cond-amt { flex: 1; color: var(--text); } .cond-reward { font-weight: 700; color: var(--primary); flex-shrink: 0; font-size: 10px; }
+    .ev-card-foot { padding: 9px 15px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 5px; }
+    .ev-transfer { font-size: 10px; background: #F0FDF4; color: #16a34a; padding: 2px 7px; border-radius: 4px; font-weight: 600; }
+    .ev-expiry { font-size: 10px; color: var(--sub); }
+    .ev-tags { display: flex; gap: 3px; flex-wrap: wrap; }
+    .ev-tag { font-size: 10px; background: var(--bg); color: var(--sub); padding: 2px 6px; border-radius: 3px; font-weight: 600; }
+    .ev-prepared { padding: 24px 15px; text-align: center; color: var(--sub); display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; }
+    .ev-prepared a { font-size: 12px; color: var(--primary); font-weight: 700; text-decoration: none; }
+    .carousel-nav { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 14px; }
+    .car-btn { width: 34px; height: 34px; border-radius: 50%; border: 2px solid var(--border); background: #fff; cursor: pointer; font-size: 15px; display: flex; align-items: center; justify-content: center; transition: all .2s; }
+    .car-btn:hover { border-color: var(--primary); color: var(--primary); } .car-btn:disabled { opacity: .3; cursor: default; }
+    .car-dots { display: flex; gap: 6px; }
+    .car-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--border); transition: all .25s; cursor: pointer; }
+    .car-dot.active { background: var(--primary); width: 18px; border-radius: 4px; }
+
+    /* ══ TOP5 ══ */
+    .top5-intro { display: flex; align-items: center; gap: 14px; background: #fff; border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow); margin-bottom: 22px; }
+    .top5-intro-icon { width: 50px; height: 50px; flex-shrink: 0; object-fit: contain; }
+    .top5-intro-text { font-size: 13px; color: var(--sub); line-height: 1.6; } .top5-intro-text strong { color: var(--text); font-size: 14px; }
+    .top1-card { background: linear-gradient(135deg, #1A1A2E 0%, #16213E 60%, #0F3460 100%); color: #fff; border-radius: 20px; padding: 26px 24px; box-shadow: 0 8px 32px rgba(0,0,0,.25); text-decoration: none; display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: center; transition: transform .2s, box-shadow .2s; cursor: pointer; margin-bottom: 22px; }
+    .top1-card:hover { transform: translateY(-3px); box-shadow: 0 12px 40px rgba(0,0,0,.32); }
+    .top1-badge { display: inline-flex; align-items: center; gap: 6px; background: var(--primary); padding: 4px 12px; border-radius: 100px; font-size: 12px; font-weight: 700; margin-bottom: 12px; }
+    .top1-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+    .top1-logo { width: 48px; height: 48px; border-radius: 13px; overflow: hidden; background: rgba(255,255,255,.15); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .top1-logo img { width: 100%; height: 100%; object-fit: contain; }
+    .top1-name { font-size: 20px; font-weight: 900; } .top1-app { font-size: 11px; opacity: .65; } .top1-criteria { font-size: 12px; opacity: .7; }
+    .top1-points { list-style: none; margin-bottom: 12px; }
+    .top1-points li { font-size: 12px; padding: 3px 0; opacity: .9; display: flex; gap: 6px; }
+    .top1-points li::before { content:'✓'; color: var(--cream); font-weight: 900; flex-shrink: 0; }
+    .top1-tag { background: rgba(255,255,255,.12); display: inline-block; padding: 5px 12px; border-radius: 8px; font-size: 11px; }
+    .top1-hint { font-size: 10px; opacity: .5; margin-top: 10px; }
+    .top1-char { width: 120px; height: 120px; object-fit: contain; filter: drop-shadow(0 4px 12px rgba(0,0,0,.3)); }
+    .rec-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 14px; }
+    .rec-card { background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); text-decoration: none; color: var(--text); display: block; transition: transform .2s, box-shadow .2s; overflow: hidden; }
+    .rec-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+    .rec-head { padding: 15px 15px 11px; display: flex; align-items: center; gap: 10px; border-bottom: 1px solid var(--border); }
+    .rec-rank { font-size: 24px; flex-shrink: 0; } .rec-info { flex: 1; min-width: 0; }
+    .rec-name { font-weight: 900; font-size: 14px; } .rec-app { font-size: 11px; color: var(--sub); margin-top: 1px; } .rec-criteria { font-size: 11px; color: var(--primary); font-weight: 700; margin-top: 2px; }
+    .rec-logo { width: 34px; height: 34px; border-radius: 8px; overflow: hidden; flex-shrink: 0; background: #f3f4f6; display: flex; align-items: center; justify-content: center; }
+    .rec-logo img { width: 100%; height: 100%; object-fit: contain; }
+    .rec-body { padding: 12px 15px; }
+    .rec-points { list-style: none; margin-bottom: 10px; }
+    .rec-points li { font-size: 11px; padding: 3px 0; display: flex; gap: 5px; }
+    .rec-points li::before { content:'•'; color: var(--primary); flex-shrink: 0; }
+    .rec-tag { font-size: 11px; background: #FFF0ED; color: var(--primary); padding: 5px 10px; border-radius: 7px; font-weight: 600; display: block; }
+    .rec-hint { font-size: 10px; color: var(--sub); margin-top: 7px; text-align: center; }
+    .urgent { background: #FEF2F2; color: #dc2626; font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 3px; }
+
+    /* ══ 중간 배너 ══ */
+    .char-banner-section { background: linear-gradient(135deg, var(--cream) 0%, #fdeac8 100%); padding: 26px 20px; }
+    .char-banner { display: flex; align-items: center; justify-content: center; gap: 20px; max-width: 900px; margin: 0 auto; }
+    .char-banner-img { width: 68px; height: 68px; object-fit: contain; flex-shrink: 0; }
+    .char-banner-text { text-align: center; }
+    .char-banner-text strong { font-size: 14px; font-weight: 900; display: block; margin-bottom: 4px; }
+    .char-banner-text span { font-size: 12px; color: #7a5c3a; line-height: 1.6; }
+
+    /* ══ CTA ══ */
+    .cta-section { background: linear-gradient(135deg, var(--primary) 0%, #e05a40 100%); padding: 60px 20px; color: #fff; }
+    .cta-title { font-size: 20px; font-weight: 900; margin-bottom: 6px; text-align: center; }
+    .cta-sub { font-size: 13px; opacity: .82; text-align: center; margin-bottom: 32px; }
+    .cta-main-card { background: rgba(255,255,255,.15); border-radius: 18px; padding: 24px; text-align: center; margin-bottom: 14px; }
+    .cta-main-emoji { font-size: 32px; margin-bottom: 10px; display: block; }
+    .cta-main-title { font-size: 16px; font-weight: 900; margin-bottom: 5px; }
+    .cta-main-desc { font-size: 12px; opacity: .82; margin-bottom: 6px; }
+    .cta-pw { font-size: 11px; opacity: .65; margin-bottom: 16px; }
+    .cta-sub-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+    .cta-sub-card { background: rgba(255,255,255,.12); border-radius: 14px; padding: 16px 14px; text-align: center; }
+    .cta-sub-emoji { font-size: 24px; margin-bottom: 7px; display: block; }
+    .cta-sub-title { font-size: 12px; font-weight: 700; margin-bottom: 4px; line-height: 1.4; }
+    .cta-sub-desc { font-size: 11px; opacity: .75; margin-bottom: 12px; }
+    .cta-premium { background: rgba(255,255,255,.1); border-radius: 14px; padding: 16px 18px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    .cta-premium-icon { width: 42px; height: 42px; object-fit: contain; flex-shrink: 0; }
+    .cta-premium-title { font-size: 13px; font-weight: 700; } .cta-premium-desc { font-size: 11px; opacity: .75; }
+    footer { background: #1A1A1A; color: rgba(255,255,255,.45); padding: 24px 20px; text-align: center; font-size: 11px; line-height: 1.9; }
+    footer strong { color: rgba(255,255,255,.75); }
+
+    /* ══ YOUTUBE MODAL ══ */
+    #ytOverlay { position: fixed; inset: 0; background: rgba(0,0,0,.85); z-index: 9999; display: flex; align-items: center; justify-content: center; padding: 20px; }
+    #ytModal { background: #fff; border-radius: 16px; width: 100%; max-width: 900px; max-height: 90vh; overflow-y: auto; }
+    .yt-header { background: linear-gradient(135deg, var(--primary), var(--pink)); color: #fff; padding: 16px 24px; border-radius: 16px 16px 0 0; display: flex; align-items: center; justify-content: space-between; }
+    .yt-header-title { font-size: 16px; font-weight: 900; }
+    .yt-header-sub { font-size: 11px; opacity: .8; }
+    .yt-close { background: rgba(255,255,255,.2); border: none; color: #fff; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 18px; display: flex; align-items: center; justify-content: center; }
+    .yt-body { padding: 24px; }
+    .yt-table-wrap { overflow-x: auto; }
+    .yt-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    .yt-table th { background: var(--primary); color: #fff; padding: 12px 14px; text-align: left; font-weight: 700; }
+    .yt-table td { padding: 11px 14px; border-bottom: 1px solid var(--border); }
+    .yt-table tr:last-child td { border-bottom: none; }
+    .yt-table tr:nth-child(even) td { background: #FAFAFA; }
+    .yt-table tr.best-row td { background: #FFF8F6; } .yt-table tr.best-row td:nth-child(3) { color: var(--primary); font-weight: 700; }
+    .yt-watermark { text-align: right; font-size: 11px; color: var(--sub); margin-top: 12px; }
+    .yt-tabs { display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap; }
+    .yt-tab-btn { padding: 6px 16px; border-radius: 8px; border: 2px solid var(--border); background: #fff; font-family: inherit; font-size: 12px; font-weight: 700; cursor: pointer; color: var(--sub); }
+    .yt-tab-btn.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+
+    /* ══ RESPONSIVE ══ */
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 22px; } .hero h1 strong { font-size: 26px; }
+      .top3-grid { grid-template-columns: 1fr; gap: 10px; }
+      .carousel-slide { grid-template-columns: 1fr; }
+      .rec-grid { grid-template-columns: 1fr; }
+      .cta-sub-grid { grid-template-columns: 1fr; }
+      .top1-card { grid-template-columns: 1fr; }
+      .top1-char { display: none; }
+      .char-banner { flex-direction: column; text-align: center; }
+      .tab-btn { padding: 12px 14px; font-size: 12px; }
+      .action-btn { font-size: 10px; padding: 5px 9px; }
+      .coming-soon-card { padding: 32px 24px; }
+      .nav-date { display: none; }
+      .rate-cards, .top3-simple, .info-banner-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ══ 이모지 히어로 ══ */
+    .hero-emoji-wrap { padding: 10px 0 44px; }
+    .hero-emoji-big { font-size: 80px; text-align: center; display: block; filter: drop-shadow(0 6px 16px rgba(0,0,0,.18)); }
+
+    /* ══ CMA 금리 카드 ══ */
+    .rate-cards { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; }
+    .rate-card { background: #fff; border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); position: relative; }
+    .rate-card.protect { border-left: 3px solid #16a34a; }
+    .rate-card-emoji { font-size: 26px; margin-bottom: 6px; }
+    .rate-card-name { font-size: 13px; font-weight: 900; }
+    .rate-card-product { font-size: 11px; color: var(--sub); margin-bottom: 8px; }
+    .rate-card-rate { font-size: 22px; font-weight: 900; color: var(--primary); }
+    .rate-card-label { font-size: 10px; color: var(--sub); }
+    .rate-card-meta { margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 4px; }
+    .protect-badge { font-size: 10px; background: #F0FDF4; color: #16a34a; padding: 2px 7px; border-radius: 4px; font-weight: 700; }
+    .no-protect-badge { font-size: 10px; background: #FEF3C7; color: #d97706; padding: 2px 7px; border-radius: 4px; font-weight: 700; }
+    .rate-card-pay { font-size: 11px; color: var(--sub); }
+
+    /* ══ 예적금 표 ══ */
+    .savings-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+    .savings-table th { background: #F9FAFB; padding: 10px 14px; font-size: 12px; font-weight: 700; color: var(--sub); text-align: left; border-bottom: 1px solid var(--border); }
+    .savings-table td { padding: 11px 14px; font-size: 13px; border-bottom: 1px solid var(--border); }
+    .savings-table tr:last-child td { border-bottom: none; }
+    .savings-table tr:hover td { background: #FAFAFA; }
+    .savings-table tr.best-row td { background: #FFF8F6; }
+    .savings-table tr.best-row td.rate-col { color: var(--primary); font-weight: 700; }
+    .bank-cell { display: flex; align-items: center; gap: 8px; }
+    .bank-emoji { font-size: 18px; }
+
+    /* ══ 정보 배너 (연금/IRP) ══ */
+    .info-banner { background: linear-gradient(135deg,#FFF8F6,#FFF0ED); border: 2px solid var(--cream); border-radius: var(--radius); padding: 20px 22px; margin-bottom: 24px; }
+    .info-banner-title { font-size: 15px; font-weight: 900; margin-bottom: 14px; }
+    .info-banner-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; }
+    .info-item { background: #fff; border-radius: 10px; padding: 14px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,.05); }
+    .info-item-label { font-size: 11px; color: var(--sub); margin-bottom: 4px; }
+    .info-item-value { font-size: 15px; font-weight: 900; color: var(--primary); }
+    .info-item-sub { font-size: 10px; color: var(--sub); margin-top: 3px; line-height: 1.4; }
+
+    /* ══ 심플 TOP3 (CMA/예적금) ══ */
+    .top3-simple { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
+    .top3s-card { background: #fff; border-radius: var(--radius); padding: 20px 16px; text-align: center; box-shadow: var(--shadow); border-top: 4px solid var(--cream); }
+    .top3s-rank { font-size: 26px; margin-bottom: 6px; }
+    .top3s-name { font-weight: 900; font-size: 14px; margin-bottom: 4px; }
+    .top3s-rate { font-size: 19px; font-weight: 900; color: var(--primary); margin-bottom: 6px; }
+    .top3s-reason { font-size: 11px; color: var(--sub); line-height: 1.5; margin-bottom: 8px; }
+    .top3s-tag { font-size: 11px; background: #FFF0ED; color: var(--primary); padding: 4px 10px; border-radius: 100px; display: inline-block; font-weight: 600; }
+  </style>
+</head>
+<body>
+
+<!-- ══ NAV ══ -->
+<nav>
+  <div class="nav-inner">
+    <img class="nav-logo-img" src="images/99_logo.png" alt="해피씨쀼" onerror="this.outerHTML='<span style=\'font-weight:900;font-size:17px;color:#FF6B4D;\'>해피씨쀼</span>'">
+    <div class="nav-right">
+      <span class="nav-date" id="navDate"></span>
+      <a href="#" id="nav-cta" class="btn btn-primary" style="padding:8px 16px;font-size:12px;">💌 재테크방 입장</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ══ TAB NAV ══ -->
+<div class="tab-nav-bar">
+  <div class="tab-nav-inner">
+    <div class="tab-nav-scroll">
+      <button class="tab-btn" data-tab="cma">💰 CMA·파킹통장</button>
+      <button class="tab-btn" data-tab="savings">🏦 예적금</button>
+      <button class="tab-btn active" data-tab="isa">📊 중개형 ISA</button>
+      <button class="tab-btn" data-tab="pension">🌱 연금저축펀드</button>
+      <button class="tab-btn" data-tab="irp">🏛️ IRP</button>
+    </div>
+    <div class="tab-actions">
+      <button class="action-btn excel-btn" onclick="askExcelPw()">📊 엑셀</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════ TAB: CMA ══════════════ -->
+<div id="tab-cma" class="hidden">
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">💰 CMA · 파킹통장</span>
+      <h1>언제 빼도 이자 나오는<strong>CMA · 파킹통장 비교</strong></h1>
+      <p>금리 높고, 조건 없고, 하루만 맡겨도 이자 받는 곳 찾기</p>
+      <div class="hero-tags"><span class="hero-tag">💳 증권사 CMA</span><span class="hero-tag">🏦 파킹통장</span><span class="hero-tag">📈 금리 비교</span><span class="hero-tag">🏆 이달 추천</span></div>
+    </div>
+    <div class="hero-emoji-wrap"><span class="hero-emoji-big">💰</span></div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="anim"><div class="section-label">🏦 예금자보호 적용</div><div class="section-title">파킹통장 금리 비교</div><div class="section-sub">입출금 자유 · 매일 이자 · 예금자보호 5천만원 · 2026년 5월 기준</div></div>
+      <div id="cmaParking" class="anim"></div>
+    </div>
+  </section>
+  <section class="section" style="background:#fff;">
+    <div class="container">
+      <div class="anim"><div class="section-label">📈 고수익형</div><div class="section-title">증권사 CMA 금리 비교</div><div class="section-sub">파킹통장보다 금리↑ · 예금자보호 미적용 주의 · RP형 기준</div></div>
+      <div id="cmaCMAList" class="anim"></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="anim"><div class="section-label">🏆 해피씨쀼 추천</div><div class="section-title">이달의 CMA·파킹통장 TOP3</div><div class="section-sub">금리·안전성·편의성을 종합한 추천</div></div>
+      <div id="cmaRec" class="anim"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ══════════════ TAB: 예적금 ══════════════ -->
+<div id="tab-savings" class="hidden">
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">🏦 예적금</span>
+      <h1>금리 높은 곳에 넣자<strong>예적금 금리 비교</strong></h1>
+      <p>예금·적금 최고금리, 우대조건, 특판 이벤트를 한눈에</p>
+      <div class="hero-tags"><span class="hero-tag">💵 예금 (거치식)</span><span class="hero-tag">📅 적금 (월납입)</span><span class="hero-tag">🎁 특판 이벤트</span><span class="hero-tag">🏆 이달 추천</span></div>
+    </div>
+    <div class="hero-emoji-wrap"><span class="hero-emoji-big">🏦</span></div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="anim"><div class="section-label">💵 정기예금</div><div class="section-title">은행별 정기예금 금리</div><div class="section-sub">12개월 기준 정렬 · 🟠 주황 행이 최고금리 · 2026년 5월 기준</div></div>
+      <div id="savingsDeposit" class="anim"></div>
+    </div>
+  </section>
+  <section class="section" style="background:#fff;">
+    <div class="container">
+      <div class="anim"><div class="section-label">📅 정기적금</div><div class="section-title">은행별 적금 최고금리</div><div class="section-sub">월납입형 · 최고금리 기준 정렬 · 🟠 주황 행이 최고금리</div></div>
+      <div id="savingsInstall" class="anim"></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="anim"><div class="section-label">🏆 해피씨쀼 추천</div><div class="section-title">이달의 예적금 TOP3</div><div class="section-sub">금리·안전성·조건을 종합한 추천</div></div>
+      <div id="savingsRec" class="anim"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ══════════════ TAB: ISA ══════════════ -->
+<div id="tab-isa">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">🏠 신혼부부 ISA 가이드</span>
+      <h1>이달의<strong>ISA 증권사 추천</strong></h1>
+      <p>자기자본 · ETF 수수료 · 이벤트 혜택을 종합해<br>신혼부부에게 가장 유리한 곳을 추려드려요</p>
+      <div class="hero-tags">
+        <span class="hero-tag">💪 자기자본 비교</span><span class="hero-tag">💸 ETF 수수료</span>
+        <span class="hero-tag">🎁 이벤트 총정리</span><span class="hero-tag">🏆 이달의 TOP5</span>
+      </div>
+    </div>
+    <div class="hero-img-wrap"><div class="hero-blob"></div><img class="hero-char" src="images/01_wedding_money.png" alt="해피씨쀼 캐릭터"></div>
+  </section>
+
+  <!-- 자기자본 -->
+  <section class="section">
+    <div class="container">
+      <div class="anim"><div class="section-label">📊 증권사 안정성</div><div class="section-title">증권사 체력 비교 💪</div><div class="section-sub">자기자본이 클수록 재무 안정성이 높아요 · 2025년 결산 별도 기준</div></div>
+      <div class="top3-grid" id="isaTop3"></div>
+      <div class="anim"><table class="capital-table" id="isaCapTable"><thead><tr><th>순위</th><th>증권사</th><th>앱 이름</th><th>2025년</th><th>2024년</th><th>증감</th></tr></thead><tbody></tbody></table><p class="source-note">출처 : 2025년 결산 국내 증권사 별도 기준 자본 현황</p></div>
+    </div>
+  </section>
+
+  <!-- 캐릭터 배너 -->
+  <div class="char-banner-section anim">
+    <div class="char-banner">
+      <img class="char-banner-img" src="images/99_wife.png" alt="" onerror="this.style.display='none'">
+      <div class="char-banner-text"><strong>💡 수수료도 따져봐야 해요!</strong><span>ETF 수수료는 0.001%p 차이도 10년이면 꽤 커져요.<br>우대기간이 짧으면 나중에 손해볼 수 있으니 꼭 확인하세요.</span></div>
+      <img class="char-banner-img" src="images/99_husband.png" alt="" onerror="this.style.display='none'">
+    </div>
+  </div>
+
+  <!-- 수수료 -->
+  <section class="section" style="background:#fff;">
+    <div class="container">
+      <div class="anim"><div class="section-label">💸 수수료 비교</div><div class="section-title">ETF 수수료 &amp; 우대기간 📊</div><div class="section-sub">수수료 낮고 우대기간 길수록 장기적으로 유리해요 · 🟠 주황 행이 최저 수수료</div></div>
+      <div class="anim"><table class="fee-table" id="isaFeeTable"><thead><tr><th>증권사</th><th>앱 이름</th><th>ETF 수수료</th><th>우대기간</th><th>비고</th></tr></thead><tbody></tbody></table></div>
+    </div>
+  </section>
+
+  <!-- 이벤트 -->
+  <section class="section">
+    <div class="container">
+      <div class="anim"><div class="section-label">🎁 이벤트 총정리</div><div class="section-title">증권사별 ISA 이벤트 총정리</div><div class="section-sub">신규가입 · 계좌이전 이벤트를 한눈에 비교해요 · ▶ 화살표로 넘기기</div></div>
+      <div class="anim tabs" id="isaEventTabs">
+        <button class="tab-filter-btn active" data-filter="all">전체</button>
+        <button class="tab-filter-btn" data-filter="new">신규고객</button>
+        <button class="tab-filter-btn" data-filter="existing">기존고객</button>
+      </div>
+      <div class="anim carousel-wrap">
+        <div class="carousel-viewport"><div class="carousel-track" id="isaCarTrack"></div></div>
+        <div class="carousel-nav">
+          <button class="car-btn" id="isaCarPrev">‹</button>
+          <div class="car-dots" id="isaCarDots"></div>
+          <button class="car-btn" id="isaCarNext">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOP5 -->
+  <section class="section" style="background:#fff;">
+    <div class="container">
+      <div class="anim"><div class="section-label">🏆 해피씨쀼 추천</div><div class="section-title">해피씨쀼가 추천하는 이번달 ISA TOP5</div><div class="section-sub">자기자본 · 수수료 · 이벤트 3가지를 종합해 신혼부부 상황별로 추려드려요</div></div>
+      <div class="anim top5-intro">
+        <img class="top5-intro-icon" src="images/99_wife.png" alt="" onerror="this.style.display='none'">
+        <div class="top5-intro-text"><strong>📌 추천 기준 3가지</strong><br>① 신규가입 이벤트 혜택이 짱짱한 곳 &nbsp;② 현금 실수령액이 가장 많은 곳 &nbsp;③ 수수료 낮고 우대기간 긴 곳</div>
+      </div>
+      <div class="anim" id="isaTop1"></div>
+      <div class="rec-grid anim" id="isaRecGrid"></div>
+      <p style="font-size:11px;color:var(--sub);text-align:center;margin-top:18px;line-height:1.8;">* 카드 클릭 시 해당 증권사 이벤트 페이지로 이동 &nbsp;·&nbsp; 이벤트 조건은 수시 변경되니 공식 페이지에서 최종 확인하세요</p>
+    </div>
+  </section>
+
+</div><!-- /tab-isa -->
+
+<!-- ══════════════ TAB: 연금저축펀드 ══════════════ -->
+<div id="tab-pension" class="hidden">
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">🌱 연금저축펀드</span>
+      <h1>세액공제 받으며 투자<strong>연금저축펀드 비교</strong></h1>
+      <p>연 최대 600만원 세액공제 · 증권사별 수수료 · 이벤트 한눈에</p>
+      <div class="hero-tags"><span class="hero-tag">💰 세액공제 600만</span><span class="hero-tag">💸 ETF 수수료</span><span class="hero-tag">🎁 이벤트</span><span class="hero-tag">🏆 이달 추천</span></div>
+    </div>
+    <div class="hero-emoji-wrap"><span class="hero-emoji-big">🌱</span></div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="anim"><div class="section-label">💰 세액공제 안내</div><div class="section-title">연금저축펀드 세액공제 혜택</div><div class="section-sub">납입액의 최대 16.5% 세금 환급 · 소득에 따라 공제율 다름</div></div>
+      <div id="pensionInfo" class="anim"></div>
+    </div>
+  </section>
+  <section class="section" style="background:#fff;">
+    <div class="container">
+      <div class="anim"><div class="section-label">💸 수수료 비교</div><div class="section-title">증권사별 ETF 수수료 &amp; 우대기간</div><div class="section-sub">수수료 낮고 우대기간 길수록 30년 후 수익 차이 크게 납니다</div></div>
+      <div class="anim"><table class="fee-table" id="pensionFeeTable"><thead><tr><th>증권사</th><th>앱</th><th>ETF 수수료</th><th>우대기간</th><th>비고</th></tr></thead><tbody></tbody></table></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="anim"><div class="section-label">🎁 이벤트 총정리</div><div class="section-title">증권사별 연금저축 이벤트</div><div class="section-sub">신규개설 · 계좌이전 이벤트 한눈에 · ▶ 화살표로 넘기기</div></div>
+      <div class="anim tabs" id="pensionEventTabs">
+        <button class="tab-filter-btn active" data-filter="all">전체</button>
+        <button class="tab-filter-btn" data-filter="new">신규고객</button>
+      </div>
+      <div class="anim carousel-wrap">
+        <div class="carousel-viewport"><div class="carousel-track" id="pensionCarTrack"></div></div>
+        <div class="carousel-nav">
+          <button class="car-btn" id="pensionCarPrev">‹</button>
+          <div class="car-dots" id="pensionCarDots"></div>
+          <button class="car-btn" id="pensionCarNext">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" style="background:#fff;">
+    <div class="container">
+      <div class="anim"><div class="section-label">🏆 해피씨쀼 추천</div><div class="section-title">이달의 연금저축펀드 TOP5</div><div class="section-sub">수수료·이벤트·ETF 라인업 3가지 종합 추천</div></div>
+      <div class="anim" id="pensionTop1"></div>
+      <div class="rec-grid anim" id="pensionRecGrid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ══════════════ TAB: IRP ══════════════ -->
+<div id="tab-irp" class="hidden">
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">🏛️ IRP</span>
+      <h1>퇴직연금도 직접 굴리자<strong>IRP 비교</strong></h1>
+      <p>연 최대 900만원 세액공제 · 증권사·은행 수수료 · 이벤트 비교</p>
+      <div class="hero-tags"><span class="hero-tag">💰 세액공제 900만</span><span class="hero-tag">💸 수수료</span><span class="hero-tag">🎁 이벤트</span><span class="hero-tag">🏆 이달 추천</span></div>
+    </div>
+    <div class="hero-emoji-wrap"><span class="hero-emoji-big">🏛️</span></div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="anim"><div class="section-label">💰 세액공제 안내</div><div class="section-title">IRP 세액공제 혜택</div><div class="section-sub">연금저축+IRP 합산 최대 900만원 공제 · ETF 직접운용 가능</div></div>
+      <div id="irpInfo" class="anim"></div>
+    </div>
+  </section>
+  <section class="section" style="background:#fff;">
+    <div class="container">
+      <div class="anim"><div class="section-label">💸 수수료 비교</div><div class="section-title">증권사·은행별 IRP 수수료</div><div class="section-sub">증권사 ETF 직접운용 vs 은행 원리금 보장 · 수수료 차이 큼</div></div>
+      <div class="anim"><table class="fee-table" id="irpFeeTable"><thead><tr><th>기관</th><th>앱</th><th>수수료</th><th>기간</th><th>ETF직투</th><th>비고</th></tr></thead><tbody></tbody></table></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="anim"><div class="section-label">🎁 이벤트 총정리</div><div class="section-title">증권사별 IRP 이벤트</div><div class="section-sub">신규개설 · 퇴직금 이전 이벤트 한눈에 · ▶ 화살표로 넘기기</div></div>
+      <div class="anim tabs" id="irpEventTabs">
+        <button class="tab-filter-btn active" data-filter="all">전체</button>
+        <button class="tab-filter-btn" data-filter="new">신규고객</button>
+      </div>
+      <div class="anim carousel-wrap">
+        <div class="carousel-viewport"><div class="carousel-track" id="irpCarTrack"></div></div>
+        <div class="carousel-nav">
+          <button class="car-btn" id="irpCarPrev">‹</button>
+          <div class="car-dots" id="irpCarDots"></div>
+          <button class="car-btn" id="irpCarNext">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" style="background:#fff;">
+    <div class="container">
+      <div class="anim"><div class="section-label">🏆 해피씨쀼 추천</div><div class="section-title">이달의 IRP TOP5</div><div class="section-sub">수수료·ETF직투·이벤트 3가지 종합 추천</div></div>
+      <div class="anim" id="irpTop1"></div>
+      <div class="rec-grid anim" id="irpRecGrid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ══ CTA (공통) ══ -->
+<section class="cta-section">
+  <div class="container" style="max-width:620px;">
+    <div class="anim"><p class="cta-title">같은 고민, 함께 나눠요 🤝</p><p class="cta-sub">혼자 고민하지 마세요. 신혼부부들의 재테크 이야기가 모여 있어요.</p></div>
+    <div class="anim cta-main-card">
+      <span class="cta-main-emoji">💬</span>
+      <div class="cta-main-title">신혼부부 재테크 고민 공유방</div>
+      <div class="cta-main-desc">ISA부터 내집마련까지, 같은 고민을 가진 신혼부부들이 모여 있어요</div>
+      <div class="cta-pw" id="communityPw"></div>
+      <a href="#" id="cta-community" class="btn btn-white">인생재테크방 입장하기 →</a>
+    </div>
+    <div class="anim cta-sub-grid">
+      <div class="cta-sub-card"><span class="cta-sub-emoji">📚</span><div class="cta-sub-title" id="ctaStudyTitle">ISA에서 뭘 사야할지<br>모르겠다면?</div><div class="cta-sub-desc">함께 공부하며 투자 감을 키워요</div><a href="#" id="cta-study" class="btn btn-outline" style="font-size:11px;padding:7px 14px;">쀼머니 스터디클럽 가입</a></div>
+      <div class="cta-sub-card"><span class="cta-sub-emoji">🗓️</span><div class="cta-sub-title">지금 투자·내집마련<br>고민이 있다면?</div><div class="cta-sub-desc">1:1로 상황에 맞는 방향을 잡아드려요</div><a href="#" id="cta-coaching" class="btn btn-outline" style="font-size:11px;padding:7px 14px;">1:1 진단코칭 신청</a></div>
+    </div>
+    <div class="anim cta-premium">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <img class="cta-premium-icon" src="images/99_char.png" alt="" onerror="this.style.display='none'">
+        <div><div class="cta-premium-title">맞춤형 재테크 로드맵을 원한다면?</div><div class="cta-premium-desc">투자·저축·내집마련까지 6개월 완성 프로그램</div></div>
+      </div>
+      <a href="#" id="cta-master" class="btn btn-white" style="white-space:nowrap;font-size:12px;">마스터클래스 →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <strong>해피씨쀼</strong> · 신혼부부 재테크 컴퍼니<br>
+  본 페이지의 정보는 공개된 자료를 기반으로 작성되었으며 투자 권유가 아닙니다.<br>
+  이벤트 조건 및 금리는 수시 변경되니 반드시 각 기관 공식 사이트에서 최종 확인하세요.<br>
+  <span id="footerDate"></span>
+</footer>
+
+<!-- ══ 엑셀 비밀번호 모달 ══ -->
+<div id="pwOverlay" class="hidden" style="position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:9999;display:flex;align-items:center;justify-content:center;" onclick="if(event.target===this)closePw()">
+  <div style="background:#fff;border-radius:20px;padding:32px 28px;width:320px;text-align:center;box-shadow:0 12px 40px rgba(0,0,0,.2);">
+    <div style="font-size:32px;margin-bottom:12px;">🔒</div>
+    <div style="font-size:17px;font-weight:900;margin-bottom:6px;">관리자 전용</div>
+    <div style="font-size:13px;color:#6B7280;margin-bottom:20px;">비밀번호를 입력해주세요</div>
+    <input id="pwInput" type="password" placeholder="비밀번호"
+      style="width:100%;padding:11px 14px;border:2px solid #E5E7EB;border-radius:10px;font-family:inherit;font-size:14px;outline:none;margin-bottom:8px;"
+      onkeydown="if(event.key==='Enter')checkPw()">
+    <div id="pwError" style="font-size:12px;color:#dc2626;height:18px;margin-bottom:8px;"></div>
+    <button onclick="checkPw()" style="width:100%;padding:11px;background:#FF6B4D;color:#fff;border:none;border-radius:10px;font-family:inherit;font-size:14px;font-weight:700;cursor:pointer;">확인</button>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script>
+// ── 공통 유틸 ─────────────────────────────────────────────
+const d = ISA_DATA;
+document.getElementById('navDate').textContent = d.lastUpdated + ' 기준';
+document.getElementById('footerDate').textContent = d.lastUpdated + ' 기준 업데이트';
+document.getElementById('cta-community').href = d.cta.community.url;
+document.getElementById('nav-cta').href = d.cta.community.url;
+document.getElementById('cta-study').href = d.cta.study.url;
+document.getElementById('cta-coaching').href = d.cta.coaching.url;
+document.getElementById('cta-master').href = d.cta.master.url;
+if (d.cta.community.pw) document.getElementById('communityPw').textContent = '🔑 비밀번호: ' + d.cta.community.pw;
+
+// ── 탭 전환 ───────────────────────────────────────────────
+const tabPanes = { cma:'tab-cma', savings:'tab-savings', isa:'tab-isa', pension:'tab-pension', irp:'tab-irp' };
+const rendered = { cma:false, savings:false, pension:false, irp:false };
+
+function updateCtaStudy(tabId) {
+  const el = document.getElementById('ctaStudyTitle');
+  if (!el) return;
+  const txt = d.studyCopy[tabId] || d.studyCopy.isa;
+  el.innerHTML = txt.replace(/\. /g, '.<br>');
+}
+
+function switchTab(id) {
+  Object.values(tabPanes).forEach(p => document.getElementById(p).classList.add('hidden'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById(tabPanes[id]).classList.remove('hidden');
+  document.querySelector(`.tab-btn[data-tab="${id}"]`).classList.add('active');
+  updateCtaStudy(id);
+  // 첫 방문 시 렌더
+  if (id === 'cma'     && !rendered.cma)     { renderCMA();     rendered.cma = true; }
+  if (id === 'savings' && !rendered.savings)  { renderSavings(); rendered.savings = true; }
+  if (id === 'pension' && !rendered.pension)  { renderPension(); rendered.pension = true; }
+  if (id === 'irp'     && !rendered.irp)      { renderIRP();     rendered.irp = true; }
+  observeAll();
+}
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => switchTab(btn.dataset.tab));
+});
+
+// ── 스크롤 애니메이션 ─────────────────────────────────────
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0 });
+function observeAll() {
+  document.querySelectorAll('.anim:not(.visible)').forEach(el => obs.observe(el));
+}
+
+// ── 로고 HTML ─────────────────────────────────────────────
+function logoHTM(item, size=38, r=9) {
+  const short = item.name.replace('증권','').replace('투자','').substring(0,3);
+  return `<div class="ev-logo" style="width:${size}px;height:${size}px;border-radius:${r}px;background:${item.color};">
+    <img src="${item.logo}" alt="${item.name}" style="width:100%;height:100%;object-fit:contain;"
+      onerror="this.parentNode.innerHTML='<span style=\\'font-size:9px;font-weight:900;color:#fff;\\'>${short}</span>'">
+  </div>`;
+}
+
+// ── ISA: 자기자본 ─────────────────────────────────────────
+const isa = d.isa;
+const rc = ['gold','silver','bronze'], re = ['🥇','🥈','🥉'];
+const top3W = document.getElementById('isaTop3');
+const capBody = document.querySelector('#isaCapTable tbody');
+isa.capital.forEach((c,i) => {
+  if (i < 3) {
+    const div = document.createElement('div');
+    div.className = `top3-card ${rc[i]} anim`;
+    div.style.transitionDelay = `${i*.1}s`;
+    div.innerHTML = `<div class="top3-rank">${re[i]}</div><div class="top3-name">${c.name}</div><div class="top3-app">${c.app}</div><div class="top3-capital">${c.capital2025}</div><div class="top3-prev">2024: ${c.capital2024}</div><span class="top3-change">▲ ${c.change.replace('+','')}%</span>`;
+    top3W.appendChild(div);
+  } else {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td style="font-weight:700;color:var(--sub);">${c.rank}위</td><td style="font-weight:700;">${c.name}</td><td><span class="app-tag">${c.app}</span></td><td>${c.capital2025}</td><td style="font-size:12px;color:var(--sub);">${c.capital2024}</td><td class="chg">▲ ${c.change.replace('+','')}%</td>`;
+    capBody.appendChild(tr);
+  }
+});
+
+// ── ISA: 수수료 ───────────────────────────────────────────
+const feeBody = document.querySelector('#isaFeeTable tbody');
+const minFee = Math.min(...isa.fees.filter(f=>f.status==='active'&&!isNaN(parseFloat(f.fee))).map(f=>parseFloat(f.fee)));
+isa.fees.forEach(f => {
+  const isCheck = f.status==='check', isLowest = parseFloat(f.fee)===minFee;
+  const isWarn = f.period.includes('개월') || f.period.includes('없음');
+  const short = f.name.replace('증권','').replace('투자','').substring(0,3);
+  const tr = document.createElement('tr');
+  if (isLowest) tr.className = 'fee-row-best';
+  tr.innerHTML = `
+    <td><div class="logo-cell"><div class="logo-sq"><img src="${f.logo}" alt="${f.name}" onerror="this.parentNode.style.background='${f.color||'#999'}';this.outerHTML='<span style=\\'font-size:8px;font-weight:900;color:#fff;\\'>${short}</span>'"></div><span style="font-weight:700;">${f.name}</span></div></td>
+    <td><span class="app-tag">${f.app}</span></td>
+    <td>${isCheck?`<span class="fee-na">이벤트 준비중...</span>`:f.fee}</td>
+    <td class="${isWarn?'fee-warn':''}">${isCheck?`<span class="fee-na">확인 필요</span>`:f.period}</td>
+    <td style="font-size:12px;color:var(--sub);">${f.note||'-'}</td>`;
+  feeBody.appendChild(tr);
+});
+
+// ── ISA: 이벤트 캐러셀 ───────────────────────────────────
+let evFilter='all', evSlide=0, evSlides=[];
+function buildCarousel() {
+  const track = document.getElementById('isaCarTrack');
+  const dotsW = document.getElementById('isaCarDots');
+  track.innerHTML=''; dotsW.innerHTML='';
+  const filtered = isa.events.filter(ev => {
+    if (evFilter==='new') return !!ev.newCustomer;
+    if (evFilter==='existing') return !!ev.existingCustomer;
+    return true;
+  });
+  evSlides=[];
+  for (let i=0;i<filtered.length;i+=2) evSlides.push(filtered.slice(i,i+2));
+  evSlides.forEach((pair,si) => {
+    const slide = document.createElement('div'); slide.className='carousel-slide';
+    pair.forEach(ev => {
+      const td = (evFilter==='existing'&&ev.existingCustomer)?ev.existingCustomer:ev.newCustomer;
+      if (!td) return;
+      const card = document.createElement('div'); card.className='ev-card';
+      const short = ev.name.replace('증권','').replace('투자','').substring(0,3);
+      if (td.status==='check') {
+        card.innerHTML=`<div class="ev-card-head">${logoHTM(ev)}<div class="ev-head-info"><div class="ev-name">${ev.name}</div><div class="ev-app">📱 ${ev.app}</div></div></div><div class="ev-card-body"><div class="ev-prepared"><div style="font-size:26px;">🔍</div><div style="font-size:12px;">이벤트 준비중</div><a href="${ev.eventPageUrl}" target="_blank" rel="noopener">공식 페이지 확인 →</a></div></div>`;
+      } else {
+        const conds = td.conditions.slice(0,4).map(c=>`<li><span class="cond-type">${c.type}</span><span class="cond-amt">${c.amount}</span><span class="cond-reward">${c.reward}</span></li>`).join('');
+        const tags = (td.tags||[]).map(t=>`<span class="ev-tag">${t}</span>`).join('');
+        card.innerHTML=`<a href="${ev.eventPageUrl}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;flex:1;"><div class="ev-card-head">${logoHTM(ev)}<div class="ev-head-info"><div class="ev-name">${ev.name}</div><div class="ev-app">📱 ${ev.app}</div><div class="ev-event-name">${td.eventName}</div></div></div><div class="ev-card-body"><div class="ev-benefit">${td.maxBenefit}</div><ul class="ev-conds">${conds}</ul>${td.transfer?`<div class="ev-transfer">🔄 ${td.transfer}</div>`:''}</div><div class="ev-card-foot"><div class="ev-tags">${tags}</div><span class="ev-expiry">~ ${td.expiry||'미정'}</span></div></a>`;
+      }
+      slide.appendChild(card);
+    });
+    track.appendChild(slide);
+    const dot=document.createElement('div'); dot.className='car-dot'+(si===0?' active':'');
+    dot.addEventListener('click',()=>goTo(si)); dotsW.appendChild(dot);
+  });
+  evSlide=0; updateCarousel();
+}
+function goTo(i){ evSlide=Math.max(0,Math.min(i,evSlides.length-1)); updateCarousel(); }
+function updateCarousel(){
+  document.getElementById('isaCarTrack').style.transform=`translateX(-${evSlide*100}%)`;
+  document.querySelectorAll('#isaCarDots .car-dot').forEach((d,i)=>d.classList.toggle('active',i===evSlide));
+  document.getElementById('isaCarPrev').disabled=evSlide===0;
+  document.getElementById('isaCarNext').disabled=evSlide>=evSlides.length-1;
+}
+document.getElementById('isaCarPrev').addEventListener('click',()=>goTo(evSlide-1));
+document.getElementById('isaCarNext').addEventListener('click',()=>goTo(evSlide+1));
+document.querySelectorAll('#isaEventTabs .tab-filter-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('#isaEventTabs .tab-filter-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active'); evFilter=btn.dataset.filter; buildCarousel();
+  });
+});
+buildCarousel();
+
+// ── ISA: TOP5 ─────────────────────────────────────────────
+const rec = isa.recommendations;
+const t1 = rec.top1;
+document.getElementById('isaTop1').innerHTML=`
+  <a href="${t1.eventPageUrl}" target="_blank" rel="noopener" class="top1-card">
+    <div class="top1-left">
+      <div class="top1-badge">${t1.badge}</div>
+      <div class="top1-header">
+        <div class="top1-logo"><img src="${t1.logo}" alt="${t1.name}" onerror="this.parentNode.innerHTML='<span style=\\'font-size:10px;font-weight:900;color:#fff;\\'>${t1.name.substring(0,3)}</span>'"></div>
+        <div><div class="top1-name">${t1.name}</div><div class="top1-app">📱 ${t1.app}</div><div class="top1-criteria">${t1.label}</div></div>
+      </div>
+      <ul class="top1-points">${t1.points.map(p=>`<li>${p}</li>`).join('')}</ul>
+      <div class="top1-tag">👉 ${t1.tag}</div>
+      <div class="top1-hint">🔗 클릭하면 이벤트 페이지로 이동합니다</div>
+    </div>
+    <div class="top1-right"><img class="top1-char" src="images/99_char.png" alt="" onerror="this.style.display='none'"></div>
+  </a>`;
+const re2=['🥈','🥉','4️⃣','5️⃣'], recW=document.getElementById('isaRecGrid');
+rec.top2to5.forEach((item,i)=>{
+  const isUrgent=item.points.some(p=>p.includes('임박'));
+  const card=document.createElement('a');
+  card.href=item.eventPageUrl; card.target='_blank'; card.rel='noopener'; card.className='rec-card anim'; card.style.transitionDelay=`${i*.1}s`;
+  card.innerHTML=`<div class="rec-head"><div class="rec-rank">${re2[i]}</div><div class="rec-info"><div class="rec-name">${item.name}</div><div class="rec-app">📱 ${item.app}</div><div class="rec-criteria">${item.criteria}</div></div><div class="rec-logo" style="background:${item.color};"><img src="${item.logo}" alt="${item.name}" style="width:100%;height:100%;object-fit:contain;" onerror="this.parentNode.innerHTML='<span style=\\'font-size:8px;font-weight:900;color:#fff;\\'>${item.name.substring(0,2)}</span>'"></div></div><div class="rec-body"><ul class="rec-points">${item.points.map(p=>`<li>${isUrgent&&p.includes('임박')?'<span class="urgent">⚠️종료임박</span> ':''}${p}</li>`).join('')}</ul><span class="rec-tag">👉 ${item.tag}</span><div class="rec-hint">🔗 클릭 시 이벤트 페이지로 이동</div></div>`;
+  recW.appendChild(card);
+});
+
+// ── CMA 렌더 ─────────────────────────────────────────────
+function renderCMA() {
+  const cma = d.cma;
+  // 파킹통장
+  document.getElementById('cmaParking').innerHTML = `
+    <div class="rate-cards">
+      ${cma.parking.map(p=>`
+        <div class="rate-card protect">
+          <div class="rate-card-emoji">${p.emoji}</div>
+          <div class="rate-card-name">${p.name}</div>
+          <div class="rate-card-product">${p.product}</div>
+          <div class="rate-card-rate">${p.basicRate}</div>
+          <div class="rate-card-label">기본금리</div>
+          ${p.maxRate !== p.basicRate ? `<div style="font-size:11px;color:var(--primary);margin-top:4px;">최고 ${p.maxRate} (${p.maxCondition})</div>` : ''}
+          <div class="rate-card-meta">
+            <span class="protect-badge">🛡 예금자보호</span>
+            <span class="rate-card-pay">${p.payMethod} 이자</span>
+          </div>
+          <div style="font-size:11px;color:var(--sub);margin-top:6px;">한도: ${p.limit}</div>
+        </div>`).join('')}
+    </div>
+    <p class="source-note" style="margin-top:12px;">출처 : finuts.co.kr 참조 · 2026년 5월 기준 (변동 가능)</p>`;
+  // CMA
+  document.getElementById('cmaCMAList').innerHTML = `
+    <div class="rate-cards">
+      ${cma.cmaList.map(c=>`
+        <div class="rate-card">
+          <div class="rate-card-emoji">${c.emoji}</div>
+          <div class="rate-card-name">${c.name}</div>
+          <div class="rate-card-product">📱 ${c.app} · ${c.type}</div>
+          <div class="rate-card-rate">${c.rate}</div>
+          <div class="rate-card-label">연 금리</div>
+          <div class="rate-card-meta">
+            <span class="no-protect-badge">⚠️ 예금자보호 미적용</span>
+            <span class="rate-card-pay">${c.payMethod}</span>
+          </div>
+          ${c.note ? `<div style="font-size:11px;color:var(--sub);margin-top:6px;">${c.note}</div>` : ''}
+        </div>`).join('')}
+    </div>`;
+  // TOP3
+  const r = cma.recommendations;
+  document.getElementById('cmaRec').innerHTML = `
+    <div class="top3-simple">
+      ${[r.top1,r.top2,r.top3].map((t,i)=>`
+        <div class="top3s-card">
+          <div class="top3s-rank">${['🥇','🥈','🥉'][i]}</div>
+          <div class="top3s-name">${t.name}</div>
+          <div class="top3s-rate">${t.rate}</div>
+          <div class="top3s-reason">${t.reason}</div>
+          <span class="top3s-tag">👉 ${t.tag}</span>
+        </div>`).join('')}
+    </div>`;
+}
+
+// ── 예적금 렌더 ───────────────────────────────────────────
+function renderSavings() {
+  const sv = d.savings;
+  // 예금표
+  const maxDRate = Math.max(...sv.deposits.map(x=>parseFloat(x.rate_12m)));
+  document.getElementById('savingsDeposit').innerHTML = `
+    <table class="savings-table">
+      <thead><tr><th>은행</th><th>상품명</th><th>12개월</th><th>6개월</th><th>24개월</th><th>최고금리</th><th>비고</th></tr></thead>
+      <tbody>${sv.deposits.map(dep=>{
+        const isBest = parseFloat(dep.rate_12m) === maxDRate;
+        return `<tr class="${isBest?'best-row':''}">
+          <td><div class="bank-cell"><span class="bank-emoji">${dep.emoji}</span><strong>${dep.bank}</strong></div></td>
+          <td style="font-size:12px;">${dep.product}</td>
+          <td class="${isBest?'rate-col':''}">${dep.rate_12m}</td>
+          <td>${dep.rate_6m}</td>
+          <td>${dep.rate_24m}</td>
+          <td style="color:var(--primary);font-weight:700;">${dep.maxRate}</td>
+          <td style="font-size:11px;color:var(--sub);">${dep.note||'-'}</td>
+        </tr>`}).join('')}
+      </tbody>
+    </table>
+    <p class="source-note">출처 : 금융소비자포털·각 은행 공식사이트 · 2026년 5월 기준</p>`;
+  // 적금표
+  const maxIRate = Math.max(...sv.installments.map(x=>parseFloat(x.maxRate)||0));
+  document.getElementById('savingsInstall').innerHTML = `
+    <table class="savings-table">
+      <thead><tr><th>은행</th><th>상품명</th><th>기본금리</th><th>최고금리</th><th>기간</th><th>월한도</th><th>비고</th></tr></thead>
+      <tbody>${sv.installments.map(inst=>{
+        const isBest = parseFloat(inst.maxRate) === maxIRate;
+        return `<tr class="${isBest?'best-row':''}">
+          <td><div class="bank-cell"><span class="bank-emoji">${inst.emoji}</span><strong>${inst.bank}</strong></div></td>
+          <td style="font-size:12px;">${inst.product}</td>
+          <td>${inst.basicRate}</td>
+          <td class="${isBest?'rate-col':''}">${inst.maxRate}</td>
+          <td>${inst.period}</td>
+          <td>${inst.monthlyLimit}</td>
+          <td style="font-size:11px;color:var(--sub);">${inst.note||'-'}</td>
+        </tr>`}).join('')}
+      </tbody>
+    </table>
+    <p class="source-note">출처 : 금융소비자포털·각 은행 공식사이트 · 2026년 5월 기준</p>`;
+  // TOP3
+  const rs = sv.recommendations;
+  document.getElementById('savingsRec').innerHTML = `
+    <div class="top3-simple">
+      ${[rs.top1,rs.top2,rs.top3].map((t,i)=>`
+        <div class="top3s-card">
+          <div class="top3s-rank">${['🥇','🥈','🥉'][i]}</div>
+          <div class="top3s-name">${t.name}</div>
+          <div class="top3s-rate">${t.rate}</div>
+          <div class="top3s-reason">${t.reason}</div>
+          <span class="top3s-tag">👉 ${t.tag}</span>
+        </div>`).join('')}
+    </div>`;
+}
+
+// ── 연금저축 렌더 ─────────────────────────────────────────
+function renderPension() {
+  const ps = d.pension;
+  // 세액공제 배너
+  document.getElementById('pensionInfo').innerHTML = `
+    <div class="info-banner">
+      <div class="info-banner-title">💡 연금저축펀드 세액공제 한눈에 보기</div>
+      <div class="info-banner-grid">
+        <div class="info-item"><div class="info-item-label">연간 최대 공제한도</div><div class="info-item-value">${ps.info.maxDeductible}</div><div class="info-item-sub">IRP 합산 시 900만원</div></div>
+        <div class="info-item"><div class="info-item-label">공제율 (저소득)</div><div class="info-item-value">${ps.info.deductionRate_low.split(' ')[0]}</div><div class="info-item-sub">${ps.info.deductionRate_low.split(' ').slice(1).join(' ')}</div></div>
+        <div class="info-item"><div class="info-item-label">최대 세금 환급</div><div class="info-item-value">${ps.info.maxBenefit}</div><div class="info-item-sub">${ps.info.tip}</div></div>
+      </div>
+    </div>`;
+  // 수수료표 (ISA와 동일 구조)
+  renderFeeTable('pensionFeeTable', ps.fees);
+  // 이벤트 캐러셀
+  buildTabCarousel('pension', ps.events, 'all');
+  // TOP5
+  renderTop5('pensionTop1','pensionRecGrid', ps.recommendations);
+}
+
+// ── IRP 렌더 ─────────────────────────────────────────────
+function renderIRP() {
+  const ip = d.irp;
+  // 세액공제 배너
+  document.getElementById('irpInfo').innerHTML = `
+    <div class="info-banner">
+      <div class="info-banner-title">💡 IRP 세액공제 한눈에 보기</div>
+      <div class="info-banner-grid">
+        <div class="info-item"><div class="info-item-label">연금저축+IRP 합산 한도</div><div class="info-item-value">${ip.info.maxDeductible}</div><div class="info-item-sub">IRP 단독 최대 900만원</div></div>
+        <div class="info-item"><div class="info-item-label">공제율 (저소득)</div><div class="info-item-value">${ip.info.deductionRate_low.split(' ')[0]}</div><div class="info-item-sub">${ip.info.deductionRate_low.split(' ').slice(1).join(' ')}</div></div>
+        <div class="info-item"><div class="info-item-label">최대 세금 환급</div><div class="info-item-value">${ip.info.maxBenefit}</div><div class="info-item-sub">${ip.info.tip}</div></div>
+      </div>
+    </div>`;
+  // IRP 수수료표 (ETF직투 컬럼 추가)
+  const tbody = document.querySelector('#irpFeeTable tbody');
+  const minFee2 = Math.min(...ip.fees.filter(f=>f.status==='active'&&!isNaN(parseFloat(f.fee))).map(f=>parseFloat(f.fee)));
+  ip.fees.forEach(f => {
+    const isCheck = f.status==='check', isLowest = parseFloat(f.fee)===minFee2;
+    const isWarn = f.period && (f.period.includes('개월')||f.period.includes('없음'));
+    const short = f.name.replace('증권','').replace('투자','').replace('은행','').substring(0,3);
+    const tr = document.createElement('tr');
+    if (isLowest) tr.className = 'fee-row-best';
+    tr.innerHTML = `
+      <td><div class="logo-cell"><div class="logo-sq"><img src="${f.logo}" alt="${f.name}" onerror="this.parentNode.style.background='${f.color||'#999'}';this.outerHTML='<span style=\\'font-size:8px;font-weight:900;color:#fff;\\'>${short}</span>'"></div><span style="font-weight:700;">${f.name}</span><span style="font-size:10px;background:${f.type==='은행'?'#EFF6FF':'#F3F4F6'};color:${f.type==='은행'?'#3B82F6':'var(--sub)'};padding:2px 6px;border-radius:4px;margin-left:4px;">${f.type||'증권사'}</span></div></td>
+      <td><span class="app-tag">${f.app}</span></td>
+      <td>${isCheck?`<span class="fee-na">확인 필요</span>`:f.fee}</td>
+      <td class="${isWarn?'fee-warn':''}">${isCheck?`<span class="fee-na">확인 필요</span>`:f.period}</td>
+      <td style="text-align:center;">${f.type==='은행'?'❌':'✅'}</td>
+      <td style="font-size:11px;color:var(--sub);">${f.note||'-'}</td>`;
+    tbody.appendChild(tr);
+  });
+  // 이벤트 캐러셀
+  buildTabCarousel('irp', ip.events, 'all');
+  // TOP5
+  renderTop5('irpTop1','irpRecGrid', ip.recommendations);
+}
+
+// ── 공통: 수수료표 렌더 ───────────────────────────────────
+function renderFeeTable(tableId, fees) {
+  const tbody = document.querySelector(`#${tableId} tbody`);
+  const minFee = Math.min(...fees.filter(f=>f.status==='active'&&!isNaN(parseFloat(f.fee))).map(f=>parseFloat(f.fee)));
+  fees.forEach(f => {
+    const isCheck = f.status==='check', isLowest = parseFloat(f.fee)===minFee;
+    const isWarn = f.period&&(f.period.includes('개월')||f.period.includes('없음'));
+    const short = f.name.replace('증권','').replace('투자','').substring(0,3);
+    const tr = document.createElement('tr');
+    if (isLowest) tr.className = 'fee-row-best';
+    tr.innerHTML = `
+      <td><div class="logo-cell"><div class="logo-sq"><img src="${f.logo}" alt="${f.name}" onerror="this.parentNode.style.background='${f.color||'#999'}';this.outerHTML='<span style=\\'font-size:8px;font-weight:900;color:#fff;\\'>${short}</span>'"></div><span style="font-weight:700;">${f.name}</span></div></td>
+      <td><span class="app-tag">${f.app}</span></td>
+      <td>${isCheck?`<span class="fee-na">이벤트 준비중...</span>`:f.fee}</td>
+      <td class="${isWarn?'fee-warn':''}">${isCheck?`<span class="fee-na">확인 필요</span>`:f.period}</td>
+      <td style="font-size:12px;color:var(--sub);">${f.note||'-'}</td>`;
+    tbody.appendChild(tr);
+  });
+}
+
+// ── 공통: 캐러셀 렌더 (pension/irp 공용) ─────────────────
+function buildTabCarousel(prefix, events, initFilter) {
+  let curFilter = initFilter, curSlide = 0, slides = [];
+  function build() {
+    const track = document.getElementById(`${prefix}CarTrack`);
+    const dotsW = document.getElementById(`${prefix}CarDots`);
+    track.innerHTML=''; dotsW.innerHTML='';
+    const filtered = events.filter(ev => curFilter==='new' ? !!ev.newCustomer : true);
+    slides=[];
+    for(let i=0;i<filtered.length;i+=2) slides.push(filtered.slice(i,i+2));
+    slides.forEach((pair,si)=>{
+      const slide=document.createElement('div'); slide.className='carousel-slide';
+      pair.forEach(ev=>{
+        const td=ev.newCustomer;
+        if(!td) return;
+        const card=document.createElement('div'); card.className='ev-card';
+        const short=ev.name.replace('증권','').replace('투자','').substring(0,3);
+        if(td.status==='check'){
+          card.innerHTML=`<div class="ev-card-head">${logoHTM(ev)}<div class="ev-head-info"><div class="ev-name">${ev.name}</div><div class="ev-app">📱 ${ev.app}</div></div></div><div class="ev-card-body"><div class="ev-prepared"><div style="font-size:24px;">🔍</div><div style="font-size:12px;">이벤트 준비중</div><a href="${ev.eventPageUrl}" target="_blank" rel="noopener">공식 페이지 확인 →</a></div></div>`;
+        } else {
+          const conds=td.conditions.slice(0,4).map(c=>`<li><span class="cond-type">${c.type}</span><span class="cond-amt">${c.amount}</span><span class="cond-reward">${c.reward}</span></li>`).join('');
+          card.innerHTML=`<a href="${ev.eventPageUrl}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;flex:1;"><div class="ev-card-head">${logoHTM(ev)}<div class="ev-head-info"><div class="ev-name">${ev.name}</div><div class="ev-app">📱 ${ev.app}</div><div class="ev-event-name">${td.eventName}</div></div></div><div class="ev-card-body"><div class="ev-benefit">${td.maxBenefit}</div><ul class="ev-conds">${conds}</ul>${td.transfer?`<div class="ev-transfer">🔄 ${td.transfer}</div>`:''}</div><div class="ev-card-foot"><div class="ev-tags">${(td.tags||[]).map(t=>`<span class="ev-tag">${t}</span>`).join('')}</div><span class="ev-expiry">~ ${td.expiry||'미정'}</span></div></a>`;
+        }
+        slide.appendChild(card);
+      });
+      track.appendChild(slide);
+      const dot=document.createElement('div'); dot.className='car-dot'+(si===0?' active':'');
+      dot.addEventListener('click',()=>goToC(si)); dotsW.appendChild(dot);
+    });
+    curSlide=0; updateC();
+  }
+  function goToC(i){ curSlide=Math.max(0,Math.min(i,slides.length-1)); updateC(); }
+  function updateC(){
+    document.getElementById(`${prefix}CarTrack`).style.transform=`translateX(-${curSlide*100}%)`;
+    document.querySelectorAll(`#${prefix}CarDots .car-dot`).forEach((d,i)=>d.classList.toggle('active',i===curSlide));
+    document.getElementById(`${prefix}CarPrev`).disabled=curSlide===0;
+    document.getElementById(`${prefix}CarNext`).disabled=curSlide>=slides.length-1;
+  }
+  document.getElementById(`${prefix}CarPrev`).addEventListener('click',()=>goToC(curSlide-1));
+  document.getElementById(`${prefix}CarNext`).addEventListener('click',()=>goToC(curSlide+1));
+  document.querySelectorAll(`#${prefix}EventTabs .tab-filter-btn`).forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      document.querySelectorAll(`#${prefix}EventTabs .tab-filter-btn`).forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active'); curFilter=btn.dataset.filter; build();
+    });
+  });
+  build();
+}
+
+// ── 공통: TOP5 렌더 ──────────────────────────────────────
+function renderTop5(top1Id, gridId, rec) {
+  const t1=rec.top1;
+  document.getElementById(top1Id).innerHTML=`
+    <a href="${t1.eventPageUrl}" target="_blank" rel="noopener" class="top1-card">
+      <div class="top1-left">
+        <div class="top1-badge">${t1.badge}</div>
+        <div class="top1-header">
+          <div class="top1-logo"><img src="${t1.logo}" alt="${t1.name}" onerror="this.parentNode.innerHTML='<span style=\\'font-size:10px;font-weight:900;color:#fff;\\'>${t1.name.substring(0,3)}</span>'"></div>
+          <div><div class="top1-name">${t1.name}</div><div class="top1-app">📱 ${t1.app}</div><div class="top1-criteria">${t1.label}</div></div>
+        </div>
+        <ul class="top1-points">${t1.points.map(p=>`<li>${p}</li>`).join('')}</ul>
+        <div class="top1-tag">👉 ${t1.tag}</div>
+        <div class="top1-hint">🔗 클릭하면 이벤트 페이지로 이동합니다</div>
+      </div>
+      <div class="top1-right"><img class="top1-char" src="images/99_char.png" alt="" onerror="this.style.display='none'"></div>
+    </a>`;
+  const re2=['🥈','🥉','4️⃣','5️⃣'];
+  const gridEl=document.getElementById(gridId);
+  (rec.top2to5||[]).forEach((item,i)=>{
+    const card=document.createElement('a');
+    card.href=item.eventPageUrl; card.target='_blank'; card.rel='noopener'; card.className='rec-card anim';
+    card.style.transitionDelay=`${i*.1}s`;
+    card.innerHTML=`<div class="rec-head"><div class="rec-rank">${re2[i]}</div><div class="rec-info"><div class="rec-name">${item.name}</div><div class="rec-app">📱 ${item.app}</div><div class="rec-criteria">${item.criteria}</div></div><div class="rec-logo" style="background:${item.color};"><img src="${item.logo}" alt="${item.name}" style="width:100%;height:100%;object-fit:contain;" onerror="this.parentNode.innerHTML='<span style=\\'font-size:8px;font-weight:900;color:#fff;\\'>${item.name.substring(0,2)}</span>'"></div></div><div class="rec-body"><ul class="rec-points">${item.points.map(p=>`<li>${p}</li>`).join('')}</ul><span class="rec-tag">👉 ${item.tag}</span></div>`;
+    gridEl.appendChild(card);
+  });
+}
+
+// ── 엑셀 비밀번호 ─────────────────────────────────────────
+const EXCEL_PW = 'happyc486';
+function askExcelPw(){
+  document.getElementById('pwInput').value='';
+  document.getElementById('pwError').textContent='';
+  document.getElementById('pwOverlay').classList.remove('hidden');
+  setTimeout(()=>document.getElementById('pwInput').focus(), 100);
+}
+function closePw(){ document.getElementById('pwOverlay').classList.add('hidden'); }
+function checkPw(){
+  if(document.getElementById('pwInput').value === EXCEL_PW){
+    closePw(); exportExcel();
+  } else {
+    document.getElementById('pwError').textContent='❌ 비밀번호가 틀렸습니다';
+    document.getElementById('pwInput').value='';
+    document.getElementById('pwInput').focus();
+  }
+}
+
+// ── 엑셀 내보내기 ─────────────────────────────────────────
+function exportExcel(){
+  if(typeof XLSX==='undefined'){ alert('잠시 후 다시 시도해주세요.'); return; }
+  const wb=XLSX.utils.book_new();
+  // ISA 자기자본
+  const capData=isa.capital.map(c=>({'순위':c.rank,'증권사':c.name,'앱':c.app,'2025년 자기자본':c.capital2025,'2024년':c.capital2024,'증감(%)':c.change+'%'}));
+  XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(capData),'ISA_자기자본');
+  // ISA 수수료
+  const feeData=isa.fees.map(f=>({'증권사':f.name,'앱':f.app,'ETF수수료':f.status==='check'?'확인필요':f.fee,'우대기간':f.status==='check'?'확인필요':f.period,'비고':f.note||''}));
+  XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(feeData),'ISA_수수료');
+  // ISA 이벤트
+  const evData=[];
+  isa.events.forEach(ev=>{
+    if(ev.newCustomer?.conditions){
+      ev.newCustomer.conditions.forEach(c=>{
+        evData.push({'증권사':ev.name,'앱':ev.app,'대상':'신규고객','이벤트명':ev.newCustomer.eventName,'유형':c.type,'조건':c.amount,'혜택':c.reward,'최대혜택':ev.newCustomer.maxBenefit,'기간':ev.newCustomer.expiry});
+      });
+    }
+  });
+  XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(evData),'ISA_이벤트');
+  // TOP5 추천
+  const recData=[{순위:'TOP1',증권사:rec.top1.name,앱:rec.top1.app,기준:rec.top1.label,한줄요약:rec.top1.tag},...rec.top2to5.map(r=>({순위:`TOP${r.rank}`,증권사:r.name,앱:r.app,기준:r.criteria,한줄요약:r.tag}))];
+  XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(recData),'ISA_TOP5추천');
+  // 빈 탭 준비중
+  ['CMA_파킹통장','예적금','연금저축펀드','IRP'].forEach(name=>{
+    XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet([{'안내':'캡처 데이터 업데이트 후 채워집니다'}]),name);
+  });
+  XLSX.writeFile(wb,`해피씨쀼_재테크허브_${d.lastUpdated.replace(' ','_')}.xlsx`);
+}
+
+// ── 초기화 ────────────────────────────────────────────────
+observeAll();
+</script>
+</body>
+</html>
