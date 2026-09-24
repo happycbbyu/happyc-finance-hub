@@ -3,6 +3,11 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  # 이벤트 자동 수집 봇이 커밋한 뒤에도 사이트 재배포 (봇 커밋은 push 트리거가 안 걸림)
+  workflow_run:
+    workflows: ["금융사 이벤트 자동 수집"]
+    types: [completed]
+  workflow_dispatch:
 
 permissions:
   contents: read
