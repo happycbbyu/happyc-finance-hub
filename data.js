@@ -10,7 +10,7 @@ const ISA_DATA = {
 
   cta: {
     community: { url:"https://open.kakao.com/o/g93hXh1g", pw:"happy486" },
-    study:     { url:"https://open.kakao.com/o/gDed7qci" },
+    study:     { url:"https://geekus.kr/bbyumoney_studyclub/about" },
     coaching:  { url:"https://exciting-bull-fff.notion.site/1on1coach?source=copy_link" },
     master:    { url:"https://cafe.naver.com/happybox55/2200?tc=shared_link" },
   },
