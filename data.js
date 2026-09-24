@@ -15,6 +15,22 @@ const ISA_DATA = {
     master:    { url:"https://cafe.naver.com/happybox55/2200?tc=shared_link" },
   },
 
+  // 쀼스클(월 멤버십) 안내 문구: 페이지의 TOP5 아래 박스에 표시
+  //  perks 는 실제로 쀼스클에서 제공하는 것만 적어주세요
+  membership: {
+    url: "https://geekus.kr/bbyumoney_studyclub/about",
+    panelTitle: "표는 누구나 볼 수 있어요.<br>고르는 기준은 쀼스클에서 같이 정해요",
+    panelDesc: "같은 숫자를 보고도 우리 부부 상황에 따라 답이 달라요. 추천 이유 전체와 선택 순서를 멤버에게 먼저 풀어드려요.",
+    perks: [
+      "매달 탭별 '우리 부부라면 어디?' 상황별 선택 해설",
+      "추천 순위 선정 이유 전체와 이벤트 받고 옮기는 순서",
+      "새로 뜬 이벤트 주간 브리핑 (커뮤니티)",
+      "ISA 계산기·투자 로드맵 실습 워크북",
+    ],
+    cta: "7일 무료로 시작하기",
+    trialNote: "7일 무료체험 후 월 멤버십으로 자동 전환돼요",
+  },
+
   // 탭별 스터디클럽 CTA 문구
   studyCopy: {
     cma:     "아직 투자를 한번도 해보지 않았다면?",

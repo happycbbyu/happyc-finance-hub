@@ -329,6 +329,22 @@
       .char-banner { padding: 16px; }
       .capital-table, .fee-table, .savings-table { min-width: 600px; }
     }
+
+    /* 쀼스클 멤버 안내 */
+    .lock-note { font-size: 12px; font-weight: 700; color: var(--sub); padding: 8px 0 12px; border-top: 1px dashed var(--line-strong); margin-top: 2px; }
+    .top1-card .lock-note { color: var(--on-ink); opacity: .7; border-top-color: rgba(255,255,255,.2); margin-bottom: 12px; }
+    .lock-note::before { content: ''; display: inline-block; width: 9px; height: 10px; margin-right: 6px; vertical-align: -1px; border: 1.5px solid currentColor; border-radius: 2px; border-top-width: 4px; }
+    .member-panel { margin-top: 16px; display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: center; background: var(--accent-soft); border-radius: var(--radius); padding: 28px; }
+    .member-panel:empty { display: none; }
+    .mp-kicker { font-size: 13px; font-weight: 700; color: var(--accent-ink); margin-bottom: 6px; }
+    .mp-title { font-size: 21px; font-weight: 800; letter-spacing: -0.03em; line-height: 1.35; margin-bottom: 8px; }
+    .mp-desc { font-size: 14px; color: var(--sub); margin-bottom: 18px; max-width: 34em; }
+    .mp-trial { font-size: 12px; color: var(--sub); margin-top: 8px; }
+    .mp-perks { list-style: none; background: var(--surface); border-radius: 12px; padding: 6px 18px; }
+    .mp-perks li { font-size: 14px; font-weight: 600; padding: 11px 0 11px 22px; position: relative; border-top: 1px solid var(--line); }
+    .mp-perks li:first-child { border-top: none; }
+    .mp-perks li::before { content: '✓'; position: absolute; left: 0; color: var(--accent-ink); font-weight: 800; }
+    @media (max-width: 767px) { .member-panel { grid-template-columns: 1fr; gap: 18px; padding: 22px; } }
   </style>
 </head>
 <body>
@@ -389,6 +405,7 @@
     <div class="container">
       <div class="anim"><div class="section-title">이달의 CMA·파킹통장 TOP3</div><div class="section-sub">금리·안전성·편의성을 종합한 추천</div></div>
       <div id="cmaRec" class="anim"></div>
+      <div class="member-panel anim" data-tab="cma"></div>
     </div>
   </section>
 </div>
@@ -422,6 +439,7 @@
     <div class="container">
       <div class="anim"><div class="section-title">이달의 예적금 TOP3</div><div class="section-sub">금리·안전성·조건을 종합한 추천</div></div>
       <div id="savingsRec" class="anim"></div>
+      <div class="member-panel anim" data-tab="savings"></div>
     </div>
   </section>
 </div>
@@ -498,6 +516,7 @@
       </div>
       <div class="anim" id="isaTop1"></div>
       <div class="rec-grid anim" id="isaRecGrid"></div>
+      <div class="member-panel anim" data-tab="isa"></div>
       <p style="font-size:11px;color:var(--sub);text-align:center;margin-top:18px;line-height:1.8;">* 카드 클릭 시 해당 증권사 이벤트 페이지로 이동 &nbsp;·&nbsp; 이벤트 조건은 수시 변경되니 공식 페이지에서 최종 확인하세요</p>
     </div>
   </section>
@@ -551,6 +570,7 @@
       <div class="anim"><div class="section-title">이달의 연금저축펀드 TOP5</div><div class="section-sub">수수료·이벤트·ETF 라인업 3가지 종합 추천</div></div>
       <div class="anim" id="pensionTop1"></div>
       <div class="rec-grid anim" id="pensionRecGrid"></div>
+      <div class="member-panel anim" data-tab="pension"></div>
     </div>
   </section>
 </div>
@@ -602,6 +622,7 @@
       <div class="anim"><div class="section-title">이달의 IRP TOP5</div><div class="section-sub">수수료·ETF직투·이벤트 3가지 종합 추천</div></div>
       <div class="anim" id="irpTop1"></div>
       <div class="rec-grid anim" id="irpRecGrid"></div>
+      <div class="member-panel anim" data-tab="irp"></div>
     </div>
   </section>
 </div>
@@ -660,7 +681,41 @@ document.getElementById('navDate').textContent = d.lastUpdated + ' 기준';
 document.getElementById('footerDate').textContent = d.lastUpdated + ' 기준 업데이트';
 document.getElementById('cta-community').href = d.cta.community.url;
 document.getElementById('nav-cta').href = d.cta.community.url;
-document.getElementById('cta-study').href = d.cta.study.url;
+// ── 쀼스클 링크 (UTM: 어느 탭·어느 버튼에서 왔는지 기록) ─────────
+const MB = d.membership || {};
+function studyLink(content) {
+  try {
+    const u = new URL(MB.url || d.cta.study.url);
+    u.searchParams.set('utm_source', 'finance_hub');
+    u.searchParams.set('utm_medium', 'web');
+    u.searchParams.set('utm_campaign', 'bbyumoney_studyclub');
+    u.searchParams.set('utm_content', content);
+    return u.toString();
+  } catch (e) { return d.cta.study.url; }
+}
+// 무료로 보여줄 선정 이유 개수, 나머지는 멤버 공개 안내
+function freePoints(points, n) { return (points || []).slice(0, n); }
+function lockNote(points, n) {
+  const rest = (points || []).length - n;
+  return rest > 0 ? `<div class="lock-note">나머지 선정 이유 ${rest}개는 쀼스클 멤버에게 공개해요</div>` : '';
+}
+function renderMemberPanels() {
+  if (!MB.perks) return;
+  document.querySelectorAll('.member-panel').forEach(el => {
+    const tab = el.dataset.tab;
+    el.innerHTML = `
+      <div class="mp-copy">
+        <div class="mp-kicker">쀼스클 멤버 전용</div>
+        <div class="mp-title">${MB.panelTitle}</div>
+        <p class="mp-desc">${MB.panelDesc}</p>
+        <a class="btn btn-primary" href="${studyLink(tab + '_panel')}" target="_blank" rel="noopener">${MB.cta}</a>
+        <div class="mp-trial">${MB.trialNote || ''}</div>
+      </div>
+      <ul class="mp-perks">${MB.perks.map(p => `<li>${p}</li>`).join('')}</ul>`;
+  });
+}
+renderMemberPanels();
+document.getElementById('cta-study').href = studyLink('isa_bottom');
 document.getElementById('cta-coaching').href = d.cta.coaching.url;
 document.getElementById('cta-master').href = d.cta.master.url;
 if (d.cta.community.pw) document.getElementById('communityPw').textContent = '비밀번호: ' + d.cta.community.pw;
@@ -670,6 +725,7 @@ const tabPanes = { cma:'tab-cma', savings:'tab-savings', isa:'tab-isa', pension:
 const rendered = { cma:false, savings:false, pension:false, irp:false };
 
 function updateCtaStudy(tabId) {
+  const sl = document.getElementById('cta-study'); if (sl) sl.href = studyLink(tabId + '_bottom');
   const el = document.getElementById('ctaStudyTitle');
   if (!el) return;
   const txt = d.studyCopy[tabId] || d.studyCopy.isa;
@@ -810,7 +866,7 @@ document.getElementById('isaTop1').innerHTML=`
         <div class="top1-logo"><img src="${t1.logo}" alt="${t1.name}" onerror="this.parentNode.innerHTML='<span style=\\'font-size:10px;font-weight:900;color:#fff;\\'>${t1.name.substring(0,3)}</span>'"></div>
         <div><div class="top1-name">${t1.name}</div><div class="top1-app">${t1.app}</div><div class="top1-criteria">${t1.label}</div></div>
       </div>
-      <ul class="top1-points">${t1.points.map(p=>`<li>${p}</li>`).join('')}</ul>
+      <ul class="top1-points">${freePoints(t1.points,2).map(p=>`<li>${p}</li>`).join('')}</ul>${lockNote(t1.points,2)}
       <div class="top1-tag">${t1.tag}</div>
       <div class="top1-hint">클릭하면 이벤트 페이지로 이동합니다</div>
     </div>
@@ -821,7 +877,7 @@ rec.top2to5.forEach((item,i)=>{
   const isUrgent=item.points.some(p=>p.includes('임박'));
   const card=document.createElement('a');
   card.href=item.eventPageUrl; card.target='_blank'; card.rel='noopener'; card.className='rec-card anim'; card.style.transitionDelay=`${i*.1}s`;
-  card.innerHTML=`<div class="rec-head"><div class="rec-rank">${re2[i]}</div><div class="rec-info"><div class="rec-name">${item.name}</div><div class="rec-app">${item.app}</div><div class="rec-criteria">${item.criteria}</div></div><div class="rec-logo" style="background:${item.color};"><img src="${item.logo}" alt="${item.name}" style="width:100%;height:100%;object-fit:contain;" onerror="this.parentNode.innerHTML='<span style=\\'font-size:8px;font-weight:900;color:#fff;\\'>${item.name.substring(0,2)}</span>'"></div></div><div class="rec-body"><ul class="rec-points">${item.points.map(p=>`<li>${isUrgent&&p.includes('임박')?'<span class="urgent">종료임박</span> ':''}${p}</li>`).join('')}</ul><span class="rec-tag">${item.tag}</span><div class="rec-hint">클릭 시 이벤트 페이지로 이동</div></div>`;
+  card.innerHTML=`<div class="rec-head"><div class="rec-rank">${re2[i]}</div><div class="rec-info"><div class="rec-name">${item.name}</div><div class="rec-app">${item.app}</div><div class="rec-criteria">${item.criteria}</div></div><div class="rec-logo" style="background:${item.color};"><img src="${item.logo}" alt="${item.name}" style="width:100%;height:100%;object-fit:contain;" onerror="this.parentNode.innerHTML='<span style=\\'font-size:8px;font-weight:900;color:#fff;\\'>${item.name.substring(0,2)}</span>'"></div></div><div class="rec-body"><ul class="rec-points">${freePoints(item.points,1).map(p=>`<li>${isUrgent&&p.includes('임박')?'<span class="urgent">종료임박</span> ':''}${p}</li>`).join('')}</ul>${lockNote(item.points,1)}<span class="rec-tag">${item.tag}</span><div class="rec-hint">클릭 시 이벤트 페이지로 이동</div></div>`;
   recW.appendChild(card);
 });
 
@@ -1073,7 +1129,7 @@ function renderTop5(top1Id, gridId, rec) {
           <div class="top1-logo"><img src="${t1.logo}" alt="${t1.name}" onerror="this.parentNode.innerHTML='<span style=\\'font-size:10px;font-weight:900;color:#fff;\\'>${t1.name.substring(0,3)}</span>'"></div>
           <div><div class="top1-name">${t1.name}</div><div class="top1-app">${t1.app}</div><div class="top1-criteria">${t1.label}</div></div>
         </div>
-        <ul class="top1-points">${t1.points.map(p=>`<li>${p}</li>`).join('')}</ul>
+        <ul class="top1-points">${freePoints(t1.points,2).map(p=>`<li>${p}</li>`).join('')}</ul>${lockNote(t1.points,2)}
         <div class="top1-tag">${t1.tag}</div>
         <div class="top1-hint">클릭하면 이벤트 페이지로 이동합니다</div>
       </div>
@@ -1085,7 +1141,7 @@ function renderTop5(top1Id, gridId, rec) {
     const card=document.createElement('a');
     card.href=item.eventPageUrl; card.target='_blank'; card.rel='noopener'; card.className='rec-card anim';
     card.style.transitionDelay=`${i*.1}s`;
-    card.innerHTML=`<div class="rec-head"><div class="rec-rank">${re2[i]}</div><div class="rec-info"><div class="rec-name">${item.name}</div><div class="rec-app">${item.app}</div><div class="rec-criteria">${item.criteria}</div></div><div class="rec-logo" style="background:${item.color};"><img src="${item.logo}" alt="${item.name}" style="width:100%;height:100%;object-fit:contain;" onerror="this.parentNode.innerHTML='<span style=\\'font-size:8px;font-weight:900;color:#fff;\\'>${item.name.substring(0,2)}</span>'"></div></div><div class="rec-body"><ul class="rec-points">${item.points.map(p=>`<li>${p}</li>`).join('')}</ul><span class="rec-tag">${item.tag}</span></div>`;
+    card.innerHTML=`<div class="rec-head"><div class="rec-rank">${re2[i]}</div><div class="rec-info"><div class="rec-name">${item.name}</div><div class="rec-app">${item.app}</div><div class="rec-criteria">${item.criteria}</div></div><div class="rec-logo" style="background:${item.color};"><img src="${item.logo}" alt="${item.name}" style="width:100%;height:100%;object-fit:contain;" onerror="this.parentNode.innerHTML='<span style=\\'font-size:8px;font-weight:900;color:#fff;\\'>${item.name.substring(0,2)}</span>'"></div></div><div class="rec-body"><ul class="rec-points">${freePoints(item.points,1).map(p=>`<li>${p}</li>`).join('')}</ul>${lockNote(item.points,1)}<span class="rec-tag">${item.tag}</span></div>`;
     gridEl.appendChild(card);
   });
 }
