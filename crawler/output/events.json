@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-09-24 17:32 KST",
+ "crawledAt": "2026-09-24 20:44 KST",
  "summary": {
   "isa": 19,
   "pension": 20,
-  "irp": 25,
+  "irp": 24,
   "cma": 9,
   "savings": 25,
-  "other": 238
+  "other": 237
  },
  "sources": [
   {
@@ -85,10 +85,10 @@
    "name": "메리츠증권",
    "type": "증권사",
    "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "ok": true,
-   "error": "",
+   "ok": false,
+   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
    "note": "",
-   "count": 8
+   "count": 0
   },
   {
    "name": "대신증권",
@@ -185,9 +185,9 @@
    "type": "증권사",
    "url": "https://m.ls-sec.co.kr/cs/event/open",
    "ok": true,
-   "error": "페이지 내용이 거의 없음 — URL 변경/차단 확인 필요",
+   "error": "",
    "note": "봇 차단(Eversafe)으로 자동 수집 불가할 수 있음",
-   "count": 0
+   "count": 8
   },
   {
    "name": "DB증권",
@@ -220,10 +220,10 @@
    "name": "우리은행",
    "type": "은행",
    "url": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
-   "ok": true,
-   "error": "",
+   "ok": false,
+   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
    "note": "",
-   "count": 2
+   "count": 0
   },
   {
    "name": "하나은행",
@@ -2532,139 +2532,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "39d07de5e2",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "ELS 청약 이벤트ELS, ELB 청약하면 상품권 최대 5만원 증정1천만원 이상 청약 시 아이패드 추첨 기회! *조건 충족시",
-   "start": "2026.08.24",
-   "end": "2026.12.21",
-   "benefitHints": [
-    "최대 5만원"
-   ],
-   "desc": "ELS 청약 이벤트",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "1f2477129b",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "목표전환형펀드목표수익률 달성하면 안전자산으로 자동 전환!목표전환형펀드에 투자하세요!",
-   "start": "2026.08.13",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "목표전환형펀드",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "8d05bf9765",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "롱숏펀드시장상황과 관계없이 안정 수익을 추구하는투자전략! 롱숏펀드에 투자하세요!",
-   "start": "2026.06.26",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "롱숏펀드",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "5eeeba206b",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "글로벌 공모주펀드대형 글로벌 공모주 탑승 기회복잡한 공모주 청약, 펀드로 간편하게 입장!",
-   "start": "2026.06.04",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "글로벌 공모주펀드",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "448129b994",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "사모투자재간접형 펀드누구나 천원부터, 인원 제한 없이운용 전문가가 선별한 사모펀드에 투자 가능!",
-   "start": "2026.05.13",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "사모투자재간접형 펀드",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "9127302d3b",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "코스닥의 성장과 함께하라! 코스닥벤처펀드 소득 공제부터 공모주 우선 배정 효과까지!시장의 핵심 기회를 잡는 영리한 방법",
-   "start": "2026.03.05",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "코스닥의 성장과 함께하라! 코스닥벤처펀드",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "f00adc2275",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "3X 채권형 ETN 시리즈채권형 ETN 처음이세요? 3X로 세걸음 먼저 시작하기국채, 미국채, 일본 국채까지 모두 다 있다!",
-   "start": "2025.12.31",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "3X 채권형 ETN 시리즈",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "e497e670a4",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "Super365 국내주식 완전제로 국내주식 거래하면, 누구나 유관기관 수수료 포함 완전 0원! (~26년 말, 매월 약정액 200억원까지)",
-   "start": "2026.06.30",
-   "end": "2026.12.31",
-   "benefitHints": [
-    "0원",
-    "200억원"
-   ],
-   "desc": "Super365 국내주식 완전제로",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-09-24"
-  },
-  {
    "id": "90d305e5d9",
    "institution": "대신증권",
    "type": "증권사",
@@ -3846,6 +3713,134 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "d5806fd6c2",
+   "institution": "LS증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "TIGER ETF 거래 이벤트(삼성전자SK하이닉스미국채혼합50)",
+   "start": "2026.09.01",
+   "end": "2026.09.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.ls-sec.co.kr/cs/event/open",
+   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
+   "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "91af7ee160",
+   "institution": "LS증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "붉은 말, 끝까지 달린다! 국내선물옵션 수수료 할인 이벤트",
+   "start": "2026.07.02",
+   "end": "2026.09.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.ls-sec.co.kr/cs/event/open",
+   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
+   "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "354ee4d043",
+   "institution": "LS증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "비대면 새싹(미성년자)계좌 개설 이벤트",
+   "start": "2026.09.21",
+   "end": "2026.10.11",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.ls-sec.co.kr/cs/event/open",
+   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
+   "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "967464f38f",
+   "institution": "LS증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "출산예정일 등록 이벤트",
+   "start": "2026.09.21",
+   "end": "2026.10.11",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.ls-sec.co.kr/cs/event/open",
+   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
+   "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "73f8a21ae0",
+   "institution": "LS증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "비대면 신규개설(잔소리방어금 충전하기)",
+   "start": "2026.09.21",
+   "end": "2026.10.11",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.ls-sec.co.kr/cs/event/open",
+   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
+   "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "22c013dffe",
+   "institution": "LS증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "주식모아 월급날 치킨 이벤트",
+   "start": "2026.08.25",
+   "end": "2026.10.23",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.ls-sec.co.kr/cs/event/open",
+   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
+   "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "01322a39cc",
+   "institution": "LS증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "신용융자 제로금리 이벤트",
+   "start": "2026.08.11",
+   "end": "2026.10.29",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.ls-sec.co.kr/cs/event/open",
+   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
+   "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "96283dc1ab",
+   "institution": "LS증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "OPEN API 국내주식 수수료 할인 이벤트",
+   "start": "2026.09.22",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.ls-sec.co.kr/cs/event/open",
+   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
+   "firstSeen": "2026-09-24"
+  },
+  {
    "id": "6f6a9b87e8",
    "institution": "DB증권",
    "type": "증권사",
@@ -4087,38 +4082,6 @@
    "desc": "첫 월급 이체하고, 매월 급여이체하면 혜택이 쭉!",
    "url": "https://www.shinhan.com/hpe/index.jsp#902304010000",
    "listUrl": "https://www.shinhan.com/hpe/index.jsp#902304010000",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "cf372fe195",
-   "institution": "우리은행",
-   "type": "은행",
-   "categories": [
-    "irp"
-   ],
-   "title": "퇴직연금은 우리로, 혜택은 Npay로 퇴직연금은 우리로, 혜택은 Npay로 DC IRP 신규/추가입금 이벤트",
-   "start": "2026.07.22",
-   "end": "2026.10.30",
-   "benefitHints": [],
-   "desc": "현재 : 1/1 페이지 현재1",
-   "url": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
-   "listUrl": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "0f8bd1f718",
-   "institution": "우리은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "우리은행이랑 카톡 친구하면 혜택이 가득~! 우리은행이랑 카톡 친구하면 혜택이 가득~! 카카오톡 채널의 친구가 되어주세요!",
-   "start": "2026.01.14",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
-   "listUrl": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
    "firstSeen": "2026-09-24"
   },
   {
