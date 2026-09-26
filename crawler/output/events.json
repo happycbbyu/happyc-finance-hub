@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-09-26 09:27 KST",
+ "crawledAt": "2026-09-26 22:38 KST",
  "summary": {
   "isa": 19,
   "pension": 20,
-  "irp": 24,
+  "irp": 25,
   "cma": 9,
   "savings": 25,
-  "other": 245
+  "other": 246
  },
  "sources": [
   {
@@ -220,10 +220,10 @@
    "name": "우리은행",
    "type": "은행",
    "url": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
-   "ok": false,
-   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
+   "ok": true,
+   "error": "",
    "note": "",
-   "count": 0
+   "count": 2
   },
   {
    "name": "하나은행",
@@ -4216,6 +4216,38 @@
    "url": "https://www.shinhan.com/hpe/index.jsp#902304010000",
    "listUrl": "https://www.shinhan.com/hpe/index.jsp#902304010000",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "cf372fe195",
+   "institution": "우리은행",
+   "type": "은행",
+   "categories": [
+    "irp"
+   ],
+   "title": "퇴직연금은 우리로, 혜택은 Npay로 퇴직연금은 우리로, 혜택은 Npay로 DC IRP 신규/추가입금 이벤트",
+   "start": "2026.07.22",
+   "end": "2026.10.30",
+   "benefitHints": [],
+   "desc": "현재 : 1/1 페이지 현재1",
+   "url": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
+   "listUrl": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
+   "firstSeen": "2026-09-26"
+  },
+  {
+   "id": "0f8bd1f718",
+   "institution": "우리은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "우리은행이랑 카톡 친구하면 혜택이 가득~! 우리은행이랑 카톡 친구하면 혜택이 가득~! 카카오톡 채널의 친구가 되어주세요!",
+   "start": "2026.01.14",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
+   "listUrl": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
+   "firstSeen": "2026-09-26"
   },
   {
    "id": "dd252de5ba",
