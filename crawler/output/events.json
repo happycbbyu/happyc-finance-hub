@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-09-30 10:09 KST",
+ "crawledAt": "2026-10-01 00:35 KST",
  "summary": {
-  "isa": 19,
-  "pension": 19,
-  "irp": 25,
+  "isa": 15,
+  "pension": 21,
+  "irp": 21,
   "cma": 9,
-  "savings": 26,
-  "other": 250
+  "savings": 25,
+  "other": 215
  },
  "sources": [
   {
@@ -34,7 +34,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 12
+   "count": 10
   },
   {
    "name": "삼성증권",
@@ -43,7 +43,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 20
+   "count": 17
   },
   {
    "name": "KB증권",
@@ -52,7 +52,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 20
+   "count": 19
   },
   {
    "name": "하나증권",
@@ -61,7 +61,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 11
+   "count": 10
   },
   {
    "name": "키움증권",
@@ -70,7 +70,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 38
+   "count": 33
   },
   {
    "name": "신한투자증권",
@@ -79,7 +79,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 16
+   "count": 10
   },
   {
    "name": "메리츠증권",
@@ -97,7 +97,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 19
+   "count": 18
   },
   {
    "name": "토스증권",
@@ -124,7 +124,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 6
+   "count": 5
   },
   {
    "name": "교보증권",
@@ -142,7 +142,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 17
+   "count": 11
   },
   {
    "name": "iM증권",
@@ -151,7 +151,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 7
+   "count": 5
   },
   {
    "name": "유진투자증권",
@@ -160,7 +160,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 9
+   "count": 10
   },
   {
    "name": "IBK투자증권",
@@ -187,7 +187,7 @@
    "ok": true,
    "error": "",
    "note": "봇 차단(Eversafe)으로 자동 수집 불가할 수 있음",
-   "count": 10
+   "count": 7
   },
   {
    "name": "DB증권",
@@ -196,7 +196,7 @@
    "ok": true,
    "error": "",
    "note": "해외 IP 접속 차단 가능성 — 한국 PC에서 실행 시 수집됨",
-   "count": 6
+   "count": 5
   },
   {
    "name": "KB국민은행",
@@ -205,7 +205,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 7
+   "count": 4
   },
   {
    "name": "신한은행",
@@ -232,7 +232,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 9
+   "count": 10
   },
   {
    "name": "NH농협은행",
@@ -250,7 +250,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 23
+   "count": 18
   },
   {
    "name": "SC제일은행",
@@ -277,7 +277,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 2
+   "count": 5
   },
   {
    "name": "BNK경남은행",
@@ -286,7 +286,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 14
+   "count": 9
   },
   {
    "name": "광주은행",
@@ -295,7 +295,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 7
+   "count": 6
   },
   {
    "name": "전북은행",
@@ -335,38 +335,6 @@
   }
  ],
  "events": [
-  {
-   "id": "6be5c3af20",
-   "institution": "미래에셋증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "투자도 재미있게, 주식 모으기 혜택 더하기",
-   "start": "2026.08.24",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "국내주식 모으기 이벤트",
-   "url": "https://securities.miraeasset.com/hki/hki7000/r05.do",
-   "listUrl": "https://securities.miraeasset.com/hki/hki7000/r05.do",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "5f01f33eee",
-   "institution": "미래에셋증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "대여서비스 활용법 주식은 그대로 혜택은 더블로",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "가. 이벤트#1 - 신규가입 이벤트 1) 대상: 이벤트 기간 중 아래 ①, ② 조건 모두 달성한 고객 (이벤트 종료일까지 조건 유지) ① 주식대여서비스 신규가입 (이벤트 기간 내 해지 후 재가입시 인정 안됨) ② 이벤트 종료일까지 약정 계좌의 국내주식 1백만원 이상 잔고 유지 2) 혜택 - 투썸플레이스 아이스아메리카노 1매 선착순 지급 (선착순 3천명) 나",
-   "url": "https://securities.miraeasset.com/hki/hki7000/r05.do",
-   "listUrl": "https://securities.miraeasset.com/hki/hki7000/r05.do",
-   "firstSeen": "2026-09-30"
-  },
   {
    "id": "6f87e3ec80",
    "institution": "미래에셋증권",
@@ -449,20 +417,52 @@
    "firstSeen": "2026-09-30"
   },
   {
-   "id": "6b858db975",
+   "id": "068b2df1e6",
    "institution": "미래에셋증권",
    "type": "증권사",
    "categories": [
-    "other"
+    "pension"
    ],
-   "title": "다이렉트 신규 계좌개설 우대 수수료 이벤트(7월~12월)",
-   "start": "2026.07.01",
-   "end": "2027.03.31",
+   "title": "「투자하는 연금」 2026년 개인연금 입금 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
    "url": "https://securities.miraeasset.com/hki/hki7000/r05.do",
    "listUrl": "https://securities.miraeasset.com/hki/hki7000/r05.do",
-   "firstSeen": "2026-09-30"
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "234fe9f0fd",
+   "institution": "미래에셋증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "「투자하는 연금」2026년 IRP 입금 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://securities.miraeasset.com/hki/hki7000/r05.do",
+   "listUrl": "https://securities.miraeasset.com/hki/hki7000/r05.do",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "26ce53fe11",
+   "institution": "미래에셋증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "「투자하는 연금」2026년 퇴직연금 DC 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://securities.miraeasset.com/hki/hki7000/r05.do",
+   "listUrl": "https://securities.miraeasset.com/hki/hki7000/r05.do",
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "7735bd886f",
@@ -481,102 +481,6 @@
    "firstSeen": "2026-09-30"
   },
   {
-   "id": "bcc0575f3a",
-   "institution": "한국투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "추석연휴 금융상품 자산 더블UP 이벤트",
-   "start": "2026.09.23",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "65d9ab1da9",
-   "institution": "한국투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "뱅키스 금융 드림팀 이벤트 시즌2",
-   "start": "2026.08.18",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "43a1264a32",
-   "institution": "한국투자증권",
-   "type": "증권사",
-   "categories": [
-    "isa"
-   ],
-   "title": "뱅키스 ISA중개형 이벤트",
-   "start": "2026.08.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "7538cc9345",
-   "institution": "한국투자증권",
-   "type": "증권사",
-   "categories": [
-    "isa"
-   ],
-   "title": "ISA중개형X 금융상품 슬기로운 투자생활",
-   "start": "2026.07.10",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "2e2f34389c",
-   "institution": "한국투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "THE ELS SPOT 이벤트",
-   "start": "2026.09.03",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "ce787c340d",
-   "institution": "한국투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "한가위 자산 이벤트",
-   "start": "2026.09.16",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "처음으로 이전으로 현재페이지1 2 3 4 다음으로 마지막으로",
-   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "firstSeen": "2026-09-24"
-  },
-  {
    "id": "cc71a2920a",
    "institution": "한국투자증권",
    "type": "증권사",
@@ -591,6 +495,38 @@
    "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "5d7a9b5002",
+   "institution": "한국투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "주식모으기 이벤트 시즌2",
+   "start": "2026.08.10",
+   "end": "2026.10.08",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "cfa146a3b3",
+   "institution": "한국투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "THE 국민성장펀드 가입 이벤트",
+   "start": "2026.09.30",
+   "end": "2026.10.15",
+   "benefitHints": [],
+   "desc": "처음으로 이전으로 현재페이지1 2 다음으로 마지막으로",
+   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "c47aeee422",
@@ -625,6 +561,24 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "018bbae9e8",
+   "institution": "한국투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "거래하면 최대 100만원 축하금 지급",
+   "start": "2026.09.01",
+   "end": "2026.10.30",
+   "benefitHints": [
+    "최대 100만원"
+   ],
+   "desc": "",
+   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "firstSeen": "2026-10-01"
+  },
+  {
    "id": "2339ee3150",
    "institution": "한국투자증권",
    "type": "증권사",
@@ -641,53 +595,52 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "6c9569ba8b",
-   "institution": "NH투자증권",
+   "id": "9020c85301",
+   "institution": "한국투자증권",
    "type": "증권사",
    "categories": [
-    "irp"
+    "cma"
    ],
-   "title": "N2 퇴직연금 ELS 가입 이벤트 시즌2",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
+   "title": "4분기 발행어음을 THE하다 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.11.30",
    "benefitHints": [],
-   "desc": "ELS 가입하고 이벤트 혜택 받아보세요",
-   "url": "https://m.mynamuh.com/customer/event/eventView?mNo=1028",
-   "listUrl": "https://m.mynamuh.com/customer/event/eventList",
-   "firstSeen": "2026-09-24"
+   "desc": "",
+   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "firstSeen": "2026-10-01"
   },
   {
-   "id": "f503275cc0",
-   "institution": "NH투자증권",
+   "id": "90983e3851",
+   "institution": "한국투자증권",
    "type": "증권사",
    "categories": [
-    "irp"
+    "other"
    ],
-   "title": "퇴직연금 DC 신규가입 이벤트 시즌3",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
+   "title": "4분기 ELS를 THE하다 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.11.30",
    "benefitHints": [],
-   "desc": "퇴직연금 DC 신규가입 이벤트 시즌3",
-   "url": "https://m.mynamuh.com/customer/event/eventView?mNo=1026",
-   "listUrl": "https://m.mynamuh.com/customer/event/eventList",
-   "firstSeen": "2026-09-24"
+   "desc": "",
+   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "firstSeen": "2026-10-01"
   },
   {
-   "id": "45f1874842",
-   "institution": "NH투자증권",
+   "id": "b9073e4804",
+   "institution": "한국투자증권",
    "type": "증권사",
    "categories": [
-    "pension",
-    "savings"
+    "other"
    ],
-   "title": "단체연금고객 연금저축 순입금 이벤트 시즌3",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
+   "title": "4분기 국내 채권을 THE하다 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "단체연금고객 연금저축 순입금 시즌3",
-   "url": "https://m.mynamuh.com/customer/event/eventView?mNo=1022",
-   "listUrl": "https://m.mynamuh.com/customer/event/eventList",
-   "firstSeen": "2026-09-24"
+   "desc": "",
+   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "c64ec9113f",
@@ -806,6 +759,22 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "464541aeaa",
+   "institution": "NH투자증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "퇴직연금 DC 신규가입 이벤트(2026.10.01~2027.01.31)",
+   "start": "2026.10.01",
+   "end": "2027.01.31",
+   "benefitHints": [],
+   "desc": "퇴직연금 DC 신규가입 이벤트(2026.10.01~2027.01.31)",
+   "url": "https://m.mynamuh.com/customer/event/eventView?mNo=1054",
+   "listUrl": "https://m.mynamuh.com/customer/event/eventList",
+   "firstSeen": "2026-10-01"
+  },
+  {
    "id": "5785633122",
    "institution": "NH투자증권",
    "type": "증권사",
@@ -838,88 +807,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "017f3264a2",
-   "institution": "삼성증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "[신규] 모니모 앱 가입 이벤트",
-   "start": "2026.09.01",
-   "end": "2026.09.30",
-   "benefitHints": [
-    "100%"
-   ],
-   "desc": "9월에 모니모 가입하면 커피 4잔 받고, 행복도 4배! 100% 증정(신규,이벤트 신청 필수)(기간 : 26.9.1~9.30)",
-   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=2171",
-   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "d0b1e374e0",
-   "institution": "삼성증권",
-   "type": "증권사",
-   "categories": [
-    "isa"
-   ],
-   "title": "중개형ISA KODEX ETF 매수 이벤트 (삼성자산운용 주관)",
-   "start": "2026.08.10",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "[삼성자산운용] 중개형 ISA 계좌 KODEX ETF 매수 이벤트(기간 : 26.8.10~9.30)",
-   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3879",
-   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "7eb207dd0a",
-   "institution": "삼성증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "투자안정지원금 패키지 이벤트",
-   "start": "2026.07.13",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "삼성증권이 쏩니다! 투자안정지원금 챙겨가세요(이벤트별 상세 조건 확인)",
-   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3859",
-   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "5750353b9e",
-   "institution": "삼성증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "[삼성선물] 국내선물옵션 제휴계좌개설 이벤트",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "삼성선물 국내선물옵션 첫만남 이벤트 - 삼성선물 주관(기간 : 26.7.1 ~ 9.30)",
-   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3851",
-   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "bbefc31795",
-   "institution": "삼성증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "2026년 3분기 국내선물옵션 수수료 이벤트",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "국내선물옵션 주/야간 온라인 거래 수수료 삼삼한 할인 이벤트(비대면 신규/휴면 고객)(기간 : 26.7.1 ~ 9.30)",
-   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3847",
-   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
-   "firstSeen": "2026-09-24"
-  },
-  {
    "id": "19b338b595",
    "institution": "삼성증권",
    "type": "증권사",
@@ -948,6 +835,22 @@
    "benefitHints": [],
    "desc": "국내주식 고객감사제 이벤트(신규,휴면고객,조건충족시)(기간 : 26.8.14~10.30)",
    "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3883",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "7eb207dd0a",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "투자안정지원금 패키지 이벤트",
+   "start": "2026.07.13",
+   "end": "2026.10.30",
+   "benefitHints": [],
+   "desc": "삼성증권이 쏩니다! 투자안정지원금 챙겨가세요(이벤트별 상세 조건 확인)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3859",
    "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
    "firstSeen": "2026-09-24"
   },
@@ -984,6 +887,22 @@
    "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3804",
    "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "8270889314",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "[연금]삼성증권이 연금고객에게 치킨쏜닭!",
+   "start": "2026.10.01",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "삼성증권이 연금 고객에게 치킨쏜닭! 이벤트(추첨 지급)(기간 : 26.10.1~10.31)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3917",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "8cc7d72bc2",
@@ -1166,71 +1085,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "22c092d646",
-   "institution": "KB증권",
-   "type": "증권사",
-   "categories": [
-    "pension",
-    "savings"
-   ],
-   "title": "2026 시즌3 연금저축 순입금(이전)",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "2026 시즌3 연금저축 순입금(이전) 이벤트",
-   "url": "https://www.kbsec.com/go.able?linkcd=s060902030000&seq=10010044&idt=20260630&clsfcd=4&gubun=1",
-   "listUrl": "https://www.kbsec.com/go.able?linkcd=m06090002",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "ce6524a987",
-   "institution": "KB증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "연금, TDF & ETF 굴려볼까? 시즌 3",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "연금, TDF & ETF 굴려볼까? 시즌 3",
-   "url": "https://www.kbsec.com/go.able?linkcd=s060902030000&seq=10010041&idt=20260630&clsfcd=4&gubun=1",
-   "listUrl": "https://www.kbsec.com/go.able?linkcd=m06090002",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "cbaeb9c64e",
-   "institution": "KB증권",
-   "type": "증권사",
-   "categories": [
-    "irp"
-   ],
-   "title": "2026 시즌3 IRP 순입금(이전)",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "2026 시즌3 IRP 순입금(이전) 이벤트",
-   "url": "https://www.kbsec.com/go.able?linkcd=s060902030000&seq=10010039&idt=20260629&clsfcd=4&gubun=1",
-   "listUrl": "https://www.kbsec.com/go.able?linkcd=m06090002",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "31956e08d6",
-   "institution": "KB증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "KB와 시작하면 쏟아지는 혜택",
-   "start": "2026.06.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "KB와 시작하면 쏟아지는 혜택",
-   "url": "https://www.kbsec.com/go.able?linkcd=s060902030000&seq=10009884&idt=20260522&clsfcd=1&gubun=1",
-   "listUrl": "https://www.kbsec.com/go.able?linkcd=m06090002",
-   "firstSeen": "2026-09-24"
-  },
-  {
    "id": "8e36ed59cb",
    "institution": "KB증권",
    "type": "증권사",
@@ -1377,6 +1231,56 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "5e57db63b7",
+   "institution": "KB증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "IRP 순입금(이전) 이벤트 시즌4",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "IRP 순입금(이전) 이벤트 시즌4",
+   "url": "https://www.kbsec.com/go.able?linkcd=s060902030000&seq=10010426&idt=20260930&clsfcd=4&gubun=1",
+   "listUrl": "https://www.kbsec.com/go.able?linkcd=m06090002",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "56d034fc81",
+   "institution": "KB증권",
+   "type": "증권사",
+   "categories": [
+    "pension",
+    "savings"
+   ],
+   "title": "연금저축 순입금(이전) 이벤트 시즌4",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "연금저축 순입금(이전) 이벤트 시즌4",
+   "url": "https://www.kbsec.com/go.able?linkcd=s060902030000&seq=10010422&idt=20260930&clsfcd=4&gubun=1",
+   "listUrl": "https://www.kbsec.com/go.able?linkcd=m06090002",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "af1c9cafc6",
+   "institution": "KB증권",
+   "type": "증권사",
+   "categories": [
+    "pension",
+    "savings"
+   ],
+   "title": "연금저축, TDF & ETF 굴려볼까? 시즌 4",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "연금저축, TDF & ETF 굴려볼까? 시즌 4",
+   "url": "https://www.kbsec.com/go.able?linkcd=s060902030000&seq=10010419&idt=20260930&clsfcd=4&gubun=1",
+   "listUrl": "https://www.kbsec.com/go.able?linkcd=m06090002",
+   "firstSeen": "2026-10-01"
+  },
+  {
    "id": "5f6e72d730",
    "institution": "KB증권",
    "type": "증권사",
@@ -1492,22 +1396,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "1dfb034828",
-   "institution": "하나증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "새로워진 MTS 체험 이벤트 오늘종료",
-   "start": "2026.09.10",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-09-30"
-  },
-  {
    "id": "331dfa19af",
    "institution": "하나증권",
    "type": "증권사",
@@ -1521,7 +1409,7 @@
     "최대 3만원"
    ],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=704&startDate=00000000&endDate=20260930&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=704&startDate=00000000&endDate=20261001&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1537,7 +1425,7 @@
    "end": "2026.11.17",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=701&startDate=00000000&endDate=20260930&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=701&startDate=00000000&endDate=20261001&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1553,7 +1441,7 @@
    "end": "2026.11.20",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20260930&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261001&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1569,7 +1457,7 @@
    "end": "2026.12.06",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20260930&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261001&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1585,7 +1473,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20260930&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261001&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1601,7 +1489,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=702&startDate=00000000&endDate=20260930&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=702&startDate=00000000&endDate=20261001&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1617,7 +1505,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20260930&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261001&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1633,7 +1521,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20260930&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261001&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1649,7 +1537,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20260930&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261001&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1665,187 +1553,9 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "사이드바 열기",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20260930&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261001&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "aed8580446",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "irp"
-   ],
-   "title": "퇴직연금 IRP 이벤트",
-   "start": "2026.08.21",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "퇴직연금 IRP 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "6ff96caaa7",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "주식옮기기 이벤트",
-   "start": "2026.07.02",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "주식옮기기 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "d8ae7bc04d",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "새로워진 ETF 서비스 공유 이벤트 시즌2",
-   "start": "2026.08.18",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "새로워진 ETF 서비스 공유 이벤트 시즌2",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "ff21a0c35f",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "ETF FESTA 이벤트 시즌2",
-   "start": "2026.08.18",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "ETF FESTA 이벤트 시즌2",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "2a77f864df",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "휴면고객 3종 혜택 다 드림!",
-   "start": "2026.07.10",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "휴면고객 3종 혜택 다 드림!",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "c5aed8294c",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "isa"
-   ],
-   "title": "최대 501만 5천원 중개형ISA 혜자 이벤트",
-   "start": "2026.07.02",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "최대 501만 5천원 중개형ISA 혜자 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "fde1120060",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "pension",
-    "savings"
-   ],
-   "title": "연금저축 신규가입 이벤트",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "연금저축 신규가입 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "4741026749",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "연금 ETF 이벤트",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "연금 ETF 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "7ba223dffd",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "pension",
-    "savings"
-   ],
-   "title": "연금저축 수수료/순입금 이벤트",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "연금저축 수수료/순입금 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "b31a2488df",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "isa"
-   ],
-   "title": "중개형ISA ETF 거래 이벤트",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "중개형ISA ETF 거래 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "9fe08a9e95",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "irp"
-   ],
-   "title": "퇴직연금 도입요청 이벤트",
-   "start": "2026.06.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "퇴직연금 도입요청 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
   },
   {
    "id": "9f6f31d2d6",
@@ -2009,6 +1719,22 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "7ecd7e750f",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "절세 2종 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "절세 2종 이벤트",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-10-01"
+  },
+  {
    "id": "3b4e8dd621",
    "institution": "키움증권",
    "type": "증권사",
@@ -2123,6 +1849,105 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "5f0a12ada2",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "isa"
+   ],
+   "title": "4분기 중개형ISA 운용사 ETF 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.30",
+   "benefitHints": [],
+   "desc": "4분기 중개형ISA 운용사 ETF 이벤트",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "4477465aad",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "pension",
+    "savings"
+   ],
+   "title": "4분기 연금저축 운용사 ETF 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.30",
+   "benefitHints": [],
+   "desc": "4분기 연금저축 운용사 ETF 이벤트",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "fde1120060",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "pension",
+    "savings"
+   ],
+   "title": "연금저축 신규가입 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "연금저축 신규가입 이벤트",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "aed8580446",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "퇴직연금 IRP 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "퇴직연금 IRP 이벤트",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "7ba223dffd",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "pension",
+    "savings"
+   ],
+   "title": "연금저축 수수료/순입금 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "연금저축 수수료/순입금 이벤트",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "4d301bf932",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "isa"
+   ],
+   "title": "4분기 중개형ISA 계좌개설 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "4분기 중개형ISA 계좌개설 이벤트",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-10-01"
+  },
+  {
    "id": "71bdc16a9c",
    "institution": "키움증권",
    "type": "증권사",
@@ -2134,22 +1959,6 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "KRX 애프터마켓 신설 및 NXT 제도변경 안내",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "b07cd1a813",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "irp"
-   ],
-   "title": "퇴직연금 DC 이벤트",
-   "start": "2026.07.23",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "퇴직연금 DC 이벤트",
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-09-24"
@@ -2281,107 +2090,6 @@
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "79ed6e7d17",
-   "institution": "신한투자증권",
-   "type": "증권사",
-   "categories": [
-    "cma",
-    "savings"
-   ],
-   "title": "Day 발행어음 특판 세전 연4.5%",
-   "start": "2026.09.14",
-   "end": "2026.09.30",
-   "benefitHints": [
-    "4.5%"
-   ],
-   "desc": "발행어음 특판 세전 연4.5%",
-   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "0988893b8b",
-   "institution": "신한투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "Day 오픈기념 Light 상품 매수 이벤트",
-   "start": "2026.07.20",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "오픈기념 Light 상품 매수 이벤트",
-   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "a5cc99ddee",
-   "institution": "신한투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "Day 운용사 주관 TDF 순매수 이벤트",
-   "start": "2026.07.13",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "운용사 주관 TDF 순매수 이벤트",
-   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "fe767b42ea",
-   "institution": "신한투자증권",
-   "type": "증권사",
-   "categories": [
-    "irp"
-   ],
-   "title": "Day 퇴직연금 ETF 정기투자 이벤트",
-   "start": "2026.07.10",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "퇴직연금 ETF 정기투자 이벤트",
-   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "c6ebba024e",
-   "institution": "신한투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "Day 슈퍼SOL앱 신규가입 이벤트",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "슈퍼SOL앱 신규가입 이벤트",
-   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "a6fd405647",
-   "institution": "신한투자증권",
-   "type": "증권사",
-   "categories": [
-    "irp"
-   ],
-   "title": "Day 지금 IRP 시작하면 상품권 100% 드림",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [
-    "100%"
-   ],
-   "desc": "지금 IRP 시작하면 상품권 100% 드림",
-   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "firstSeen": "2026-09-30"
   },
   {
    "id": "9096ee27d0",
@@ -2811,25 +2519,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "724d8f2b68",
-   "institution": "대신증권",
-   "type": "증권사",
-   "categories": [
-    "isa",
-    "savings"
-   ],
-   "title": "중개형ISA 특판 RP 7.0% 중개형ISA 특판 RP 7.0%",
-   "start": "2026.01.01",
-   "end": "2026.12.31",
-   "benefitHints": [
-    "7.0%"
-   ],
-   "desc": "대신로고",
-   "url": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
-   "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
-   "firstSeen": "2026-09-24"
-  },
-  {
    "id": "7de9804a0b",
    "institution": "대신증권",
    "type": "증권사",
@@ -2991,22 +2680,6 @@
    "desc": "대신로고",
    "url": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
    "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "cd8f43927b",
-   "institution": "유안타증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "쿠팡이츠 랜덤쿠폰 받기 쿠팡이츠X유안타증권 제휴 기념! 쿠팡이츠 할인쿠폰받고 주문하러 GO DATE 자세히보기",
-   "start": "2026.09.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "쿠팡이츠 랜덤쿠폰 받기",
-   "url": "https://www.myasset.com/myasset/hello/event/CU_0203000_T1.cmd",
-   "listUrl": "https://www.myasset.com/myasset/hello/event/CU_0203000_T1.cmd",
    "firstSeen": "2026-09-24"
   },
   {
@@ -3179,135 +2852,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "e61f1e70b9",
-   "institution": "한화투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "비대면 계좌개설 이벤트",
-   "start": "2026.08.10",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "6ad4dc218c",
-   "institution": "한화투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "주식대출 갈아타기",
-   "start": "2026.08.10",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "주식대출 갈아타기 이벤트",
-   "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "3bd1f74f12",
-   "institution": "한화투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "주식대출 갈아타기 이벤트",
-   "start": "2026.07.13",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "31eb8f9a3d",
-   "institution": "한화투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "[영업점] 주식입고",
-   "start": "2026.07.13",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "[영업점] 주식입고 이벤트",
-   "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "4a76e6870d",
-   "institution": "한화투자증권",
-   "type": "증권사",
-   "categories": [
-    "pension",
-    "savings"
-   ],
-   "title": "연금저축 PLUS ETF 순매수/모으기",
-   "start": "2026.07.13",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "연금저축 PLUS ETF 순매수/모으기 이벤트",
-   "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "fc38ed6276",
-   "institution": "한화투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "디폴트옵션 최초 지정",
-   "start": "2026.07.06",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "디폴트옵션 최초 지정 이벤트",
-   "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "7161ce8526",
-   "institution": "한화투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "한화LIFEPLUS TDF 순매수",
-   "start": "2026.07.06",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "한화LIFEPLUS TDF 순매수 이벤트",
-   "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "9598c66a8b",
-   "institution": "한화투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "연금 순입금",
-   "start": "2026.07.06",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "연금 순입금 이벤트",
-   "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "firstSeen": "2026-09-24"
-  },
-  {
    "id": "fb472c4e51",
    "institution": "한화투자증권",
    "type": "증권사",
@@ -3404,6 +2948,38 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "9bf38d46f4",
+   "institution": "한화투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "바로가기 메뉴 본문 바로가기 하위메뉴 바로가기 웹접근성 안내(센스리더 이용가이드)",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "이벤트",
+   "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
+   "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "6ad4dc218c",
+   "institution": "한화투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "주식대출 갈아타기",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "주식대출 갈아타기 이벤트",
+   "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
+   "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
+   "firstSeen": "2026-09-24"
+  },
+  {
    "id": "ca5b903b52",
    "institution": "한화투자증권",
    "type": "증권사",
@@ -3453,54 +3029,20 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "d21f78872a",
-   "institution": "iM증권",
-   "type": "증권사",
-   "categories": [
-    "isa",
-    "pension",
-    "savings"
-   ],
-   "title": "연금저축,ISA ETF 매수 이벤트",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.imfnsec.com/mobile/cs/cs04_03.jsp?bid=C_E001",
-   "listUrl": "https://www.imfnsec.com/mobile/cs/cs04_03.jsp?bid=C_E001",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "70ada0fae9",
-   "institution": "iM증권",
-   "type": "증권사",
-   "categories": [
-    "irp"
-   ],
-   "title": "퇴직연금 ETF 매수 및 디폴트옵션 지정 이벤트",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.imfnsec.com/mobile/cs/cs04_03.jsp?bid=C_E001",
-   "listUrl": "https://www.imfnsec.com/mobile/cs/cs04_03.jsp?bid=C_E001",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "4c9f878a4d",
+   "id": "156a5444c3",
    "institution": "iM증권",
    "type": "증권사",
    "categories": [
     "other"
    ],
-   "title": "전체 69개의 검색결과가 있습니다.",
+   "title": "전체 67개의 검색결과가 있습니다.",
    "start": "2026.09.15",
    "end": "2026.10.15",
    "benefitHints": [],
    "desc": "",
    "url": "https://www.imfnsec.com/mobile/cs/cs04_03.jsp?bid=C_E001",
    "listUrl": "https://www.imfnsec.com/mobile/cs/cs04_03.jsp?bid=C_E001",
-   "firstSeen": "2026-09-24"
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "3a65ffb85d",
@@ -3567,112 +3109,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "7ffee3c398",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "대여서비스◆최대 10만원 혜택!◇(조건 충족 시) D-Day 디지털 국내주식 대여서비스최대 10만원 혜택! (조건 충족 시)",
-   "start": "2026.08.05",
-   "end": "2026.09.30",
-   "benefitHints": [
-    "최대 10만원"
-   ],
-   "desc": "국내주식 대여서비스◆최대 10만원 혜택!◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "0d3b68a63c",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "isa"
-   ],
-   "title": "중개형ISA는 ETF가 제철◆최대 11만원 혜택!!◇(조건 충족 시) D-Day 디지털 중개형ISA는 ETF가 제철최대 11만원 혜택!! (조건 충족 시)",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [
-    "최대 11만원"
-   ],
-   "desc": "중개형ISA는 ETF가 제철◆최대 11만원 혜택!!◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "48f2d4ccde",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "3분기 신규상장 ETF◆일거래 이벤트◇(조건 충족 시) D-Day 디지털 3분기 신규상장 ETF일거래 이벤트 (조건 충족 시)",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "3분기 신규상장 ETF◆일거래 이벤트◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "7ae9bca185",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "고객 혜택 총 정리!◆최대 203만원 혜택◇(조건 충족 시) D-Day 디지털 신규고객 혜택 총 정리!최대 203만원 혜택 (조건 충족 시)",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [
-    "최대 203만원"
-   ],
-   "desc": "신규고객 혜택 총 정리!◆최대 203만원 혜택◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "5d8c6bf85c",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "휴면고객 컴백홈!◆순입금고 시 최대 200만원 혜택!◇(조건 충족 시) D-Day 디지털 휴면고객 컴백홈!순입금고 시 최대 200만원 혜택! (조건 충족 시)",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [
-    "최대 200만원"
-   ],
-   "desc": "휴면고객 컴백홈!◆순입금고 시 최대 200만원 혜택!◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "770b34dcad",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "국내 선물 옵션 시작하고◆ 최대 2만원 혜택!◇(조건 충족 시) D-Day 디지털 국내 선물 옵션 시작하고 최대 2만원 혜택! (조건 충족 시)",
-   "start": "2026.06.25",
-   "end": "2026.09.30",
-   "benefitHints": [
-    "최대 2만원"
-   ],
-   "desc": "국내 선물 옵션 시작하고◆ 최대 2만원 혜택!◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-09-30"
-  },
-  {
    "id": "0046ac8f9f",
    "institution": "유진투자증권",
    "type": "증권사",
@@ -3687,6 +3123,127 @@
    "url": "https://m.eugenefn.com/ev10r.do",
    "listUrl": "https://m.eugenefn.com/ev10r.do",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "8d5792d6fd",
+   "institution": "유진투자증권",
+   "type": "증권사",
+   "categories": [
+    "isa"
+   ],
+   "title": "중개형ISA로 절세챙기고◆혜택은 더블로!◇(조건 충족 시) 디지털 중개형ISA로 절세챙기고혜택은 더블로! (조건 충족 시)",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "중개형ISA로 절세챙기고◆혜택은 더블로!◇(조건 충족 시)",
+   "url": "https://m.eugenefn.com/ev10r.do",
+   "listUrl": "https://m.eugenefn.com/ev10r.do",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "9866debd36",
+   "institution": "유진투자증권",
+   "type": "증권사",
+   "categories": [
+    "pension",
+    "savings"
+   ],
+   "title": "연금저축으로 환급챙기고◆혜택은 더블로!◇(조건 충족 시) 디지털 연금저축으로 환급챙기고혜택은 더블로! (조건 충족 시)",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "연금저축으로 환급챙기고◆혜택은 더블로!◇(조건 충족 시)",
+   "url": "https://m.eugenefn.com/ev10r.do",
+   "listUrl": "https://m.eugenefn.com/ev10r.do",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "d7dba51b05",
+   "institution": "유진투자증권",
+   "type": "증권사",
+   "categories": [
+    "isa",
+    "pension",
+    "savings"
+   ],
+   "title": "중개형ISA&연금저축◆ETF 순매수 더블 혜택!◇(조건 충족 시) 디지털 중개형ISA&연금저축ETF 순매수 더블 혜택! (조건 충족 시)",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "중개형ISA&연금저축◆ETF 순매수 더블 혜택!◇(조건 충족 시)",
+   "url": "https://m.eugenefn.com/ev10r.do",
+   "listUrl": "https://m.eugenefn.com/ev10r.do",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "e7e8440154",
+   "institution": "유진투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "투자 신입 공개 수배!◆현상금 5만원?!◇(조건 충족 시) 디지털 투자 신입 공개 수배!현상금 5만원?! (조건 충족 시)",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [
+    "5만원"
+   ],
+   "desc": "투자 신입 공개 수배!◆현상금 5만원?!◇(조건 충족 시)",
+   "url": "https://m.eugenefn.com/ev10r.do",
+   "listUrl": "https://m.eugenefn.com/ev10r.do",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "61995ac8a4",
+   "institution": "유진투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "대여서비스◆Npay 3만원 혜택!◇(조건 충족 시) 디지털 국내주식 대여서비스Npay 3만원 혜택! (조건 충족 시)",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [
+    "3만원"
+   ],
+   "desc": "국내주식 대여서비스◆Npay 3만원 혜택!◇(조건 충족 시)",
+   "url": "https://m.eugenefn.com/ev10r.do",
+   "listUrl": "https://m.eugenefn.com/ev10r.do",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "7c12c9d085",
+   "institution": "유진투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "4분기 신규상장 ETF◆일거래 이벤트◇(조건 충족 시) 디지털 4분기 신규상장 ETF일거래 이벤트 (조건 충족 시)",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "4분기 신규상장 ETF◆일거래 이벤트◇(조건 충족 시)",
+   "url": "https://m.eugenefn.com/ev10r.do",
+   "listUrl": "https://m.eugenefn.com/ev10r.do",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "2f1e3bf2cc",
+   "institution": "유진투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "자산 옮기면 최대 200만원! ◆국내 3대장주는 순입고 실적 2배!◇(조건 충족 시) 전고객 자산 옮기면 최대 200만원! 국내 3대장주는 순입고 실적 2배! (조건 충족 시)",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [
+    "최대 200만원"
+   ],
+   "desc": "자산 옮기면 최대 200만원! ◆국내 3대장주는 순입고 실적 2배!◇(조건 충족 시)",
+   "url": "https://m.eugenefn.com/ev10r.do",
+   "listUrl": "https://m.eugenefn.com/ev10r.do",
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "b3b3a80da6",
@@ -3737,54 +3294,40 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "82e2ed26e5",
+   "id": "741f631173",
    "institution": "SK증권",
    "type": "증권사",
    "categories": [
     "other"
    ],
-   "title": "[다이렉트 신규] 현금 VS 주식 VS 둘다 ! 혜택도 내맘대로 시작일 2026.09.01 종료일",
-   "start": "2026.09.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S02.cmd?senumber=27946&tab=ing&searchType=&searchVal=&page=1",
-   "listUrl": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S01.cmd",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "c083b4dbd0",
-   "institution": "SK증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "[다이렉트 신규] 아이 평생 선물, 수수료 평생우대&최대10만원 시작일 2026.09.01 종료일",
-   "start": "2026.09.01",
-   "end": "2026.09.30",
+   "title": "[다이렉트 신규] 10월 채우고, 수수료 평생우대 & 최대 201만원 시작일 2026.10.01 종료일",
+   "start": "2026.10.01",
+   "end": "2026.10.31",
    "benefitHints": [
-    "최대10만원"
+    "최대 201만원"
    ],
    "desc": "",
-   "url": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S02.cmd?senumber=27944&tab=ing&searchType=&searchVal=&page=1",
+   "url": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S02.cmd?senumber=28034&tab=ing&searchType=&searchVal=&page=1",
    "listUrl": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S01.cmd",
-   "firstSeen": "2026-09-24"
+   "firstSeen": "2026-10-01"
   },
   {
-   "id": "b52a9c8291",
+   "id": "b877696afc",
    "institution": "SK증권",
    "type": "증권사",
    "categories": [
     "other"
    ],
-   "title": "[SK증권 전고객] ETF 거래 이벤트, 상품권혜택! 시작일 2026.07.01 종료일",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "더보기 (현재페이지7/총페이지7)",
-   "url": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S02.cmd?senumber=27709&tab=ing&searchType=&searchVal=&page=1",
+   "title": "[다이렉트 신규] 10월 내아이 수수료 평생 우대 & 최대 10만원 시작일 2026.10.01 종료일",
+   "start": "2026.10.01",
+   "end": "2026.10.31",
+   "benefitHints": [
+    "최대 10만원"
+   ],
+   "desc": "",
+   "url": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S02.cmd?senumber=28032&tab=ing&searchType=&searchVal=&page=1",
    "listUrl": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S01.cmd",
-   "firstSeen": "2026-09-24"
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "8a9943a507",
@@ -3824,22 +3367,38 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "fe930e69b5",
+   "id": "0779d78050",
    "institution": "SK증권",
    "type": "증권사",
    "categories": [
     "other"
    ],
-   "title": "[다이렉트 신규] 배당금 더드림 이벤트, 최대 15% 추가혜택! 시작일 2026.06.01 종료일",
+   "title": "[SK증권 전고객] ETF 거래 이벤트, 상품권혜택! 시작일 2026.10.01 종료일",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S02.cmd?senumber=28035&tab=ing&searchType=&searchVal=&page=1",
+   "listUrl": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S01.cmd",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "9b7925a304",
+   "institution": "SK증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "[다이렉트 신규] 배당금 더드림 이벤트, 최대 30% 추가혜택! 시작일 2026.06.01 종료일",
    "start": "2026.06.01",
    "end": "2027.02.28",
    "benefitHints": [
-    "최대 15%"
+    "최대 30%"
    ],
-   "desc": "",
+   "desc": "더보기 (현재페이지7/총페이지7)",
    "url": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S02.cmd?senumber=27784&tab=ing&searchType=&searchVal=&page=1",
    "listUrl": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S01.cmd",
-   "firstSeen": "2026-09-24"
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "677a678932",
@@ -3857,38 +3416,6 @@
    "desc": "",
    "url": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S02.cmd?senumber=28002&tab=ing&searchType=&searchVal=&page=1",
    "listUrl": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S01.cmd",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "d5806fd6c2",
-   "institution": "LS증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "TIGER ETF 거래 이벤트(삼성전자SK하이닉스미국채혼합50)",
-   "start": "2026.09.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://m.ls-sec.co.kr/cs/event/open",
-   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "91af7ee160",
-   "institution": "LS증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "붉은 말, 끝까지 달린다! 국내선물옵션 수수료 할인 이벤트",
-   "start": "2026.07.02",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "더보기",
-   "url": "https://m.ls-sec.co.kr/cs/event/open",
-   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
    "firstSeen": "2026-09-24"
   },
   {
@@ -3972,22 +3499,6 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "22c013dffe",
-   "institution": "LS증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "주식모아 월급날 치킨 이벤트",
-   "start": "2026.08.25",
-   "end": "2026.10.23",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://m.ls-sec.co.kr/cs/event/open",
-   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
-   "firstSeen": "2026-09-24"
-  },
-  {
    "id": "01322a39cc",
    "institution": "LS증권",
    "type": "증권사",
@@ -4017,38 +3528,6 @@
    "desc": "",
    "url": "https://m.ls-sec.co.kr/cs/event/open",
    "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "6f6a9b87e8",
-   "institution": "DB증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "디지털 신규고객 이벤트",
-   "start": "2026.08.18",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "디지털 신규고객 이벤트",
-   "url": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
-   "listUrl": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "6230e25de9",
-   "institution": "DB증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "채권 매수 이벤트",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "채권 매수 이벤트",
-   "url": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
-   "listUrl": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
    "firstSeen": "2026-09-24"
   },
   {
@@ -4116,52 +3595,20 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "de24c25bfb",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "irp"
-   ],
-   "title": "더 좋아진 KB국민은행 IRP로, WELCOME♥ 3백만원 이상이면 전원 경품 드려요!",
-   "start": "2026.09.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "7e5b5161f8",
-   "institution": "KB국민은행",
-   "type": "은행",
+   "id": "029fd6edba",
+   "institution": "DB증권",
+   "type": "증권사",
    "categories": [
     "other"
    ],
-   "title": "[분산투자 응원이벤트] 차곡차곡 투자하고 두근두근 경품 혜택까지!",
-   "start": "2026.08.18",
-   "end": "2026.09.30",
+   "title": "고객만족도 설문조사 참여 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.10.31",
    "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "b87f479c1a",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "해외 갈 땐 eSIM까지! 환전하면 데이터 1GB 무료!",
-   "start": "2026.08.14",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-09-30"
+   "desc": "고객만족도 설문조사 참여 이벤트",
+   "url": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
+   "listUrl": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "538df7ef29",
@@ -4232,13 +3679,13 @@
    "firstSeen": "2026-09-30"
   },
   {
-   "id": "3ac441df0c",
+   "id": "0d4c511a65",
    "institution": "신한은행",
    "type": "은행",
    "categories": [
     "other"
    ],
-   "title": "신한으로 기초연금 받고 1만원 받아가세요! 연금은 신한은행, 최대 5만원 혜택 받자! 청년 청약머니 FESTA! D0",
+   "title": "신한으로 기초연금 받고 1만원 받아가세요! 연금은 신한은행, 최대 5만원 혜택 받자! SOL LINK 연계 이벤트 -SOL LINK와 레벨업",
    "start": "2026.09.28",
    "end": "2026.12.24",
    "benefitHints": [
@@ -4248,39 +3695,41 @@
    "desc": "신한으로 기초연금 받고 1만원 받아가세요!",
    "url": "https://www.shinhan.com/hpe/index.jsp#902304010000",
    "listUrl": "https://www.shinhan.com/hpe/index.jsp#902304010000",
-   "firstSeen": "2026-09-30"
+   "firstSeen": "2026-10-01"
   },
   {
-   "id": "356900c861",
+   "id": "9f1376eb7a",
    "institution": "신한은행",
    "type": "은행",
    "categories": [
     "other"
    ],
-   "title": "신한신한 50+ 걸어요 신한2026 리틀신한 청약바우처 이벤트",
+   "title": "첫 급여이체 혜택이 쭉! 계속드림 시즌2 신한첫 월급 이체하고 매월 급여이체하면 혜택이 쭉! 신한신한 50+ 걸어요",
+   "start": "2026.07.29",
+   "end": "2026.12.31",
+   "benefitHints": [
+    "최대5만원"
+   ],
+   "desc": "첫 급여이체부터 최대5만원 혜택이 쭉!",
+   "url": "https://www.shinhan.com/hpe/index.jsp#902304010000",
+   "listUrl": "https://www.shinhan.com/hpe/index.jsp#902304010000",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "79338d2db9",
+   "institution": "신한은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "신한2026 리틀신한 청약바우처 이벤트",
    "start": "2026.01.01",
    "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "걸음에 혜택을 더하다 신한 50+ 걸어요",
+   "desc": "2026 리틀신한 청약바우처 이벤트",
    "url": "https://www.shinhan.com/hpe/index.jsp#902304010000",
    "listUrl": "https://www.shinhan.com/hpe/index.jsp#902304010000",
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "ab9695fe00",
-   "institution": "신한은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "SOL LINK 연계 이벤트 -SOL LINK와 레벨업 첫 급여이체 혜택이 쭉! 계속드림 시즌2 신한첫 월급 이체하고 매월 급여이체하면 혜택이 쭉!",
-   "start": "2026.09.10",
-   "end": "2027.01.31",
-   "benefitHints": [],
-   "desc": "SOL LINK와 함께 내 통장 레벨업!",
-   "url": "https://www.shinhan.com/hpe/index.jsp#902304010000",
-   "listUrl": "https://www.shinhan.com/hpe/index.jsp#902304010000",
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "cf372fe195",
@@ -4313,22 +3762,6 @@
    "url": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
    "listUrl": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
    "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "9707d7a201",
-   "institution": "하나은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "별도장 꾸~욱 찍으면크리스피크림 도넛이 무료! [놀이터] 9월 출석체크 이벤트",
-   "start": "2026.09.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://m.kebhana.com/cont/event/new/event01/1528503_152465.jsp",
-   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
-   "firstSeen": "2026-09-24"
   },
   {
    "id": "649e0b614b",
@@ -4416,6 +3849,22 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "cf9a289e60",
+   "institution": "하나은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "26년 하반기 신규 가맹점 더블UP~#가맹점첫입금 #웰컴기프트 가맹점 매출대금 입금계좌 이벤트",
+   "start": "2026.08.18",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "이전 목록으로 이동 1 2 3 다음 목록으로 이동",
+   "url": "https://m.kebhana.com/cont/event/new/event01/1527213_152465.jsp",
+   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
+   "firstSeen": "2026-10-01"
+  },
+  {
    "id": "f2e7880da7",
    "institution": "하나은행",
    "type": "은행",
@@ -4460,10 +3909,28 @@
    "benefitHints": [
     "5만원"
    ],
-   "desc": "이전 목록으로 이동 1 2 3 다음 목록으로 이동",
+   "desc": "",
    "url": "https://m.kebhana.com/cont/event/new/event01/1528431_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "f1daecafde",
+   "institution": "하나은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "청년을 위한 든든한 혜택최대 2% 캐시백 받자 하나햇살론유스 상생금융 프로그램",
+   "start": "2026.08.24",
+   "end": "2027.08.24",
+   "benefitHints": [
+    "최대 2%"
+   ],
+   "desc": "",
+   "url": "https://m.kebhana.com/cont/event/new/event01/1512292_152465.jsp",
+   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "c8027fa6a3",
@@ -4495,88 +3962,6 @@
    "desc": "1",
    "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
    "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "8c9d4def44",
-   "institution": "IBK기업은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "9월 온라인 신규회원 연회비 포인트로 돌",
-   "start": "2026.09.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "9월 온라인 신규회원 연회비 포인트로 돌려받자 이벤트",
-   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103632&evnt_dscd=H&pageId=CM01060100",
-   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "f13860ccf2",
-   "institution": "IBK기업은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "나라사랑카드 X 슈마커 1만원 할인!",
-   "start": "2026.07.20",
-   "end": "2026.09.30",
-   "benefitHints": [
-    "1만원"
-   ],
-   "desc": "나라사랑카드 X 슈마커 1만원 할인!",
-   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103623&evnt_dscd=H&pageId=CM01060100",
-   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "0127ab18f5",
-   "institution": "IBK기업은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "IBK카드「마이리얼트립 항공권 마케팅」",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "IBK카드「마이리얼트립 항공권 마케팅」",
-   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103616&evnt_dscd=H&pageId=CM01060100",
-   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "fe09783548",
-   "institution": "IBK기업은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "IBK마스터카드 일본 여행 2천엔의 소확",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "IBK마스터카드 일본 여행 2천엔의 소확행",
-   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103618&evnt_dscd=H&pageId=CM01060100",
-   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "260304ec9e",
-   "institution": "IBK기업은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "「계좌개설하면 보이스피싱 보험 무료」",
-   "start": "2025.10.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "「계좌개설하면 보이스피싱 보험 무료」",
-   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103527&evnt_dscd=H&pageId=CM01060100",
-   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
    "firstSeen": "2026-09-30"
   },
   {
@@ -4994,7 +4379,7 @@
    ],
    "title": "iM뱅크-현대카드M 7만원 쓰고7만원 캐시백 받기",
    "start": "",
-   "end": "2026.09.30",
+   "end": "2026.10.01",
    "benefitHints": [
     "7만원"
    ],
@@ -5205,104 +4590,84 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "46fd34651d",
+   "id": "5c44ed5fa1",
    "institution": "BNK부산은행",
    "type": "은행",
    "categories": [
-    "other"
+    "irp"
    ],
-   "title": "한국거래소 X 부산은행 골드바 증정 이벤트",
-   "start": "2026.09.01",
-   "end": "2026.09.30",
+   "title": "수익률 1위 달성 IRP 이벤트",
+   "start": "2026.08.10",
+   "end": "2026.10.31",
    "benefitHints": [],
-   "desc": "한국거래소 X 부산은행 골드바 증정 이벤트",
+   "desc": "수익률 1위 달성 IRP 이벤트",
    "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCMN601001001",
    "listUrl": "https://www.busanbank.co.kr/ib20/mnu/BHPCMN601001001",
-   "firstSeen": "2026-09-24"
+   "firstSeen": "2026-10-01"
   },
   {
-   "id": "0941ff333e",
+   "id": "a4972ae49f",
    "institution": "BNK부산은행",
    "type": "은행",
    "categories": [
     "other"
    ],
-   "title": "생활요금 자동납부 캐시백 이벤트",
-   "start": "2026.07.01",
+   "title": "돈키호테 제휴 환전 이벤트",
+   "start": "2026.10.01",
    "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "생활요금 자동납부 캐시백 이벤트",
+   "desc": "은행 EVENT 더보기",
    "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCMN601001001",
    "listUrl": "https://www.busanbank.co.kr/ib20/mnu/BHPCMN601001001",
-   "firstSeen": "2026-09-24"
+   "firstSeen": "2026-10-01"
   },
   {
-   "id": "1af4bb94c2",
-   "institution": "BNK경남은행",
+   "id": "d76297f96e",
+   "institution": "BNK부산은행",
    "type": "은행",
    "categories": [
     "other"
    ],
-   "title": "서원유통 탑마트에서 1만원 할인받기!",
-   "start": "2026.09.01",
-   "end": "2026.09.30",
-   "benefitHints": [
-    "1만원"
-   ],
-   "desc": "서원유통 탑마트에서 1만원 할인받기!",
-   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "firstSeen": "2026-09-26"
-  },
-  {
-   "id": "39a09aba2e",
-   "institution": "BNK경남은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "다이슨 선풍기의 주인공이 되어보세요! 오픈뱅킹 신규가입 고객 이벤트",
-   "start": "2026.08.14",
-   "end": "2026.09.30",
+   "title": "은행 EVENT 더보기",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "다이슨 선풍기의 주인공이 되어보세요! 오픈뱅킹 신규가입 고객 이벤트",
-   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "firstSeen": "2026-09-26"
+   "desc": "카드 EVENT",
+   "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCMN601001001",
+   "listUrl": "https://www.busanbank.co.kr/ib20/mnu/BHPCMN601001001",
+   "firstSeen": "2026-10-01"
   },
   {
-   "id": "f6a1871a9f",
-   "institution": "BNK경남은행",
+   "id": "d28f504fd2",
+   "institution": "BNK부산은행",
    "type": "은행",
    "categories": [
     "other"
    ],
-   "title": "경남은행 BC카드 이용하고, 최대 5개월 무이자할부 혜택받자!",
-   "start": "2026.07.01",
-   "end": "2026.09.30",
+   "title": "카드 EVENT",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "경남은행 BC카드 이용하고 최대 5개월 무이자할부 혜택받자!",
-   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "firstSeen": "2026-09-26"
+   "desc": "",
+   "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCMN601001001",
+   "listUrl": "https://www.busanbank.co.kr/ib20/mnu/BHPCMN601001001",
+   "firstSeen": "2026-10-01"
   },
   {
-   "id": "d4dc442cae",
-   "institution": "BNK경남은행",
+   "id": "2a3786cd94",
+   "institution": "BNK부산은행",
    "type": "은행",
    "categories": [
     "other"
    ],
-   "title": "아이의 첫 결제 경험 용돈으로 응원해요!",
-   "start": "2026.06.24",
-   "end": "2026.09.30",
-   "benefitHints": [
-    "1만원"
-   ],
-   "desc": "우리 아이 첫 용돈관리! 아이의 첫 결제 경험 용돈으로 응원해요! 이벤트1 : 마이모먼트 체크카드 발급하고 익월 말까지 1건 이상 이용하면 1만원 용돈 지급! 이벤트2 : 대상카드로 이용기간 동안 이용조건 충족 시 추첨을 통해 용돈 지급!",
-   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "firstSeen": "2026-09-26"
+   "title": "무이자할부 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "무이자할부 이벤트",
+   "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCMN601001001",
+   "listUrl": "https://www.busanbank.co.kr/ib20/mnu/BHPCMN601001001",
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "d40f01d841",
@@ -5439,22 +4804,6 @@
    "firstSeen": "2026-09-26"
   },
   {
-   "id": "50179cff4c",
-   "institution": "BNK경남은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "카드 자동납부로 생활요금 할인 받으세요!",
-   "start": "2026.07.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "카드 자동납부로 생활요금 할인 받으세요!",
-   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "firstSeen": "2026-09-26"
-  },
-  {
    "id": "29a1961402",
    "institution": "BNK경남은행",
    "type": "은행",
@@ -5472,22 +4821,6 @@
    "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "firstSeen": "2026-09-26"
-  },
-  {
-   "id": "4a94c3b68b",
-   "institution": "광주은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "2026 광주은행 5th Harmony CONCERT와 함께하는 가을의 초대",
-   "start": "2026.09.01",
-   "end": "2026.09.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.kjbank.com/ib20/mnu/BHPFTLF040100",
-   "listUrl": "https://www.kjbank.com/ib20/mnu/BHPFTLF040100",
-   "firstSeen": "2026-09-24"
   },
   {
    "id": "2b188e9eb1",
