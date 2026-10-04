@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-10-04 09:25 KST",
+ "crawledAt": "2026-10-04 23:37 KST",
  "summary": {
-  "isa": 16,
-  "pension": 22,
-  "irp": 17,
+  "isa": 18,
+  "pension": 23,
+  "irp": 25,
   "cma": 9,
-  "savings": 27,
-  "other": 220
+  "savings": 29,
+  "other": 229
  },
  "sources": [
   {
@@ -76,10 +76,10 @@
    "name": "신한투자증권",
    "type": "증권사",
    "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "ok": false,
-   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
+   "ok": true,
+   "error": "",
    "note": "",
-   "count": 0
+   "count": 13
   },
   {
    "name": "메리츠증권",
@@ -211,19 +211,19 @@
    "name": "신한은행",
    "type": "은행",
    "url": "https://www.shinhan.com/hpe/index.jsp#902304010000",
-   "ok": false,
-   "error": "Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://www.shinhan.com/hpe/index.jsp#902304010000",
+   "ok": true,
+   "error": "",
    "note": "",
-   "count": 0
+   "count": 3
   },
   {
    "name": "우리은행",
    "type": "은행",
    "url": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
-   "ok": false,
-   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
+   "ok": true,
+   "error": "",
    "note": "",
-   "count": 0
+   "count": 2
   },
   {
    "name": "하나은행",
@@ -238,10 +238,10 @@
    "name": "NH농협은행",
    "type": "은행",
    "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "ok": false,
-   "error": "Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://banking.nonghyup.com/nhbank.html",
+   "ok": true,
+   "error": "",
    "note": "",
-   "count": 0
+   "count": 4
   },
   {
    "name": "IBK기업은행",
@@ -250,7 +250,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 20
+   "count": 19
   },
   {
    "name": "SC제일은행",
@@ -2223,6 +2223,219 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "9096ee27d0",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "주간 거래 이벤트",
+   "start": "2026.09.01",
+   "end": "2026.10.23",
+   "benefitHints": [],
+   "desc": "국내주식 주간 거래 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "c400549963",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "2026년 지점 세미나 신청 안내 - 10월",
+   "start": "2026.09.23",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "2026년 지점 세미나 신청 안내 - 10월",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "fa1661c006",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "금현물 거래 이벤트",
+   "start": "2026.08.07",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "금현물 거래 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "1bb4305dc2",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "퇴직연금 로보자동투자 이벤트",
+   "start": "2026.08.28",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "퇴직연금 로보자동투자 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "02a47d89c2",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "IRP 신규·입금/이전 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "IRP 신규·입금/이전 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "5a4f85eecc",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "pension",
+    "savings"
+   ],
+   "title": "연금저축 신규·입금/이전 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "연금저축 신규·입금/이전 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "24ee8328c2",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "isa"
+   ],
+   "title": "중개형ISA 신규ㆍ이전고객 최대 111만원 혜택",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [
+    "최대 111만원"
+   ],
+   "desc": "중개형ISA 신규ㆍ이전고객 최대 111만원 혜택",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "ebb2f94c13",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "온라인 수수료 제로베이스 이벤트",
+   "start": "2026.04.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "국내주식 온라인 수수료 제로베이스 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "5816f472dd",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "퇴직연금 DC 신규 웰컴 이벤트",
+   "start": "2026.04.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "퇴직연금 DC 신규 웰컴 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "cb7ba7f75c",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "퇴직연금 디폴트옵션 이벤트",
+   "start": "2026.04.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "퇴직연금 디폴트옵션 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "d185caa55b",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "isa"
+   ],
+   "title": "중개형 ISA 국내주식 수수료 혜택",
+   "start": "2026.01.02",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "중개형 ISA 국내주식 수수료 혜택",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "c0356a89e5",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "공모주 청약 한도 300% 우대",
+   "start": "2026.01.01",
+   "end": "2026.12.31",
+   "benefitHints": [
+    "300%"
+   ],
+   "desc": "공모주 청약 한도 300% 우대",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "eed25458ba",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "프로 %IRP 관리 수수료 혜택",
+   "start": "2026.01.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "프로 %IRP 관리 수수료 혜택",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-10-04"
+  },
+  {
    "id": "39d07de5e2",
    "institution": "메리츠증권",
    "type": "증권사",
@@ -3799,6 +4012,91 @@
    "firstSeen": "2026-10-03"
   },
   {
+   "id": "0d4c511a65",
+   "institution": "신한은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "신한으로 기초연금 받고 1만원 받아가세요! 연금은 신한은행, 최대 5만원 혜택 받자! SOL LINK 연계 이벤트 -SOL LINK와 레벨업",
+   "start": "2026.09.28",
+   "end": "2026.12.24",
+   "benefitHints": [
+    "1만원",
+    "최대 5만원"
+   ],
+   "desc": "신한으로 기초연금 받고 1만원 받아가세요!",
+   "url": "https://www.shinhan.com/hpe/index.jsp#902304010000",
+   "listUrl": "https://www.shinhan.com/hpe/index.jsp#902304010000",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "9f1376eb7a",
+   "institution": "신한은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "첫 급여이체 혜택이 쭉! 계속드림 시즌2 신한첫 월급 이체하고 매월 급여이체하면 혜택이 쭉! 신한신한 50+ 걸어요",
+   "start": "2026.07.29",
+   "end": "2026.12.31",
+   "benefitHints": [
+    "최대5만원"
+   ],
+   "desc": "첫 급여이체부터 최대5만원 혜택이 쭉!",
+   "url": "https://www.shinhan.com/hpe/index.jsp#902304010000",
+   "listUrl": "https://www.shinhan.com/hpe/index.jsp#902304010000",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "79338d2db9",
+   "institution": "신한은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "신한2026 리틀신한 청약바우처 이벤트",
+   "start": "2026.01.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "2026 리틀신한 청약바우처 이벤트",
+   "url": "https://www.shinhan.com/hpe/index.jsp#902304010000",
+   "listUrl": "https://www.shinhan.com/hpe/index.jsp#902304010000",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "cf372fe195",
+   "institution": "우리은행",
+   "type": "은행",
+   "categories": [
+    "irp"
+   ],
+   "title": "퇴직연금은 우리로, 혜택은 Npay로 퇴직연금은 우리로, 혜택은 Npay로 DC IRP 신규/추가입금 이벤트",
+   "start": "2026.07.22",
+   "end": "2026.10.30",
+   "benefitHints": [],
+   "desc": "현재 : 1/1 페이지 현재1",
+   "url": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
+   "listUrl": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "0f8bd1f718",
+   "institution": "우리은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "우리은행이랑 카톡 친구하면 혜택이 가득~! 우리은행이랑 카톡 친구하면 혜택이 가득~! 카카오톡 채널의 친구가 되어주세요!",
+   "start": "2026.01.14",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
+   "listUrl": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
+   "firstSeen": "2026-10-04"
+  },
+  {
    "id": "c758b2d7da",
    "institution": "하나은행",
    "type": "은행",
@@ -3966,20 +4264,68 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "3cf15d21bd",
-   "institution": "IBK기업은행",
+   "id": "c8027fa6a3",
+   "institution": "NH농협은행",
+   "type": "은행",
+   "categories": [
+    "irp"
+   ],
+   "title": "9월 3.3.1. IRP 고객감사 이벤트",
+   "start": "2026.09.01",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "548d38ea3c",
+   "institution": "NH농협은행",
    "type": "은행",
    "categories": [
     "other"
    ],
-   "title": "2026 입크페스티벌 응모",
-   "start": "2026.08.03",
-   "end": "2026.10.04",
+   "title": "좋아요 2",
+   "start": "",
+   "end": "2026.10.31",
    "benefitHints": [],
-   "desc": "2026 입크페스티벌 응모",
-   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103626&evnt_dscd=H&pageId=CM01060100",
-   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
-   "firstSeen": "2026-09-30"
+   "desc": "1",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "634cdba9e2",
+   "institution": "NH농협은행",
+   "type": "은행",
+   "categories": [
+    "savings"
+   ],
+   "title": "휴면예금 찾기 이벤트 나의 휴면예금 캐치캐치",
+   "start": "2026.10.01",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "id": "9187dd42f2",
+   "institution": "NH농협은행",
+   "type": "은행",
+   "categories": [
+    "irp"
+   ],
+   "title": "좋아요 0",
+   "start": "",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "9월 3.3.1. IRP 고객감사 이벤트",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-10-04"
   },
   {
    "id": "1f51a584c7",
