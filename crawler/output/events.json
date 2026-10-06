@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-10-06 11:07 KST",
+ "crawledAt": "2026-10-07 00:41 KST",
  "summary": {
-  "isa": 18,
+  "isa": 19,
   "pension": 23,
-  "irp": 23,
+  "irp": 25,
   "cma": 9,
   "savings": 28,
-  "other": 229
+  "other": 226
  },
  "sources": [
   {
@@ -97,7 +97,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 22
+   "count": 23
   },
   {
    "name": "토스증권",
@@ -151,7 +151,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 5
+   "count": 6
   },
   {
    "name": "유진투자증권",
@@ -187,7 +187,7 @@
    "ok": true,
    "error": "",
    "note": "봇 차단(Eversafe)으로 자동 수집 불가할 수 있음",
-   "count": 11
+   "count": 12
   },
   {
    "name": "DB증권",
@@ -238,10 +238,10 @@
    "name": "NH농협은행",
    "type": "은행",
    "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "ok": false,
-   "error": "Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://banking.nonghyup.com/nhbank.html",
+   "ok": true,
+   "error": "",
    "note": "",
-   "count": 0
+   "count": 4
   },
   {
    "name": "IBK기업은행",
@@ -257,9 +257,9 @@
    "type": "은행",
    "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
    "ok": true,
-   "error": "",
+   "error": "페이지 내용이 거의 없음 — URL 변경/차단 확인 필요",
    "note": "목록에 기간 표시 없음",
-   "count": 7
+   "count": 0
   },
   {
    "name": "iM뱅크",
@@ -507,7 +507,7 @@
    "start": "2026.09.30",
    "end": "2026.10.15",
    "benefitHints": [],
-   "desc": "",
+   "desc": "처음으로 이전으로 현재페이지1 2 3 다음으로 마지막으로",
    "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "firstSeen": "2026-10-01"
@@ -563,22 +563,6 @@
    "firstSeen": "2026-10-01"
   },
   {
-   "id": "cecc0a0b90",
-   "institution": "한국투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "8회 실전투자대회 한투배틀",
-   "start": "2026.10.06",
-   "end": "2026.10.30",
-   "benefitHints": [],
-   "desc": "처음으로 이전으로 현재페이지1 2 3 다음으로 마지막으로",
-   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "firstSeen": "2026-10-06"
-  },
-  {
    "id": "2339ee3150",
    "institution": "한국투자증권",
    "type": "증권사",
@@ -593,6 +577,22 @@
    "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "3adbbacc81",
+   "institution": "한국투자증권",
+   "type": "증권사",
+   "categories": [
+    "isa"
+   ],
+   "title": "뱅키스 ISA중개형과 함께 금(金)빛 내일 시작!",
+   "start": "2026.10.01",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "firstSeen": "2026-10-07"
   },
   {
    "id": "9020c85301",
@@ -1476,7 +1476,7 @@
     "최대 3만원"
    ],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=704&startDate=00000000&endDate=20261006&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=704&startDate=00000000&endDate=20261007&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1492,7 +1492,7 @@
    "end": "2026.11.17",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=701&startDate=00000000&endDate=20261006&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=701&startDate=00000000&endDate=20261007&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1508,7 +1508,7 @@
    "end": "2026.11.20",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261006&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261007&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1524,7 +1524,7 @@
    "end": "2026.12.06",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261006&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261007&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1540,7 +1540,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261006&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261007&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1556,7 +1556,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=702&startDate=00000000&endDate=20261006&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=702&startDate=00000000&endDate=20261007&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1572,7 +1572,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261006&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261007&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1588,7 +1588,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261006&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261007&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1604,7 +1604,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261006&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261007&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1620,7 +1620,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "사이드바 열기",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261006&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261007&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -2619,6 +2619,22 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "a415ee10e9",
+   "institution": "대신증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "알림 신청 이벤트 2027년 다이어리 세트 받으세요!",
+   "start": "2026.10.06",
+   "end": "2026.10.30",
+   "benefitHints": [],
+   "desc": "대신로고",
+   "url": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "firstSeen": "2026-10-07"
+  },
+  {
    "id": "7dd4b7ff94",
    "institution": "대신증권",
    "type": "증권사",
@@ -3269,6 +3285,22 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "3121c65c9e",
+   "institution": "iM증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "iM증권 대구경북 지역 대학생 모의투자대회",
+   "start": "2026.08.24",
+   "end": "2026.10.08",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://www.imfnsec.com/mobile/cs/cs04_03.jsp?bid=C_E001",
+   "listUrl": "https://www.imfnsec.com/mobile/cs/cs04_03.jsp?bid=C_E001",
+   "firstSeen": "2026-10-07"
+  },
+  {
    "id": "156a5444c3",
    "institution": "iM증권",
    "type": "증권사",
@@ -3819,6 +3851,22 @@
    "firstSeen": "2026-10-01"
   },
   {
+   "id": "08c36c5909",
+   "institution": "LS증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "[주식모아] 크리스마스 디데이 이벤트",
+   "start": "2026.10.06",
+   "end": "2026.12.22",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.ls-sec.co.kr/cs/event/open",
+   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
+   "firstSeen": "2026-10-07"
+  },
+  {
    "id": "e42a5bb273",
    "institution": "LS증권",
    "type": "증권사",
@@ -4283,6 +4331,70 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "c8027fa6a3",
+   "institution": "NH농협은행",
+   "type": "은행",
+   "categories": [
+    "irp"
+   ],
+   "title": "9월 3.3.1. IRP 고객감사 이벤트",
+   "start": "2026.09.01",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-10-07"
+  },
+  {
+   "id": "548d38ea3c",
+   "institution": "NH농협은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "좋아요 2",
+   "start": "",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "1",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-10-07"
+  },
+  {
+   "id": "634cdba9e2",
+   "institution": "NH농협은행",
+   "type": "은행",
+   "categories": [
+    "savings"
+   ],
+   "title": "휴면예금 찾기 이벤트 나의 휴면예금 캐치캐치",
+   "start": "2026.10.01",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-10-07"
+  },
+  {
+   "id": "9187dd42f2",
+   "institution": "NH농협은행",
+   "type": "은행",
+   "categories": [
+    "irp"
+   ],
+   "title": "좋아요 0",
+   "start": "",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "9월 3.3.1. IRP 고객감사 이벤트",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-10-07"
+  },
+  {
    "id": "1f51a584c7",
    "institution": "IBK기업은행",
    "type": "은행",
@@ -4591,118 +4703,6 @@
    "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103628&evnt_dscd=H&pageId=CM01060100",
    "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
    "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "7542ee0c2e",
-   "institution": "SC제일은행",
-   "type": "은행",
-   "categories": [
-    "savings"
-   ],
-   "title": "대한항공 마일리지 예금 신상품 출시 이벤트 대한항공 마일리지 예금 신상품 출시 이벤트",
-   "start": "",
-   "end": "",
-   "benefitHints": [],
-   "desc": "대한항공 마일리지 예금 신상품 출시 이벤트",
-   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "93c18f3886",
-   "institution": "SC제일은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "SC제일은행 해외송금 2차 이벤트 해외송금 이벤트",
-   "start": "",
-   "end": "",
-   "benefitHints": [],
-   "desc": "SC제일은행 해외송금 2차 이벤트",
-   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "99c2028e7f",
-   "institution": "SC제일은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "Priority Private 서비스 신청 이벤트 [바즈] Priority Banking 서비스 신청 이벤트 [바즈]",
-   "start": "",
-   "end": "",
-   "benefitHints": [],
-   "desc": "Priority Private 서비스 신청 이벤트 [바즈]",
-   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "35a90b29ed",
-   "institution": "SC제일은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "Priority Private 서비스 신청 이벤트 [파트너사] Priority Banking 서비스 신청 이벤트 [파트너사]",
-   "start": "",
-   "end": "",
-   "benefitHints": [],
-   "desc": "Priority Private 서비스 신청 이벤트 [파트너사]",
-   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "1afe38d10c",
-   "institution": "SC제일은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "SC제일은행-현대카드 이벤트 다양한 'SC제일은행-현대카드'의 혜택을 지금 만나보세요.",
-   "start": "",
-   "end": "",
-   "benefitHints": [],
-   "desc": "SC제일은행-현대카드 이벤트",
-   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "d1cbd5da4d",
-   "institution": "SC제일은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "금융결제원 CMS 신규 계약 이벤트 금융결제원 CMS 신규 계약 이벤트",
-   "start": "",
-   "end": "",
-   "benefitHints": [],
-   "desc": "금융결제원 CMS 신규 계약 이벤트",
-   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "bbad083dcb",
-   "institution": "SC제일은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "비즈니스뱅킹 수수료면제 이벤트 비즈니스뱅킹 수수료면제 이벤트",
-   "start": "",
-   "end": "",
-   "benefitHints": [],
-   "desc": "비즈니스뱅킹 수수료면제 이벤트",
-   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "firstSeen": "2026-09-24"
   },
   {
    "id": "65cb749b0d",
