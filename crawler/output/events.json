@@ -1,11 +1,11 @@
 {
- "crawledAt": "2026-10-06 02:49 KST",
+ "crawledAt": "2026-10-06 11:07 KST",
  "summary": {
   "isa": 18,
   "pension": 23,
-  "irp": 25,
+  "irp": 23,
   "cma": 9,
-  "savings": 29,
+  "savings": 28,
   "other": 229
  },
  "sources": [
@@ -97,7 +97,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 21
+   "count": 22
   },
   {
    "name": "토스증권",
@@ -187,7 +187,7 @@
    "ok": true,
    "error": "",
    "note": "봇 차단(Eversafe)으로 자동 수집 불가할 수 있음",
-   "count": 10
+   "count": 11
   },
   {
    "name": "DB증권",
@@ -238,10 +238,10 @@
    "name": "NH농협은행",
    "type": "은행",
    "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "ok": true,
-   "error": "",
+   "ok": false,
+   "error": "Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://banking.nonghyup.com/nhbank.html",
    "note": "",
-   "count": 4
+   "count": 0
   },
   {
    "name": "IBK기업은행",
@@ -286,7 +286,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 14
+   "count": 13
   },
   {
    "name": "광주은행",
@@ -2651,6 +2651,25 @@
    "firstSeen": "2026-10-01"
   },
   {
+   "id": "be43a89f58",
+   "institution": "대신증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "고배당 투자에 혜택을 더하다 최대 혜택 40만원+100만원!",
+   "start": "2026.10.06",
+   "end": "2026.11.20",
+   "benefitHints": [
+    "40만원",
+    "100만원"
+   ],
+   "desc": "대신로고",
+   "url": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "firstSeen": "2026-10-06"
+  },
+  {
    "id": "4c1b9f1078",
    "institution": "대신증권",
    "type": "증권사",
@@ -3800,6 +3819,22 @@
    "firstSeen": "2026-10-01"
   },
   {
+   "id": "e42a5bb273",
+   "institution": "LS증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "붉은 말, 밤낮없이 달린다! 국내선물옵션 수수료 할인 이벤트!",
+   "start": "2026.10.06",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.ls-sec.co.kr/cs/event/open",
+   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
+   "firstSeen": "2026-10-06"
+  },
+  {
    "id": "96283dc1ab",
    "institution": "LS증권",
    "type": "증권사",
@@ -4246,70 +4281,6 @@
    "url": "https://m.kebhana.com/cont/event/new/event01/1528720_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "c8027fa6a3",
-   "institution": "NH농협은행",
-   "type": "은행",
-   "categories": [
-    "irp"
-   ],
-   "title": "9월 3.3.1. IRP 고객감사 이벤트",
-   "start": "2026.09.01",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "firstSeen": "2026-10-04"
-  },
-  {
-   "id": "548d38ea3c",
-   "institution": "NH농협은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "좋아요 2",
-   "start": "",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "1",
-   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "firstSeen": "2026-10-04"
-  },
-  {
-   "id": "634cdba9e2",
-   "institution": "NH농협은행",
-   "type": "은행",
-   "categories": [
-    "savings"
-   ],
-   "title": "휴면예금 찾기 이벤트 나의 휴면예금 캐치캐치",
-   "start": "2026.10.01",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "firstSeen": "2026-10-04"
-  },
-  {
-   "id": "9187dd42f2",
-   "institution": "NH농협은행",
-   "type": "은행",
-   "categories": [
-    "irp"
-   ],
-   "title": "좋아요 0",
-   "start": "",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "9월 3.3.1. IRP 고객감사 이벤트",
-   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "firstSeen": "2026-10-04"
   },
   {
    "id": "1f51a584c7",
@@ -5131,22 +5102,6 @@
    "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "c739f2eec5",
-   "institution": "BNK경남은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "BNK 경남은행으로 월급받고, 친구와 함께 캐시백!",
-   "start": "2026.10.06",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "외국인 소개 이벤트",
-   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "firstSeen": "2026-10-06"
   },
   {
    "id": "885fb6a227",
