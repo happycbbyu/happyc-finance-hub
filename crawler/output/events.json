@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-10-07 00:41 KST",
+ "crawledAt": "2026-10-07 10:17 KST",
  "summary": {
   "isa": 19,
   "pension": 23,
   "irp": 25,
-  "cma": 9,
-  "savings": 28,
-  "other": 226
+  "cma": 8,
+  "savings": 30,
+  "other": 234
  },
  "sources": [
   {
@@ -34,7 +34,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 11
+   "count": 12
   },
   {
    "name": "삼성증권",
@@ -178,7 +178,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 7
+   "count": 8
   },
   {
    "name": "LS증권",
@@ -257,9 +257,9 @@
    "type": "은행",
    "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
    "ok": true,
-   "error": "페이지 내용이 거의 없음 — URL 변경/차단 확인 필요",
+   "error": "",
    "note": "목록에 기간 표시 없음",
-   "count": 0
+   "count": 7
   },
   {
    "name": "iM뱅크",
@@ -657,6 +657,22 @@
    "url": "https://m.mynamuh.com/customer/event/eventView?mNo=1036",
    "listUrl": "https://m.mynamuh.com/customer/event/eventList",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "cc4fb9e5f2",
+   "institution": "NH투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "ACE ETFACE 전략산업 반도체 ETF 매수 이벤트",
+   "start": "2026.10.07",
+   "end": "2026.10.20",
+   "benefitHints": [],
+   "desc": "ACE ETFACE 전략산업 반도체 ETF 매수 이벤트",
+   "url": "https://m.mynamuh.com/customer/event/eventView?mNo=1058",
+   "listUrl": "https://m.mynamuh.com/customer/event/eventList",
+   "firstSeen": "2026-10-07"
   },
   {
    "id": "f716fe986e",
@@ -3582,6 +3598,22 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "51016af79c",
+   "institution": "SK증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "SK하이닉스 자사주 매입 주관 기념 시작일 2026.10.06 종료일",
+   "start": "2026.10.06",
+   "end": "2026.10.20",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S01.cmd",
+   "listUrl": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S01.cmd",
+   "firstSeen": "2026-10-07"
+  },
+  {
    "id": "741f631173",
    "institution": "SK증권",
    "type": "증권사",
@@ -3683,7 +3715,7 @@
    "benefitHints": [
     "최대 30%"
    ],
-   "desc": "더보기 (현재페이지7/총페이지7)",
+   "desc": "더보기 (현재페이지8/총페이지8)",
    "url": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S02.cmd?senumber=27784&tab=ing&searchType=&searchVal=&page=1",
    "listUrl": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S01.cmd",
    "firstSeen": "2026-10-01"
@@ -4249,6 +4281,22 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "91058f6252",
+   "institution": "하나은행",
+   "type": "은행",
+   "categories": [
+    "savings"
+   ],
+   "title": "미래를 위한 첫 시작!청년미래적금 이벤트 청년미래적금 이벤트",
+   "start": "2026.10.07",
+   "end": "2026.11.27",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.kebhana.com/cont/event/new/event01/1528955_152465.jsp",
+   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
+   "firstSeen": "2026-10-07"
+  },
+  {
    "id": "24fb79abf1",
    "institution": "하나은행",
    "type": "은행",
@@ -4263,22 +4311,6 @@
    "url": "https://m.kebhana.com/cont/event/new/event01/1528582_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "f2e7880da7",
-   "institution": "하나은행",
-   "type": "은행",
-   "categories": [
-    "cma"
-   ],
-   "title": "미성년자 파킹통장은원픽통장으로 원픽! 원픽통장 가입이벤트",
-   "start": "2026.09.03",
-   "end": "2026.12.13",
-   "benefitHints": [],
-   "desc": "이전 목록으로 이동 1 2 3 다음 목록으로 이동",
-   "url": "https://m.kebhana.com/cont/event/new/event01/1528525_152465.jsp",
-   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
-   "firstSeen": "2026-09-24"
   },
   {
    "id": "6ef1482336",
@@ -4325,7 +4357,7 @@
    "start": "2026.09.17",
    "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "",
+   "desc": "이전 목록으로 이동 1 2 3 다음 목록으로 이동",
    "url": "https://m.kebhana.com/cont/event/new/event01/1528720_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-09-24"
@@ -4703,6 +4735,118 @@
    "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103628&evnt_dscd=H&pageId=CM01060100",
    "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
    "firstSeen": "2026-09-30"
+  },
+  {
+   "id": "7542ee0c2e",
+   "institution": "SC제일은행",
+   "type": "은행",
+   "categories": [
+    "savings"
+   ],
+   "title": "대한항공 마일리지 예금 신상품 출시 이벤트 대한항공 마일리지 예금 신상품 출시 이벤트",
+   "start": "",
+   "end": "",
+   "benefitHints": [],
+   "desc": "대한항공 마일리지 예금 신상품 출시 이벤트",
+   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
+   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
+   "firstSeen": "2026-10-07"
+  },
+  {
+   "id": "93c18f3886",
+   "institution": "SC제일은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "SC제일은행 해외송금 2차 이벤트 해외송금 이벤트",
+   "start": "",
+   "end": "",
+   "benefitHints": [],
+   "desc": "SC제일은행 해외송금 2차 이벤트",
+   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
+   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
+   "firstSeen": "2026-10-07"
+  },
+  {
+   "id": "99c2028e7f",
+   "institution": "SC제일은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "Priority Private 서비스 신청 이벤트 [바즈] Priority Banking 서비스 신청 이벤트 [바즈]",
+   "start": "",
+   "end": "",
+   "benefitHints": [],
+   "desc": "Priority Private 서비스 신청 이벤트 [바즈]",
+   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
+   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
+   "firstSeen": "2026-10-07"
+  },
+  {
+   "id": "35a90b29ed",
+   "institution": "SC제일은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "Priority Private 서비스 신청 이벤트 [파트너사] Priority Banking 서비스 신청 이벤트 [파트너사]",
+   "start": "",
+   "end": "",
+   "benefitHints": [],
+   "desc": "Priority Private 서비스 신청 이벤트 [파트너사]",
+   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
+   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
+   "firstSeen": "2026-10-07"
+  },
+  {
+   "id": "1afe38d10c",
+   "institution": "SC제일은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "SC제일은행-현대카드 이벤트 다양한 'SC제일은행-현대카드'의 혜택을 지금 만나보세요.",
+   "start": "",
+   "end": "",
+   "benefitHints": [],
+   "desc": "SC제일은행-현대카드 이벤트",
+   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
+   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
+   "firstSeen": "2026-10-07"
+  },
+  {
+   "id": "d1cbd5da4d",
+   "institution": "SC제일은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "금융결제원 CMS 신규 계약 이벤트 금융결제원 CMS 신규 계약 이벤트",
+   "start": "",
+   "end": "",
+   "benefitHints": [],
+   "desc": "금융결제원 CMS 신규 계약 이벤트",
+   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
+   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
+   "firstSeen": "2026-10-07"
+  },
+  {
+   "id": "bbad083dcb",
+   "institution": "SC제일은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "비즈니스뱅킹 수수료면제 이벤트 비즈니스뱅킹 수수료면제 이벤트",
+   "start": "",
+   "end": "",
+   "benefitHints": [],
+   "desc": "비즈니스뱅킹 수수료면제 이벤트",
+   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
+   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
+   "firstSeen": "2026-10-07"
   },
   {
    "id": "65cb749b0d",
