@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-10-11 00:01 KST",
+ "crawledAt": "2026-10-11 09:44 KST",
  "summary": {
-  "isa": 17,
-  "pension": 21,
-  "irp": 23,
-  "cma": 7,
-  "savings": 29,
-  "other": 225
+  "isa": 19,
+  "pension": 23,
+  "irp": 25,
+  "cma": 8,
+  "savings": 31,
+  "other": 238
  },
  "sources": [
   {
@@ -40,10 +40,10 @@
    "name": "삼성증권",
    "type": "증권사",
    "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
-   "ok": false,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='www.samsungpop.com', port=443): Read timed out. (read timeout=30)",
+   "ok": true,
+   "error": "",
    "note": "",
-   "count": 0
+   "count": 20
   },
   {
    "name": "KB증권",
@@ -826,6 +826,332 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "19b338b595",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "cma"
+   ],
+   "title": "발행어음가입이벤트",
+   "start": "2026.09.21",
+   "end": "2026.10.30",
+   "benefitHints": [],
+   "desc": "발행어음 가입하고, 혜택 UP! 발행어음 출시 이벤트(발행어음 가입 및 조건충족시)(기간 : ~10.30)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3913",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "076d42bbf2",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "국내주식 고객감사제이벤트",
+   "start": "2026.08.14",
+   "end": "2026.10.30",
+   "benefitHints": [],
+   "desc": "국내주식 고객감사제 이벤트(신규,휴면고객,조건충족시)(기간 : 26.8.14~10.30)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3883",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "7eb207dd0a",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "투자안정지원금 패키지 이벤트",
+   "start": "2026.07.13",
+   "end": "2026.10.30",
+   "benefitHints": [],
+   "desc": "삼성증권이 쏩니다! 투자안정지원금 챙겨가세요(이벤트별 상세 조건 확인)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3859",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "9dd17522e2",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "금 모으기 이벤트",
+   "start": "2026.07.13",
+   "end": "2026.10.30",
+   "benefitHints": [],
+   "desc": "금모으기 이벤트 투자지원금 받기!(조건충족 시)(기간 : 26.7.13~10.30)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3856",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "046e2aaa34",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "자녀자산관리 서비스 출시 이벤트",
+   "start": "2026.05.04",
+   "end": "2026.10.30",
+   "benefitHints": [
+    "최대 3만원"
+   ],
+   "desc": "조건 충족 시 최대 3만원 자녀자산관리 서비스 이벤트 (만 19세 미만 자녀 고객)(기간 : 26.5.4~10.30)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3804",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "8270889314",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "[연금]삼성증권이 연금고객에게 치킨쏜닭!",
+   "start": "2026.10.01",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "삼성증권이 연금 고객에게 치킨쏜닭! 이벤트(추첨 지급)(기간 : 26.10.1~10.31)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3917",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "017f3264a2",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "[신규] 모니모 앱 가입 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "10월에 모니모 가입하면 5천원 전원 증정!(신규,이벤트 신청 필수)(기간 : 26.10.1~10.31)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=2171",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "8cc7d72bc2",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "isa"
+   ],
+   "title": "중개형ISA 점프-업! 이벤트(26.8~10월)",
+   "start": "2026.08.01",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "2026년 8월~10월 중개형 ISA 점프-업! 이벤트(이벤트 신청 필수)(기간 : 26.8.1~10.31)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3869",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "51419fc206",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "pension",
+    "savings"
+   ],
+   "title": "[연금] 연금저축 점프-업! 이벤트(26.8~10월)",
+   "start": "2026.08.01",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "당신의 연금, 오늘 삼성증권에서. 연금저축 파워-업! 이벤트(2026년 8~10월)(기간 : 26.8.1~10.31)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3871",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "e715212960",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "퇴직연금(IRP/DC) 점프-업! 이벤트(26.8~10월)",
+   "start": "2026.08.01",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "IRP, DC에서도 투자를 놓치지 마세요! 퇴직연금 파워-업! 이벤트 2026년 8~10월 (기간 : 26.8.1 ~ 10.31)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3867",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "849632ecdc",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "굴링 첫 투자 이벤트",
+   "start": "2026.09.18",
+   "end": "2026.12.18",
+   "benefitHints": [
+    "1만원"
+   ],
+   "desc": "굴링 첫 고객이면 1만원을 받을 수 있어요",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3914",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "574403709c",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "[삼성선물] 국내선물옵션 첫만남 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.30",
+   "benefitHints": [],
+   "desc": "삼성전물 국내선물옵션 첫만남 이벤트(삼성선물 주관)(기간 : 26.10.1~12.30)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3921",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "39c4a31354",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "국내주식모으기이벤트",
+   "start": "2026.07.13",
+   "end": "2026.12.30",
+   "benefitHints": [],
+   "desc": "국내주식모으기 첫 거래하고 랜덤주식 지급받자!",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3861",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "1e5856f4d3",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "2026년 4분기 국내선물옵션 수수료 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "국내선물옵션 주/야간 온라인 거래 수수료 삼삼한 할인 이벤트(비대면 신규,휴면 고객)(기간 : 26.10.1~12.31)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3919",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "a123628f5b",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "2026 특별한 연금페스타",
+   "start": "2026.09.16",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3904",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "6c425e866a",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "[연금] 퇴직연금(IRP/DC) 개인투자용 국채 이벤트(26.9~12월)",
+   "start": "2026.09.09",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "퇴직연금 개인투자용 국채 이벤트(9월~12월)(기간 : 26.9.9~12.21)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3897",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "c49b4f0655",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "국내주식 온라인 거래수수료 우대이벤트",
+   "start": "2026.07.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "신규/휴면 고객 웰컴 이벤트 국내온라인 수수료(조건충족 시 (신청필수))(기간 : 26.7.1 ~ 12.31)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3849",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "ae77c88351",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "RIA(국내시장 복귀계좌) 수수료 우대 이벤트",
+   "start": "2026.03.23",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3770",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "0a53687815",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "pension",
+    "savings"
+   ],
+   "title": "'26년 연금저축계좌 ETF/리츠 온라인 거래수수료 혜택",
+   "start": "2026.01.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "삼성증권 연금저축계좌 ETF/리츠 거래수수료 혜택(기간 : 2026.12.31 까지)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3722",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "8faac55778",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "isa"
+   ],
+   "title": "'26년 중개형 ISA 평생혜택계좌 수수료 혜택",
+   "start": "2026.01.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "나는 중개형 ISA로 절세한다 - 평생혜택계좌(기간 : 26.1.1~12.31)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3720",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-11"
+  },
+  {
    "id": "1650604e50",
    "institution": "KB증권",
    "type": "증권사",
@@ -1182,7 +1508,7 @@
     "최대 3만원"
    ],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=704&startDate=00000000&endDate=20261010&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=704&startDate=00000000&endDate=20261011&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1198,7 +1524,7 @@
    "end": "2026.11.17",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=701&startDate=00000000&endDate=20261010&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=701&startDate=00000000&endDate=20261011&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1214,7 +1540,7 @@
    "end": "2026.11.20",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261010&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261011&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1230,7 +1556,7 @@
    "end": "2026.12.06",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261010&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261011&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1246,7 +1572,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261010&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261011&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1262,7 +1588,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=702&startDate=00000000&endDate=20261010&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=702&startDate=00000000&endDate=20261011&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1278,7 +1604,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261010&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261011&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1294,7 +1620,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261010&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261011&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1310,7 +1636,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261010&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261011&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1326,7 +1652,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "사이드바 열기",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261010&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261011&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -4147,22 +4473,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "548d38ea3c",
-   "institution": "NH농협은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "좋아요 2",
-   "start": "",
-   "end": "2026.10.30",
-   "benefitHints": [],
-   "desc": "1",
-   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "firstSeen": "2026-10-09"
-  },
-  {
    "id": "c8027fa6a3",
    "institution": "NH농협은행",
    "type": "은행",
@@ -4179,20 +4489,20 @@
    "firstSeen": "2026-10-09"
   },
   {
-   "id": "3600f97a8d",
+   "id": "548d38ea3c",
    "institution": "NH농협은행",
    "type": "은행",
    "categories": [
-    "irp"
+    "other"
    ],
-   "title": "좋아요 1",
+   "title": "좋아요 2",
    "start": "",
-   "end": "2026.11.29",
+   "end": "2026.10.31",
    "benefitHints": [],
-   "desc": "9월 3.3.1. IRP 고객감사 이벤트",
+   "desc": "1",
    "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
    "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "firstSeen": "2026-10-11"
+   "firstSeen": "2026-10-09"
   },
   {
    "id": "634cdba9e2",
@@ -4209,6 +4519,22 @@
    "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
    "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
    "firstSeen": "2026-10-09"
+  },
+  {
+   "id": "3600f97a8d",
+   "institution": "NH농협은행",
+   "type": "은행",
+   "categories": [
+    "irp"
+   ],
+   "title": "좋아요 1",
+   "start": "",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "9월 3.3.1. IRP 고객감사 이벤트",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-10-11"
   },
   {
    "id": "1f51a584c7",
@@ -4641,7 +4967,7 @@
    ],
    "title": "우대금리 쿠폰 받고예적금 가입하기",
    "start": "",
-   "end": "2026.10.23",
+   "end": "2026.10.24",
    "benefitHints": [],
    "desc": "광주_전주 오픈 기념 더쿠폰예적금",
    "url": "https://mbanking.imbank.co.kr/react/benefit/events",
@@ -4657,7 +4983,7 @@
    ],
    "title": "iM뱅크-현대카드M 최대 10만원 상당 혜택",
    "start": "",
-   "end": "2026.10.30",
+   "end": "2026.10.31",
    "benefitHints": [
     "최대 10만원"
    ],
@@ -4675,7 +5001,7 @@
    ],
    "title": "공적연금갈아타고5만원 지원금받기",
    "start": "",
-   "end": "2026.11.19",
+   "end": "2026.11.20",
    "benefitHints": [
     "5만원"
    ],
@@ -4693,7 +5019,7 @@
    ],
    "title": "iM증권 주식계좌 개설하고2만원 쿠폰 받기",
    "start": "",
-   "end": "2026.11.29",
+   "end": "2026.11.30",
    "benefitHints": [
     "2만원"
    ],
@@ -4711,7 +5037,7 @@
    ],
    "title": "텐텐통장 이벤트 참여하고아이폰, 갤럭시 당첨 도전하기",
    "start": "",
-   "end": "2026.11.29",
+   "end": "2026.11.30",
    "benefitHints": [],
    "desc": "텐텐통장 이벤트",
    "url": "https://mbanking.imbank.co.kr/react/benefit/events",
@@ -4727,7 +5053,7 @@
    ],
    "title": "비상금 모으고매월 최대 2만원 쿠폰 받기",
    "start": "",
-   "end": "2026.11.29",
+   "end": "2026.11.30",
    "benefitHints": [
     "최대 2만원"
    ],
@@ -4745,7 +5071,7 @@
    ],
    "title": "iM뱅크 앱 첫 로그인하고영화관람권 + 팝콘 세트 받기",
    "start": "",
-   "end": "2026.11.29",
+   "end": "2026.11.30",
    "benefitHints": [],
    "desc": "iM뱅크 첫 로그인하고 영화관람권 + 팝콘 세트 받기",
    "url": "https://mbanking.imbank.co.kr/react/benefit/events",
@@ -4761,7 +5087,7 @@
    ],
    "title": "자동충전 하이패스 카드 발급하고1천원 할인받기",
    "start": "",
-   "end": "2026.11.29",
+   "end": "2026.11.30",
    "benefitHints": [],
    "desc": "자동충전 하이패스 카드 발급하고 1천원 할인받기",
    "url": "https://mbanking.imbank.co.kr/react/benefit/events",
@@ -4777,7 +5103,7 @@
    ],
    "title": "다같이 모임통장 만들고다같이 매달 혜택 챙기기",
    "start": "",
-   "end": "2026.11.29",
+   "end": "2026.11.30",
    "benefitHints": [],
    "desc": "매달 혜택 쿠폰 받기",
    "url": "https://mbanking.imbank.co.kr/react/benefit/events",
@@ -4793,7 +5119,7 @@
    ],
    "title": "매주 200만원 받을 주인공 찾습니다.창립 59주년 기념",
    "start": "",
-   "end": "2026.12.05",
+   "end": "2026.12.06",
    "benefitHints": [
     "200만원",
     "59주"
@@ -4812,7 +5138,7 @@
    ],
    "title": "금리도~착! 혜택도~착!착착통장 가입하고 혜택받기",
    "start": "",
-   "end": "2026.12.30",
+   "end": "2026.12.31",
    "benefitHints": [],
    "desc": "착착통장",
    "url": "https://mbanking.imbank.co.kr/react/benefit/events",
@@ -4828,7 +5154,7 @@
    ],
    "title": "iM뱅크 앱 첫 로그인하고티빙 4개월 무료로 보기",
    "start": "",
-   "end": "2026.12.30",
+   "end": "2026.12.31",
    "benefitHints": [],
    "desc": "티빙 제휴 프로모션",
    "url": "https://mbanking.imbank.co.kr/react/benefit/events",
@@ -4844,7 +5170,7 @@
    ],
    "title": "ZENITH 카드메탈플레이트 발급 수수료 면제",
    "start": "",
-   "end": "2026.12.30",
+   "end": "2026.12.31",
    "benefitHints": [],
    "desc": "ZENITH 카드 발급비용 캐시백 이벤트",
    "url": "https://mbanking.imbank.co.kr/react/benefit/events",
