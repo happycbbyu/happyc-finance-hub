@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-10-12 00:20 KST",
+ "crawledAt": "2026-10-12 10:05 KST",
  "summary": {
   "isa": 19,
   "pension": 23,
   "irp": 25,
   "cma": 8,
   "savings": 31,
-  "other": 236
+  "other": 234
  },
  "sources": [
   {
@@ -52,7 +52,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 21
+   "count": 20
   },
   {
    "name": "하나증권",
@@ -61,7 +61,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 10
+   "count": 9
   },
   {
    "name": "키움증권",
@@ -481,6 +481,22 @@
    "firstSeen": "2026-10-01"
   },
   {
+   "id": "9298f8876c",
+   "institution": "한국투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "영업점 IMA 가입 이벤트 10월",
+   "start": "2026.10.12",
+   "end": "2026.10.15",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "firstSeen": "2026-10-12"
+  },
+  {
    "id": "cfa146a3b3",
    "institution": "한국투자증권",
    "type": "증권사",
@@ -491,7 +507,7 @@
    "start": "2026.09.30",
    "end": "2026.10.15",
    "benefitHints": [],
-   "desc": "",
+   "desc": "처음으로 이전으로 현재페이지1 2 3 다음으로 마지막으로",
    "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "firstSeen": "2026-10-01"
@@ -545,22 +561,6 @@
    "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "cecc0a0b90",
-   "institution": "한국투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "8회 실전투자대회 한투배틀",
-   "start": "2026.10.06",
-   "end": "2026.10.30",
-   "benefitHints": [],
-   "desc": "처음으로 이전으로 현재페이지1 2 3 다음으로 마지막으로",
-   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "firstSeen": "2026-10-09"
   },
   {
    "id": "2339ee3150",
@@ -1168,22 +1168,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "4c0884633a",
-   "institution": "KB증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "KB able Plus",
-   "start": "2026.10.12",
-   "end": "2026.10.30",
-   "benefitHints": [],
-   "desc": "KB able Plus 이벤트",
-   "url": "https://www.kbsec.com/go.able?linkcd=s060902030000&seq=10010471&idt=20261008&clsfcd=6&gubun=1",
-   "listUrl": "https://www.kbsec.com/go.able?linkcd=m06090002",
-   "firstSeen": "2026-10-09"
-  },
-  {
    "id": "6e899054e2",
    "institution": "KB증권",
    "type": "증권사",
@@ -1541,22 +1525,6 @@
    "benefitHints": [],
    "desc": "",
    "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261012&searchType=&curPage=1",
-   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "bf57c59551",
-   "institution": "하나증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "쇼핑적립서비스 OPEN 이벤트",
-   "start": "2026.09.28",
-   "end": "2026.12.06",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261012&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
