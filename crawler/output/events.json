@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-10-14 09:57 KST",
+ "crawledAt": "2026-10-14 23:20 KST",
  "summary": {
   "isa": 19,
   "pension": 25,
-  "irp": 25,
+  "irp": 28,
   "cma": 9,
-  "savings": 32,
-  "other": 235
+  "savings": 33,
+  "other": 243
  },
  "sources": [
   {
@@ -202,10 +202,10 @@
    "name": "KB국민은행",
    "type": "은행",
    "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "ok": false,
-   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
+   "ok": true,
+   "error": "",
    "note": "",
-   "count": 0
+   "count": 8
   },
   {
    "name": "신한은행",
@@ -238,10 +238,10 @@
    "name": "NH농협은행",
    "type": "은행",
    "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "ok": false,
-   "error": "Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://banking.nonghyup.com/nhbank.html",
+   "ok": true,
+   "error": "",
    "note": "",
-   "count": 0
+   "count": 4
   },
   {
    "name": "IBK기업은행",
@@ -1996,6 +1996,22 @@
    "firstSeen": "2026-10-02"
   },
   {
+   "id": "5f0a12ada2",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "isa"
+   ],
+   "title": "4분기 중개형ISA 운용사 ETF 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.30",
+   "benefitHints": [],
+   "desc": "4분기 중개형ISA 운용사 ETF 이벤트",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-10-01"
+  },
+  {
    "id": "4477465aad",
    "institution": "키움증권",
    "type": "증권사",
@@ -2008,22 +2024,6 @@
    "end": "2026.12.30",
    "benefitHints": [],
    "desc": "4분기 연금저축 운용사 ETF 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "5f0a12ada2",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "isa"
-   ],
-   "title": "4분기 중개형ISA 운용사 ETF 이벤트",
-   "start": "2026.10.01",
-   "end": "2026.12.30",
-   "benefitHints": [],
-   "desc": "4분기 중개형ISA 운용사 ETF 이벤트",
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-10-01"
@@ -2045,22 +2045,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "9f6f31d2d6",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "cma"
-   ],
-   "title": "발행어음 이벤트",
-   "start": "2026.10.02",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "발행어음 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
-  },
-  {
    "id": "4d301bf932",
    "institution": "키움증권",
    "type": "증권사",
@@ -2077,37 +2061,37 @@
    "firstSeen": "2026-10-01"
   },
   {
-   "id": "fde1120060",
+   "id": "7ba223dffd",
    "institution": "키움증권",
    "type": "증권사",
    "categories": [
     "pension",
     "savings"
    ],
-   "title": "연금저축 신규가입 이벤트",
+   "title": "연금저축 수수료/순입금 이벤트",
    "start": "2026.10.01",
    "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "연금저축 신규가입 이벤트",
+   "desc": "연금저축 수수료/순입금 이벤트",
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "b07cd1a813",
+   "id": "9f6f31d2d6",
    "institution": "키움증권",
    "type": "증권사",
    "categories": [
-    "irp"
+    "cma"
    ],
-   "title": "퇴직연금 DC 이벤트",
-   "start": "2026.10.01",
+   "title": "발행어음 이벤트",
+   "start": "2026.10.02",
    "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "퇴직연금 DC 이벤트",
+   "desc": "발행어음 이벤트",
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-09-24"
   },
   {
    "id": "722aa8058d",
@@ -2142,18 +2126,34 @@
    "firstSeen": "2026-10-02"
   },
   {
-   "id": "7ba223dffd",
+   "id": "b07cd1a813",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "퇴직연금 DC 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "퇴직연금 DC 이벤트",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "id": "fde1120060",
    "institution": "키움증권",
    "type": "증권사",
    "categories": [
     "pension",
     "savings"
    ],
-   "title": "연금저축 수수료/순입금 이벤트",
+   "title": "연금저축 신규가입 이벤트",
    "start": "2026.10.01",
    "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "연금저축 수수료/순입금 이벤트",
+   "desc": "연금저축 신규가입 이벤트",
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-09-24"
@@ -4235,6 +4235,138 @@
    "firstSeen": "2026-10-09"
   },
   {
+   "id": "b87f479c1a",
+   "institution": "KB국민은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "해외 갈 땐 eSIM까지! 환전하면 데이터 1GB 무료!",
+   "start": "2026.10.01",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://omoney.kbstar.com/quics?page=C016559",
+   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "538df7ef29",
+   "institution": "KB국민은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "【KB국민은행 X KB국민카드】 K-패스체크카드로 교통비 아끼고 선물 받기",
+   "start": "2026.09.09",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://omoney.kbstar.com/quics?page=C016559",
+   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "db244b1666",
+   "institution": "KB국민은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "배부른 자가 승리한다! GS25에서 간식먹고 승률 높이기",
+   "start": "2026.09.01",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://omoney.kbstar.com/quics?page=C016559",
+   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "5a84d3cc16",
+   "institution": "KB국민은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "【KB국민은행 X KB국민카드】 카드 미션 달성하고 3만원 상품권 받기",
+   "start": "2026.09.01",
+   "end": "2026.10.31",
+   "benefitHints": [
+    "3만원"
+   ],
+   "desc": "",
+   "url": "https://omoney.kbstar.com/quics?page=C016559",
+   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "c7be4d7c97",
+   "institution": "KB국민은행",
+   "type": "은행",
+   "categories": [
+    "irp"
+   ],
+   "title": "더 좋아진 KB국민은행 IRP로, WELCOME♥ IRP옮기면, 전원 경품드려요!(조건 충족시)",
+   "start": "2026.10.12",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://omoney.kbstar.com/quics?page=C016559",
+   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "6837298002",
+   "institution": "KB국민은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "「FUNDaily! 펀드를 일상처럼」 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://omoney.kbstar.com/quics?page=C016559",
+   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "476e33642f",
+   "institution": "KB국민은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "안티스미싱 서비스 오픈! 스미싱 걱정 OFF, 커피 한 잔 ON",
+   "start": "2026.10.01",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://omoney.kbstar.com/quics?page=C016559",
+   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "b3d8b823a9",
+   "institution": "KB국민은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "KB Star FX 기업고객 100% 환율우대 이벤트",
+   "start": "2026.09.21",
+   "end": "2026.11.30",
+   "benefitHints": [
+    "100%"
+   ],
+   "desc": "",
+   "url": "https://omoney.kbstar.com/quics?page=C016559",
+   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
+   "firstSeen": "2026-10-14"
+  },
+  {
    "id": "0d4c511a65",
    "institution": "신한은행",
    "type": "은행",
@@ -4482,6 +4614,70 @@
    "url": "https://m.kebhana.com/cont/event/new/event01/1528720_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "c8027fa6a3",
+   "institution": "NH농협은행",
+   "type": "은행",
+   "categories": [
+    "irp"
+   ],
+   "title": "9월 3.3.1. IRP 고객감사 이벤트",
+   "start": "2026.09.01",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "aaff1fb41b",
+   "institution": "NH농협은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "좋아요 3",
+   "start": "",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "1",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "634cdba9e2",
+   "institution": "NH농협은행",
+   "type": "은행",
+   "categories": [
+    "savings"
+   ],
+   "title": "휴면예금 찾기 이벤트 나의 휴면예금 캐치캐치",
+   "start": "2026.10.01",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "548d38ea3c",
+   "institution": "NH농협은행",
+   "type": "은행",
+   "categories": [
+    "irp"
+   ],
+   "title": "좋아요 2",
+   "start": "",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "9월 3.3.1. IRP 고객감사 이벤트",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-10-14"
   },
   {
    "id": "1f51a584c7",
