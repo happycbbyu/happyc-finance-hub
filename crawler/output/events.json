@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-10-14 01:44 KST",
+ "crawledAt": "2026-10-14 09:57 KST",
  "summary": {
   "isa": 19,
   "pension": 25,
-  "irp": 28,
+  "irp": 25,
   "cma": 9,
-  "savings": 33,
-  "other": 229
+  "savings": 32,
+  "other": 235
  },
  "sources": [
   {
@@ -61,7 +61,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 9
+   "count": 10
   },
   {
    "name": "키움증권",
@@ -202,10 +202,10 @@
    "name": "KB국민은행",
    "type": "은행",
    "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "ok": true,
-   "error": "",
+   "ok": false,
+   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
    "note": "",
-   "count": 8
+   "count": 0
   },
   {
    "name": "신한은행",
@@ -238,10 +238,10 @@
    "name": "NH농협은행",
    "type": "은행",
    "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "ok": true,
-   "error": "",
+   "ok": false,
+   "error": "Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://banking.nonghyup.com/nhbank.html",
    "note": "",
-   "count": 4
+   "count": 0
   },
   {
    "name": "IBK기업은행",
@@ -250,7 +250,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 19
+   "count": 20
   },
   {
    "name": "SC제일은행",
@@ -283,10 +283,10 @@
    "name": "BNK경남은행",
    "type": "은행",
    "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "ok": false,
-   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
+   "ok": true,
+   "error": "",
    "note": "",
-   "count": 0
+   "count": 12
   },
   {
    "name": "광주은행",
@@ -1591,6 +1591,22 @@
    "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261014&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
+  },
+  {
+   "id": "bf57c59551",
+   "institution": "하나증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "쇼핑적립서비스 OPEN 이벤트",
+   "start": "2026.09.28",
+   "end": "2026.12.06",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261014&searchType=&curPage=1",
+   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
+   "firstSeen": "2026-10-14"
   },
   {
    "id": "7070f0871c",
@@ -4219,138 +4235,6 @@
    "firstSeen": "2026-10-09"
   },
   {
-   "id": "b87f479c1a",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "해외 갈 땐 eSIM까지! 환전하면 데이터 1GB 무료!",
-   "start": "2026.10.01",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-08"
-  },
-  {
-   "id": "538df7ef29",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "【KB국민은행 X KB국민카드】 K-패스체크카드로 교통비 아끼고 선물 받기",
-   "start": "2026.09.09",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-08"
-  },
-  {
-   "id": "db244b1666",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "배부른 자가 승리한다! GS25에서 간식먹고 승률 높이기",
-   "start": "2026.09.01",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-08"
-  },
-  {
-   "id": "5a84d3cc16",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "【KB국민은행 X KB국민카드】 카드 미션 달성하고 3만원 상품권 받기",
-   "start": "2026.09.01",
-   "end": "2026.10.31",
-   "benefitHints": [
-    "3만원"
-   ],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-08"
-  },
-  {
-   "id": "c7be4d7c97",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "irp"
-   ],
-   "title": "더 좋아진 KB국민은행 IRP로, WELCOME♥ IRP옮기면, 전원 경품드려요!(조건 충족시)",
-   "start": "2026.10.12",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-13"
-  },
-  {
-   "id": "6837298002",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "「FUNDaily! 펀드를 일상처럼」 이벤트",
-   "start": "2026.10.01",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-08"
-  },
-  {
-   "id": "476e33642f",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "안티스미싱 서비스 오픈! 스미싱 걱정 OFF, 커피 한 잔 ON",
-   "start": "2026.10.01",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-08"
-  },
-  {
-   "id": "b3d8b823a9",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "KB Star FX 기업고객 100% 환율우대 이벤트",
-   "start": "2026.09.21",
-   "end": "2026.11.30",
-   "benefitHints": [
-    "100%"
-   ],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-08"
-  },
-  {
    "id": "0d4c511a65",
    "institution": "신한은행",
    "type": "은행",
@@ -4600,70 +4484,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "c8027fa6a3",
-   "institution": "NH농협은행",
-   "type": "은행",
-   "categories": [
-    "irp"
-   ],
-   "title": "9월 3.3.1. IRP 고객감사 이벤트",
-   "start": "2026.09.01",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "firstSeen": "2026-10-09"
-  },
-  {
-   "id": "aaff1fb41b",
-   "institution": "NH농협은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "좋아요 3",
-   "start": "",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "1",
-   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "firstSeen": "2026-10-12"
-  },
-  {
-   "id": "634cdba9e2",
-   "institution": "NH농협은행",
-   "type": "은행",
-   "categories": [
-    "savings"
-   ],
-   "title": "휴면예금 찾기 이벤트 나의 휴면예금 캐치캐치",
-   "start": "2026.10.01",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "firstSeen": "2026-10-09"
-  },
-  {
-   "id": "548d38ea3c",
-   "institution": "NH농협은행",
-   "type": "은행",
-   "categories": [
-    "irp"
-   ],
-   "title": "좋아요 2",
-   "start": "",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "9월 3.3.1. IRP 고객감사 이벤트",
-   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "firstSeen": "2026-10-09"
-  },
-  {
    "id": "1f51a584c7",
    "institution": "IBK기업은행",
    "type": "은행",
@@ -4712,6 +4532,22 @@
    "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103629&evnt_dscd=H&pageId=CM01060100",
    "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
    "firstSeen": "2026-10-13"
+  },
+  {
+   "id": "fcfbcd3b4b",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "「IBK와 키자니아가 함께하는 우리 아이",
+   "start": "2026.10.14",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "「IBK와 키자니아가 함께하는 우리 아이 금융체험 이벤트」실시",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103642&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-10-14"
   },
   {
    "id": "6d4e80460b",
@@ -5335,6 +5171,209 @@
    "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCMN601001001",
    "listUrl": "https://www.busanbank.co.kr/ib20/mnu/BHPCMN601001001",
    "firstSeen": "2026-10-08"
+  },
+  {
+   "id": "229b39e1fe",
+   "institution": "BNK경남은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "따뜻한 햇살론 페이백 이벤트",
+   "start": "2026.09.01",
+   "end": "2026.10.30",
+   "benefitHints": [],
+   "desc": "햇살론 이자 현금으로 돌려드려요! 따뜻한 햇살론 페이백 이벤트",
+   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "9cba8c9af5",
+   "institution": "BNK경남은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "경남은행 BC카드로 골프존카운티 할인받고 굿샷!",
+   "start": "2026.10.01",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "골프존카운티 할인받고 굿샷!",
+   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "30c4b0a7ac",
+   "institution": "BNK경남은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "교통요금 환급받고 최대 2만원 캐시백 받아가세요!",
+   "start": "2026.09.01",
+   "end": "2026.10.31",
+   "benefitHints": [
+    "최대 2만원"
+   ],
+   "desc": "교통요금 환급받고 최대 2만원 캐시백 받아가세요!",
+   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "6ca3f70e44",
+   "institution": "BNK경남은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "부산·경상 지역 호텔/레저 할인 혜택!",
+   "start": "2026.05.01",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "부산·경상 지역 호텔/레저 할인 혜택!",
+   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "9cb9dc450d",
+   "institution": "BNK경남은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "(선착순) 노란우산공제 새해 이벤트!",
+   "start": "2026.01.01",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "4854b8d369",
+   "institution": "BNK경남은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "모바일뱅킹으로 노란우산공제 가입 시 2만원 캐시백!",
+   "start": "2026.01.01",
+   "end": "2026.11.30",
+   "benefitHints": [
+    "2만원"
+   ],
+   "desc": "",
+   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "a5a1817af6",
+   "institution": "BNK경남은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "맛있는 성공 파트너 공공배달앱 정착하자!",
+   "start": "2026.10.01",
+   "end": "2026.12.15",
+   "benefitHints": [],
+   "desc": "맛있는 성공 파트너 공공배달앱 정착하자!",
+   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "3a589a9f4c",
+   "institution": "BNK경남은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "모두의그린카드 발급하고 연회비 캐시백 받자!",
+   "start": "2026.10.13",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "모두의그린카드 연회비 캐시백 이벤트",
+   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "885fb6a227",
+   "institution": "BNK경남은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "카드 자동납부로 편하게! 최대 4.5만원 할인까지!",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [
+    "최대 4.5만원"
+   ],
+   "desc": "카드 자동납부로 편하게! 최대 4.5만원 할인까지!",
+   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "f6a1871a9f",
+   "institution": "BNK경남은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "경남은행 BC카드 이용하고 최대 5개월 무이자할부 혜택받자!",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "경남은행 BC카드 이용하고 최대 5개월 무이자할부 혜택받자!",
+   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "cb4e9ead1a",
+   "institution": "BNK경남은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "경남 BC카드로 주문하고 월 최대 1만원 할인받깨비!",
+   "start": "2026.09.01",
+   "end": "2026.12.31",
+   "benefitHints": [
+    "최대 1만원"
+   ],
+   "desc": "경남 BC카드로 주문하고 월 최대 1만원 할인받깨비!",
+   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "29a1961402",
+   "institution": "BNK경남은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "신용카드 연회비 캐시백 이벤트",
+   "start": "2026.01.01",
+   "end": "2026.12.31",
+   "benefitHints": [
+    "5만원",
+    "최대 2만원"
+   ],
+   "desc": "bnk 경남은행 신용카드 10종 연회비 캐시백 이벤트 - 비대면 신규 발급 후 발급월 포함 3개월 이내 5만원 이상 이용 시 최대 2만원 캐시백 기간: 2026년 1월 1일 부터 12월 31일까지 대상카드: 10종",
+   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "firstSeen": "2026-10-14"
   },
   {
    "id": "2b188e9eb1",
