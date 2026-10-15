@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-10-14 23:20 KST",
+ "crawledAt": "2026-10-15 09:21 KST",
  "summary": {
   "isa": 19,
   "pension": 25,
   "irp": 28,
   "cma": 9,
   "savings": 33,
-  "other": 243
+  "other": 244
  },
  "sources": [
   {
@@ -286,7 +286,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 12
+   "count": 13
   },
   {
    "name": "광주은행",
@@ -1556,7 +1556,7 @@
     "최대 3만원"
    ],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=704&startDate=00000000&endDate=20261014&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=704&startDate=00000000&endDate=20261015&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1572,7 +1572,7 @@
    "end": "2026.11.17",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=701&startDate=00000000&endDate=20261014&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=701&startDate=00000000&endDate=20261015&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1588,7 +1588,7 @@
    "end": "2026.11.20",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261014&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261015&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1604,7 +1604,7 @@
    "end": "2026.12.06",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261014&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261015&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-14"
   },
@@ -1620,7 +1620,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261014&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261015&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1636,7 +1636,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=702&startDate=00000000&endDate=20261014&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=702&startDate=00000000&endDate=20261015&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1652,7 +1652,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261014&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261015&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1668,7 +1668,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261014&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261015&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1684,7 +1684,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261014&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261015&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -1700,7 +1700,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "사이드바 열기",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261014&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261015&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-09-30"
   },
@@ -5501,22 +5501,20 @@
    "firstSeen": "2026-10-14"
   },
   {
-   "id": "885fb6a227",
+   "id": "c739f2eec5",
    "institution": "BNK경남은행",
    "type": "은행",
    "categories": [
     "other"
    ],
-   "title": "카드 자동납부로 편하게! 최대 4.5만원 할인까지!",
-   "start": "2026.10.01",
+   "title": "BNK 경남은행으로 월급받고, 친구와 함께 캐시백!",
+   "start": "2026.10.06",
    "end": "2026.12.31",
-   "benefitHints": [
-    "최대 4.5만원"
-   ],
-   "desc": "카드 자동납부로 편하게! 최대 4.5만원 할인까지!",
+   "benefitHints": [],
+   "desc": "외국인 소개 이벤트",
    "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "firstSeen": "2026-10-14"
+   "firstSeen": "2026-10-15"
   },
   {
    "id": "f6a1871a9f",
@@ -5530,6 +5528,24 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "경남은행 BC카드 이용하고 최대 5개월 무이자할부 혜택받자!",
+   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "id": "885fb6a227",
+   "institution": "BNK경남은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "카드 자동납부로 편하게! 최대 4.5만원 할인까지!",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [
+    "최대 4.5만원"
+   ],
+   "desc": "카드 자동납부로 편하게! 최대 4.5만원 할인까지!",
    "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "firstSeen": "2026-10-14"
