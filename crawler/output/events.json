@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-10-18 21:59 KST",
+ "crawledAt": "2026-10-19 09:00 KST",
  "summary": {
   "isa": 19,
   "pension": 25,
   "irp": 27,
   "cma": 11,
   "savings": 33,
-  "other": 245
+  "other": 250
  },
  "sources": [
   {
@@ -97,7 +97,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 23
+   "count": 24
   },
   {
    "name": "토스증권",
@@ -142,7 +142,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 16
+   "count": 20
   },
   {
    "name": "iM증권",
@@ -319,8 +319,8 @@
    "name": "케이뱅크",
    "type": "은행",
    "url": "https://www.kbanknow.com/web/about/notice/list?tab=notice",
-   "ok": true,
-   "error": "",
+   "ok": false,
+   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
    "note": "이벤트 목록 없음 — 공지사항에서 이벤트 공지만 추출",
    "count": 0
   },
@@ -515,22 +515,20 @@
    "firstSeen": "2026-10-01"
   },
   {
-   "id": "bb0b233532",
+   "id": "d229852f1b",
    "institution": "한국투자증권",
    "type": "증권사",
    "categories": [
     "other"
    ],
-   "title": "반도체/전력인프라 ETF 일별 거래 이벤트 준비중 ETF 거래하고 문화상품권 1만원 혜택!!",
+   "title": "반도체/전력인프라 ETF 일별 거래 이벤트",
    "start": "2026.10.19",
    "end": "2026.10.30",
-   "benefitHints": [
-    "1만원"
-   ],
+   "benefitHints": [],
    "desc": "",
    "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "firstSeen": "2026-10-17"
+   "firstSeen": "2026-10-19"
   },
   {
    "id": "cecc0a0b90",
@@ -1560,7 +1558,7 @@
     "최대 3만원"
    ],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=704&startDate=00000000&endDate=20261018&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=704&startDate=00000000&endDate=20261019&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1576,7 +1574,7 @@
    "end": "2026.11.17",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=701&startDate=00000000&endDate=20261018&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=701&startDate=00000000&endDate=20261019&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1595,7 +1593,7 @@
     "5.7%"
    ],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=717&startDate=00000000&endDate=20261018&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=717&startDate=00000000&endDate=20261019&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1611,7 +1609,7 @@
    "end": "2026.11.20",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261018&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261019&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1627,7 +1625,7 @@
    "end": "2026.12.06",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261018&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261019&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1643,7 +1641,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261018&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261019&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1659,7 +1657,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=702&startDate=00000000&endDate=20261018&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=702&startDate=00000000&endDate=20261019&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1675,7 +1673,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261018&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261019&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1691,7 +1689,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261018&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261019&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1707,7 +1705,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261018&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261019&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1723,7 +1721,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "사이드바 열기",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261018&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261019&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -2769,6 +2767,22 @@
    "firstSeen": "2026-10-09"
   },
   {
+   "id": "48419b0796",
+   "institution": "대신증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "대신(Balance) ELB 191~193회 대신(Balance) ELB 191~193회",
+   "start": "2026.10.19",
+   "end": "2026.10.21",
+   "benefitHints": [],
+   "desc": "대신로고",
+   "url": "https://www.daishin.com/content/w/customer/event/eventDetail.ds?m=1109&p=12933&v=12835&cid=6964",
+   "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "firstSeen": "2026-10-19"
+  },
+  {
    "id": "d5b04ab684",
    "institution": "대신증권",
    "type": "증권사",
@@ -3383,6 +3397,70 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "9bf38d46f4",
+   "institution": "한화투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "바로가기 메뉴 본문 바로가기 하위메뉴 바로가기 웹접근성 안내(센스리더 이용가이드)",
+   "start": "2026.10.19",
+   "end": "2026.11.13",
+   "benefitHints": [],
+   "desc": "이벤트",
+   "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
+   "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "b1a29d9088",
+   "institution": "한화투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "파생상품 계좌개설",
+   "start": "2026.10.19",
+   "end": "2026.11.13",
+   "benefitHints": [],
+   "desc": "파생상품 계좌개설 이벤트",
+   "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
+   "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
+   "firstSeen": "2026-10-19"
+  },
+  {
+   "id": "3b33956636",
+   "institution": "한화투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "파생상품 계좌개설 이벤트",
+   "start": "2026.10.19",
+   "end": "2026.11.13",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
+   "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
+   "firstSeen": "2026-10-19"
+  },
+  {
+   "id": "639a6b6820",
+   "institution": "한화투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "파생상품 퀴즈",
+   "start": "2026.10.19",
+   "end": "2026.11.13",
+   "benefitHints": [],
+   "desc": "파생상품 퀴즈 이벤트",
+   "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
+   "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
+   "firstSeen": "2026-10-19"
+  },
+  {
    "id": "3bd1f74f12",
    "institution": "한화투자증권",
    "type": "증권사",
@@ -3415,20 +3493,20 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "9bf38d46f4",
+   "id": "3cfe4148b4",
    "institution": "한화투자증권",
    "type": "증권사",
    "categories": [
     "other"
    ],
-   "title": "바로가기 메뉴 본문 바로가기 하위메뉴 바로가기 웹접근성 안내(센스리더 이용가이드)",
+   "title": "파생상품 퀴즈 이벤트",
    "start": "2026.10.12",
    "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "이벤트",
+   "desc": "",
    "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
    "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "firstSeen": "2026-10-01"
+   "firstSeen": "2026-10-19"
   },
   {
    "id": "28667af2ff",
