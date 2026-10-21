@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-10-21 09:26 KST",
+ "crawledAt": "2026-10-21 23:21 KST",
  "summary": {
   "isa": 19,
   "pension": 25,
   "irp": 27,
   "cma": 10,
   "savings": 33,
-  "other": 257
+  "other": 256
  },
  "sources": [
   {
@@ -97,7 +97,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 24
+   "count": 23
   },
   {
    "name": "토스증권",
@@ -2765,22 +2765,6 @@
    "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
    "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
    "firstSeen": "2026-10-09"
-  },
-  {
-   "id": "48419b0796",
-   "institution": "대신증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "대신(Balance) ELB 191~193회 대신(Balance) ELB 191~193회",
-   "start": "2026.10.19",
-   "end": "2026.10.21",
-   "benefitHints": [],
-   "desc": "대신로고",
-   "url": "https://www.daishin.com/content/w/customer/event/eventDetail.ds?m=1109&p=12933&v=12835&cid=6964",
-   "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
-   "firstSeen": "2026-10-19"
   },
   {
    "id": "d5b04ab684",
