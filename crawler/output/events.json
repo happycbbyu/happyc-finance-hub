@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-10-22 09:29 KST",
+ "crawledAt": "2026-10-22 23:21 KST",
  "summary": {
   "isa": 19,
   "pension": 25,
   "irp": 27,
   "cma": 10,
   "savings": 33,
-  "other": 256
+  "other": 255
  },
  "sources": [
   {
@@ -52,7 +52,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 23
+   "count": 22
   },
   {
    "name": "하나증권",
@@ -1218,22 +1218,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "ce9e916797",
-   "institution": "KB증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "노후준비 진단하고 주식쿠폰까지 받아보세요",
-   "start": "2026.09.28",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "노후준비 진단하고 주식쿠폰까지 받아보세요",
-   "url": "https://www.kbsec.com/go.able?linkcd=s060902030000&seq=10010392&idt=20260923&clsfcd=1&gubun=1",
-   "listUrl": "https://www.kbsec.com/go.able?linkcd=m06090002",
-   "firstSeen": "2026-09-24"
-  },
-  {
    "id": "94b7b9fa21",
    "institution": "KB증권",
    "type": "증권사",
@@ -1753,22 +1737,6 @@
    "end": "2026.10.22",
    "benefitHints": [],
    "desc": "국내채권 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "6025a6a539",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "키움증권 x 카카오뱅크 제휴 계좌개설 이벤트",
-   "start": "2025.10.30",
-   "end": "2026.10.26",
-   "benefitHints": [],
-   "desc": "키움증권 x 카카오뱅크 제휴 계좌개설 이벤트",
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-09-24"
@@ -2336,6 +2304,22 @@
    "end": "2027.07.09",
    "benefitHints": [],
    "desc": "군전문자격증 취득 지원",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "6025a6a539",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "키움증권 x 카카오뱅크 제휴 계좌개설 이벤트",
+   "start": "2025.10.30",
+   "end": "2027.10.26",
+   "benefitHints": [],
+   "desc": "키움증권 x 카카오뱅크 제휴 계좌개설 이벤트",
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-09-24"
@@ -4595,7 +4579,7 @@
    "start": "2026.09.18",
    "end": "2026.10.30",
    "benefitHints": [],
-   "desc": "",
+   "desc": "이전 목록으로 이동 1 2 3 다음 목록으로 이동",
    "url": "https://m.kebhana.com/cont/event/new/event01/1528409_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-09-24"
@@ -4615,22 +4599,6 @@
    "url": "https://m.kebhana.com/cont/event/new/event01/1528928_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-10-02"
-  },
-  {
-   "id": "7b937a1864",
-   "institution": "하나은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "첫거래 손님을 위한특별한 이벤트 혜택 첫거래 손님을 위한 특별이벤트",
-   "start": "2026.09.22",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://m.kebhana.com/cont/event/new/event01/1528569_152465.jsp",
-   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
-   "firstSeen": "2026-09-24"
   },
   {
    "id": "91058f6252",
@@ -4681,6 +4649,38 @@
    "firstSeen": "2026-10-01"
   },
   {
+   "id": "7b937a1864",
+   "institution": "하나은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "첫거래 손님을 위한특별한 이벤트 혜택 첫거래 손님을 위한 특별이벤트",
+   "start": "2026.09.22",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.kebhana.com/cont/event/new/event01/1528569_152465.jsp",
+   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
+   "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "423c2d5978",
+   "institution": "하나은행",
+   "type": "은행",
+   "categories": [
+    "cma"
+   ],
+   "title": "우리모임은 하나로하나모임통장 이벤트 하나모임통장 가입 이벤트",
+   "start": "2026.10.22",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.kebhana.com/cont/event/new/event01/1528978_152465.jsp",
+   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
+   "firstSeen": "2026-10-22"
+  },
+  {
    "id": "6ef1482336",
    "institution": "하나은행",
    "type": "은행",
@@ -4713,22 +4713,6 @@
    "url": "https://m.kebhana.com/cont/event/new/event01/1521922_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "144492a2da",
-   "institution": "하나은행",
-   "type": "은행",
-   "categories": [
-    "cma"
-   ],
-   "title": "입출금+증권계좌 하나로가입하고 선물받자 모두 다 하나통장 가입이벤트",
-   "start": "2026.09.17",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "이전 목록으로 이동 1 2 3 다음 목록으로 이동",
-   "url": "https://m.kebhana.com/cont/event/new/event01/1528720_152465.jsp",
-   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
-   "firstSeen": "2026-09-24"
   },
   {
    "id": "c8027fa6a3",
