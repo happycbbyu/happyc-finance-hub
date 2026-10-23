@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-10-22 23:21 KST",
+ "crawledAt": "2026-10-23 09:27 KST",
  "summary": {
   "isa": 19,
   "pension": 25,
-  "irp": 27,
+  "irp": 28,
   "cma": 10,
   "savings": 33,
-  "other": 255
+  "other": 252
  },
  "sources": [
   {
@@ -52,7 +52,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 22
+   "count": 21
   },
   {
    "name": "하나증권",
@@ -70,7 +70,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 41
+   "count": 40
   },
   {
    "name": "신한투자증권",
@@ -79,7 +79,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 14
+   "count": 13
   },
   {
    "name": "메리츠증권",
@@ -187,7 +187,7 @@
    "ok": true,
    "error": "",
    "note": "봇 차단(Eversafe)으로 자동 수집 불가할 수 있음",
-   "count": 9
+   "count": 10
   },
   {
    "name": "DB증권",
@@ -1170,22 +1170,6 @@
    "firstSeen": "2026-10-11"
   },
   {
-   "id": "1650604e50",
-   "institution": "KB증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "럭키박스 이벤트 시즌2",
-   "start": "2025.01.01",
-   "end": "2026.10.22",
-   "benefitHints": [],
-   "desc": "럭키박스 이벤트 시즌2",
-   "url": "https://www.kbsec.com/go.able?linkcd=m04090016",
-   "listUrl": "https://www.kbsec.com/go.able?linkcd=m06090002",
-   "firstSeen": "2026-09-24"
-  },
-  {
    "id": "4c0884633a",
    "institution": "KB증권",
    "type": "증권사",
@@ -1542,7 +1526,7 @@
     "최대 3만원"
    ],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=704&startDate=00000000&endDate=20261022&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=704&startDate=00000000&endDate=20261023&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1558,7 +1542,7 @@
    "end": "2026.11.17",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=701&startDate=00000000&endDate=20261022&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=701&startDate=00000000&endDate=20261023&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1577,7 +1561,7 @@
     "5.7%"
    ],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=717&startDate=00000000&endDate=20261022&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=717&startDate=00000000&endDate=20261023&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1593,7 +1577,7 @@
    "end": "2026.11.20",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261022&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261023&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1609,7 +1593,7 @@
    "end": "2026.12.06",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261022&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261023&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1625,7 +1609,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261022&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261023&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1641,7 +1625,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=702&startDate=00000000&endDate=20261022&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=702&startDate=00000000&endDate=20261023&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1657,7 +1641,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261022&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261023&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1673,7 +1657,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261022&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261023&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1689,7 +1673,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261022&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261023&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
   },
@@ -1705,41 +1689,9 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "사이드바 열기",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261022&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261023&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-18"
-  },
-  {
-   "id": "5f3740525c",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "파워맵 가입 이벤트",
-   "start": "2026.09.17",
-   "end": "2026.10.22",
-   "benefitHints": [],
-   "desc": "파워맵 가입 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "f67abc3988",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "국내채권 이벤트",
-   "start": "2026.07.24",
-   "end": "2026.10.22",
-   "benefitHints": [],
-   "desc": "국내채권 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
   },
   {
    "id": "70bad9f497",
@@ -2084,22 +2036,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "9485af0817",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "미국주식선물 Q&A",
-   "start": "2026.10.15",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "미국주식선물 Q&A",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-10-15"
-  },
-  {
    "id": "e400181e18",
    "institution": "키움증권",
    "type": "증권사",
@@ -2114,6 +2050,22 @@
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-10-16"
+  },
+  {
+   "id": "9485af0817",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "미국주식선물 Q&A",
+   "start": "2026.10.15",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "미국주식선물 Q&A",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-10-15"
   },
   {
    "id": "d58827fede",
@@ -2143,23 +2095,6 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "발행어음 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "fde1120060",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "pension",
-    "savings"
-   ],
-   "title": "연금저축 신규가입 이벤트",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "연금저축 신규가입 이벤트",
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-09-24"
@@ -2195,6 +2130,23 @@
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "id": "fde1120060",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "pension",
+    "savings"
+   ],
+   "title": "연금저축 신규가입 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "연금저축 신규가입 이벤트",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-09-24"
   },
   {
    "id": "b07cd1a813",
@@ -2293,6 +2245,22 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "f67abc3988",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "국내채권 이벤트",
+   "start": "2026.10.23",
+   "end": "2027.01.28",
+   "benefitHints": [],
+   "desc": "국내채권 이벤트",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-09-24"
+  },
+  {
    "id": "5033e7d88f",
    "institution": "키움증권",
    "type": "증권사",
@@ -2373,36 +2341,20 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "85323152c7",
+   "id": "df02d649cf",
    "institution": "신한투자증권",
    "type": "증권사",
    "categories": [
     "other"
    ],
-   "title": "Day 신한 Premier My세미나 100회 특집 Live(261022)",
-   "start": "2026.10.16",
-   "end": "2026.10.22",
-   "benefitHints": [],
-   "desc": "신한 Premier My세미나 100회 특집 Live(261022)",
-   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "firstSeen": "2026-10-22"
-  },
-  {
-   "id": "9096ee27d0",
-   "institution": "신한투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "주간 거래 이벤트",
+   "title": "Day 국내주식 주간 거래 이벤트",
    "start": "2026.09.01",
    "end": "2026.10.23",
    "benefitHints": [],
    "desc": "국내주식 주간 거래 이벤트",
    "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
    "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "firstSeen": "2026-10-14"
+   "firstSeen": "2026-10-23"
   },
   {
    "id": "fa1661c006",
@@ -4078,6 +4030,22 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "22c013dffe",
+   "institution": "LS증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "주식모아 월급날 치킨 이벤트",
+   "start": "2026.08.25",
+   "end": "2026.10.23",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.ls-sec.co.kr/cs/event/open",
+   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
+   "firstSeen": "2026-10-23"
+  },
+  {
    "id": "01322a39cc",
    "institution": "LS증권",
    "type": "증권사",
@@ -5452,20 +5420,20 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "d26c48c0a6",
+   "id": "5c44ed5fa1",
    "institution": "BNK부산은행",
    "type": "은행",
    "categories": [
-    "other"
+    "irp"
    ],
-   "title": "모락과 함께하는 2026 MBC대학가요제",
-   "start": "2026.10.16",
-   "end": "2026.10.22",
+   "title": "수익률 1위 달성 IRP 이벤트",
+   "start": "2026.08.10",
+   "end": "2026.10.31",
    "benefitHints": [],
-   "desc": "모락과 함께하는 2026 MBC대학가요제",
+   "desc": "수익률 1위 달성 IRP 이벤트",
    "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCMN601001001",
    "listUrl": "https://www.busanbank.co.kr/ib20/mnu/BHPCMN601001001",
-   "firstSeen": "2026-10-16"
+   "firstSeen": "2026-10-23"
   },
   {
    "id": "4fe8b22d56",
@@ -5833,6 +5801,24 @@
    "firstSeen": "2026-10-20"
   },
   {
+   "id": "b6435606d4",
+   "institution": "전북은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "창립 57주년 기념 보장성 보험 가입 이벤트",
+   "start": "2026.10.23",
+   "end": "2026.12.10",
+   "benefitHints": [
+    "57주"
+   ],
+   "desc": "창립 57주년 기념 보장성 보험 가입 이벤트이벤트관련 배너입니다.",
+   "url": "https://www.jbbank.co.kr/commonevents.act",
+   "listUrl": "https://www.jbbank.co.kr/commonevents.act",
+   "firstSeen": "2026-10-23"
+  },
+  {
    "id": "87fc889ded",
    "institution": "전북은행",
    "type": "은행",
@@ -5910,22 +5896,6 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "2026년 JB카드 무이자 할부 이벤트이벤트관련 배너입니다.",
-   "url": "https://www.jbbank.co.kr/commonevents.act",
-   "listUrl": "https://www.jbbank.co.kr/commonevents.act",
-   "firstSeen": "2026-10-21"
-  },
-  {
-   "id": "74581a9f0d",
-   "institution": "전북은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "JB카드 국세 선결제 캐시백 이벤트",
-   "start": "2026.07.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "JB카드 국세 선결제 캐시백 이벤트이벤트관련 배너입니다.",
    "url": "https://www.jbbank.co.kr/commonevents.act",
    "listUrl": "https://www.jbbank.co.kr/commonevents.act",
    "firstSeen": "2026-10-21"
