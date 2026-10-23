@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-10-23 09:27 KST",
+ "crawledAt": "2026-10-23 23:04 KST",
  "summary": {
   "isa": 19,
   "pension": 25,
-  "irp": 28,
+  "irp": 27,
   "cma": 10,
-  "savings": 33,
-  "other": 252
+  "savings": 34,
+  "other": 244
  },
  "sources": [
   {
@@ -52,7 +52,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 21
+   "count": 22
   },
   {
    "name": "하나증권",
@@ -79,7 +79,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 13
+   "count": 14
   },
   {
    "name": "메리츠증권",
@@ -97,7 +97,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 23
+   "count": 21
   },
   {
    "name": "토스증권",
@@ -202,10 +202,10 @@
    "name": "KB국민은행",
    "type": "은행",
    "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "ok": true,
-   "error": "",
+   "ok": false,
+   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
    "note": "",
-   "count": 8
+   "count": 0
   },
   {
    "name": "신한은행",
@@ -1250,6 +1250,22 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "530d420db2",
+   "institution": "KB증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "새로워진 비대면 Wrap 오픈 기념 가입",
+   "start": "2026.10.26",
+   "end": "2026.11.27",
+   "benefitHints": [],
+   "desc": "새로워진 비대면 Wrap 오픈 기념 가입 이벤트",
+   "url": "https://www.kbsec.com/go.able?linkcd=s060902030000&seq=10010534&idt=20261023&clsfcd=3&gubun=1",
+   "listUrl": "https://www.kbsec.com/go.able?linkcd=m06090002",
+   "firstSeen": "2026-10-23"
+  },
+  {
    "id": "d7f61f7d63",
    "institution": "KB증권",
    "type": "증권사",
@@ -1694,6 +1710,22 @@
    "firstSeen": "2026-10-18"
   },
   {
+   "id": "7ecd7e750f",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "절세 2종 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.10.25",
+   "benefitHints": [],
+   "desc": "절세 2종 이벤트",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-10-01"
+  },
+  {
    "id": "70bad9f497",
    "institution": "키움증권",
    "type": "증권사",
@@ -1757,22 +1789,6 @@
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "7ecd7e750f",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "절세 2종 이벤트",
-   "start": "2026.10.01",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "절세 2종 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-10-01"
   },
   {
    "id": "1d91c1f4f6",
@@ -2373,6 +2389,22 @@
    "firstSeen": "2026-10-14"
   },
   {
+   "id": "2f380df5db",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "2026년 지점 세미나 신청 안내 - 11월",
+   "start": "2026.10.23",
+   "end": "2026.11.27",
+   "benefitHints": [],
+   "desc": "2026년 지점 세미나 신청 안내 - 11월",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-10-23"
+  },
+  {
    "id": "1bb4305dc2",
    "institution": "신한투자증권",
    "type": "증권사",
@@ -2701,38 +2733,6 @@
    "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
    "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
    "firstSeen": "2026-10-09"
-  },
-  {
-   "id": "d5b04ab684",
-   "institution": "대신증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "2026 실전투자대회 ALL바른 투자 챔피언십!",
-   "start": "2026.08.18",
-   "end": "2026.10.23",
-   "benefitHints": [],
-   "desc": "대신로고",
-   "url": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
-   "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "ca0ce58938",
-   "institution": "대신증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "KODEX 코리아TDF2065액티브 적격 ETF 거래이벤트 ETF 매일 거래하고 문화상품권 받으세요",
-   "start": "2026.09.28",
-   "end": "2026.10.23",
-   "benefitHints": [],
-   "desc": "대신로고",
-   "url": "https://www.daishin.com/content/w/customer/event/eventDetail.ds?m=1109&p=12933&v=12835&cid=6875",
-   "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
-   "firstSeen": "2026-09-28"
   },
   {
    "id": "e7e3731074",
@@ -4174,6 +4174,22 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "9cf9146f58",
+   "institution": "DB증권",
+   "type": "증권사",
+   "categories": [
+    "savings"
+   ],
+   "title": "디지털고객 전용 특판DLB 제177회",
+   "start": "2026.10.26",
+   "end": "2026.10.30",
+   "benefitHints": [],
+   "desc": "디지털고객 전용 특판DLB 제177회",
+   "url": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
+   "listUrl": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
+   "firstSeen": "2026-10-23"
+  },
+  {
    "id": "cedc914f87",
    "institution": "DB증권",
    "type": "증권사",
@@ -4238,22 +4254,6 @@
    "firstSeen": "2026-10-01"
   },
   {
-   "id": "94d2d3537d",
-   "institution": "DB증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "썸네일 제목/이벤트 정보 진행여부",
-   "start": "2026.10.12",
-   "end": "2026.12.24",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
-   "listUrl": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
-   "firstSeen": "2026-10-09"
-  },
-  {
    "id": "6230e25de9",
    "institution": "DB증권",
    "type": "증권사",
@@ -4284,138 +4284,6 @@
    "url": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
    "listUrl": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
    "firstSeen": "2026-10-09"
-  },
-  {
-   "id": "b87f479c1a",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "해외 갈 땐 eSIM까지! 환전하면 데이터 1GB 무료!",
-   "start": "2026.10.01",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "538df7ef29",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "【KB국민은행 X KB국민카드】 K-패스체크카드로 교통비 아끼고 선물 받기",
-   "start": "2026.09.09",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "db244b1666",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "배부른 자가 승리한다! GS25에서 간식먹고 승률 높이기",
-   "start": "2026.09.01",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "5a84d3cc16",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "【KB국민은행 X KB국민카드】 카드 미션 달성하고 3만원 상품권 받기",
-   "start": "2026.09.01",
-   "end": "2026.10.31",
-   "benefitHints": [
-    "3만원"
-   ],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "c7be4d7c97",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "irp"
-   ],
-   "title": "더 좋아진 KB국민은행 IRP로, WELCOME♥ IRP옮기면, 전원 경품드려요!(조건 충족시)",
-   "start": "2026.10.12",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "6837298002",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "「FUNDaily! 펀드를 일상처럼」 이벤트",
-   "start": "2026.10.01",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "476e33642f",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "안티스미싱 서비스 오픈! 스미싱 걱정 OFF, 커피 한 잔 ON",
-   "start": "2026.10.01",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "b3d8b823a9",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "KB Star FX 기업고객 100% 환율우대 이벤트",
-   "start": "2026.09.21",
-   "end": "2026.11.30",
-   "benefitHints": [
-    "100%"
-   ],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-14"
   },
   {
    "id": "0d4c511a65",
@@ -5201,6 +5069,24 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "b7fbccaa37",
+   "institution": "iM뱅크",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "비상금 모으고매월 최대 2만원 쿠폰 받기",
+   "start": "",
+   "end": "2026.10.25",
+   "benefitHints": [
+    "최대 2만원"
+   ],
+   "desc": "비상금박스 캐시백 이벤트 시즌4",
+   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
+   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
+   "firstSeen": "2026-09-24"
+  },
+  {
    "id": "b8f9e9c834",
    "institution": "iM뱅크",
    "type": "은행",
@@ -5282,24 +5168,6 @@
    "end": "2026.11.30",
    "benefitHints": [],
    "desc": "텐텐통장 이벤트",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "b7fbccaa37",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "비상금 모으고매월 최대 2만원 쿠폰 받기",
-   "start": "",
-   "end": "2026.11.30",
-   "benefitHints": [
-    "최대 2만원"
-   ],
-   "desc": "비상금박스 캐시백 이벤트 시즌4",
    "url": "https://mbanking.imbank.co.kr/react/benefit/events",
    "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
    "firstSeen": "2026-09-24"
