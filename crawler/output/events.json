@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-10-27 01:03 KST",
+ "crawledAt": "2026-10-27 10:14 KST",
  "summary": {
   "isa": 19,
   "pension": 25,
-  "irp": 26,
+  "irp": 28,
   "cma": 11,
-  "savings": 32,
-  "other": 249
+  "savings": 33,
+  "other": 250
  },
  "sources": [
   {
@@ -43,7 +43,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 21
+   "count": 22
   },
   {
    "name": "KB증권",
@@ -238,10 +238,10 @@
    "name": "NH농협은행",
    "type": "은행",
    "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "ok": false,
-   "error": "Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://banking.nonghyup.com/nhbank.html",
+   "ok": true,
+   "error": "",
    "note": "",
-   "count": 0
+   "count": 3
   },
   {
    "name": "IBK기업은행",
@@ -1019,6 +1019,24 @@
    "benefitHints": [],
    "desc": "발행어음CMA 가입 이벤트(26.10.26~11.30) 조건충족시",
    "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3930",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "9e0c62964b",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "모니모 앱가입 이벤트(4사 공동, 신세계 1만원)",
+   "start": "2026.10.27",
+   "end": "2026.11.30",
+   "benefitHints": [
+    "1만원"
+   ],
+   "desc": "",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3929",
    "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
    "firstSeen": "2026-10-27"
   },
@@ -4667,6 +4685,54 @@
    "url": "https://m.kebhana.com/cont/event/new/event01/1521922_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "c8027fa6a3",
+   "institution": "NH농협은행",
+   "type": "은행",
+   "categories": [
+    "irp"
+   ],
+   "title": "9월 3.3.1. IRP 고객감사 이벤트",
+   "start": "2026.09.01",
+   "end": "2026.10.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "634cdba9e2",
+   "institution": "NH농협은행",
+   "type": "은행",
+   "categories": [
+    "savings"
+   ],
+   "title": "휴면예금 찾기 이벤트 나의 휴면예금 캐치캐치",
+   "start": "2026.10.01",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "aaff1fb41b",
+   "institution": "NH농협은행",
+   "type": "은행",
+   "categories": [
+    "irp"
+   ],
+   "title": "좋아요 3",
+   "start": "",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "9월 3.3.1. IRP 고객감사 이벤트",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-10-27"
   },
   {
    "id": "1f51a584c7",
