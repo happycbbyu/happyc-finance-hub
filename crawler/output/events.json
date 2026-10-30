@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-10-30 00:50 KST",
+ "crawledAt": "2026-10-30 10:39 KST",
  "summary": {
   "isa": 19,
   "pension": 25,
   "irp": 27,
   "cma": 11,
-  "savings": 33,
-  "other": 252
+  "savings": 34,
+  "other": 253
  },
  "sources": [
   {
@@ -187,7 +187,7 @@
    "ok": true,
    "error": "",
    "note": "봇 차단(Eversafe)으로 자동 수집 불가할 수 있음",
-   "count": 8
+   "count": 9
   },
   {
    "name": "DB증권",
@@ -250,7 +250,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 21
+   "count": 22
   },
   {
    "name": "SC제일은행",
@@ -4082,6 +4082,22 @@
    "firstSeen": "2026-10-01"
   },
   {
+   "id": "64556f3769",
+   "institution": "LS증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "투혼클래스_오프라인 세미나_202611",
+   "start": "2026.10.30",
+   "end": "2026.11.13",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.ls-sec.co.kr/cs/event/open",
+   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
+   "firstSeen": "2026-10-30"
+  },
+  {
    "id": "f711cd1fcd",
    "institution": "LS증권",
    "type": "증권사",
@@ -4605,22 +4621,6 @@
    "firstSeen": "2026-10-01"
   },
   {
-   "id": "7b937a1864",
-   "institution": "하나은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "첫거래 손님을 위한특별한 이벤트 혜택 첫거래 손님을 위한 특별이벤트",
-   "start": "2026.09.22",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "이전 목록으로 이동 1 2 3 다음 목록으로 이동",
-   "url": "https://m.kebhana.com/cont/event/new/event01/1528569_152465.jsp",
-   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
-   "firstSeen": "2026-09-24"
-  },
-  {
    "id": "1f6c579a86",
    "institution": "하나은행",
    "type": "은행",
@@ -4633,6 +4633,24 @@
    "benefitHints": [],
    "desc": "",
    "url": "https://m.kebhana.com/cont/event/new/event01/1529196_152465.jsp",
+   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
+   "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "6caf78af58",
+   "institution": "하나은행",
+   "type": "은행",
+   "categories": [
+    "savings"
+   ],
+   "title": "태권브이 50주년 기념한정판 굿즈 받자! 날아라 태권브이적금 출시이벤트",
+   "start": "2026.10.30",
+   "end": "2026.12.31",
+   "benefitHints": [
+    "50주"
+   ],
+   "desc": "",
+   "url": "https://m.kebhana.com/cont/event/new/event01/1528821_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-10-30"
   },
@@ -4681,7 +4699,7 @@
    "benefitHints": [
     "최대 53,000원"
    ],
-   "desc": "",
+   "desc": "이전 목록으로 이동 1 2 3 다음 목록으로 이동",
    "url": "https://m.kebhana.com/cont/event/new/event01/1521922_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-10-01"
@@ -4895,6 +4913,22 @@
    "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103638&evnt_dscd=H&pageId=CM01060100",
    "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
    "firstSeen": "2026-10-29"
+  },
+  {
+   "id": "769ba13a03",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "호서대 i-ONE캠퍼스 통학버스 할인 시",
+   "start": "2026.10.30",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "호서대 i-ONE캠퍼스 통학버스 할인 시즌2 이벤트",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103644&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-10-30"
   },
   {
    "id": "edc2b2026a",
