@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-10-31 00:31 KST",
+ "crawledAt": "2026-10-31 10:29 KST",
  "summary": {
-  "isa": 17,
-  "pension": 26,
-  "irp": 27,
+  "isa": 15,
+  "pension": 24,
+  "irp": 26,
   "cma": 9,
-  "savings": 31,
-  "other": 231
+  "savings": 29,
+  "other": 204
  },
  "sources": [
   {
@@ -85,10 +85,10 @@
    "name": "메리츠증권",
    "type": "증권사",
    "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "ok": true,
-   "error": "",
+   "ok": false,
+   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
    "note": "",
-   "count": 10
+   "count": 0
   },
   {
    "name": "대신증권",
@@ -157,10 +157,10 @@
    "name": "유진투자증권",
    "type": "증권사",
    "url": "https://m.eugenefn.com/ev10r.do",
-   "ok": true,
-   "error": "",
+   "ok": false,
+   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
    "note": "",
-   "count": 13
+   "count": 0
   },
   {
    "name": "IBK투자증권",
@@ -202,10 +202,10 @@
    "name": "KB국민은행",
    "type": "은행",
    "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "ok": true,
-   "error": "",
+   "ok": false,
+   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
    "note": "",
-   "count": 8
+   "count": 0
   },
   {
    "name": "신한은행",
@@ -2453,173 +2453,6 @@
    "firstSeen": "2026-10-28"
   },
   {
-   "id": "39d07de5e2",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "ELS 청약 이벤트ELS, ELB 청약하면 상품권 최대 5만원 증정1천만원 이상 청약 시 아이패드 추첨 기회! *조건 충족시",
-   "start": "2026.08.24",
-   "end": "2026.12.21",
-   "benefitHints": [
-    "최대 5만원"
-   ],
-   "desc": "ELS 청약 이벤트",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-10-25"
-  },
-  {
-   "id": "205bd8ecf0",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "OpenAPI 론칭이벤트Super365로 거래하면 국내주식수수료 완전 제로!(~26년 말, 매월 약정액 200억원까지) * 조건 충족시",
-   "start": "2026.10.26",
-   "end": "2026.12.31",
-   "benefitHints": [
-    "200억원"
-   ],
-   "desc": "OpenAPI 론칭이벤트",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-10-31"
-  },
-  {
-   "id": "754d1e4695",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "해외채권 LIVE해외채권도 주식처럼 사고팔자!매영업일 오전 9시부터 오후 11시까지!",
-   "start": "2026.10.13",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "해외채권 LIVE",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-10-25"
-  },
-  {
-   "id": "1f2477129b",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "목표전환형펀드목표수익률 달성하면 안전자산으로 자동 전환!목표전환형펀드에 투자하세요!",
-   "start": "2026.08.13",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "목표전환형펀드",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-10-25"
-  },
-  {
-   "id": "8d05bf9765",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "롱숏펀드시장상황과 관계없이 안정 수익을 추구하는투자전략! 롱숏펀드에 투자하세요!",
-   "start": "2026.06.26",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "롱숏펀드",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-10-25"
-  },
-  {
-   "id": "5eeeba206b",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "글로벌 공모주펀드대형 글로벌 공모주 탑승 기회복잡한 공모주 청약, 펀드로 간편하게 입장!",
-   "start": "2026.06.04",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "글로벌 공모주펀드",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-10-25"
-  },
-  {
-   "id": "448129b994",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "사모투자재간접형 펀드누구나 천원부터, 인원 제한 없이운용 전문가가 선별한 사모펀드에 투자 가능!",
-   "start": "2026.05.13",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "사모투자재간접형 펀드",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-10-25"
-  },
-  {
-   "id": "9127302d3b",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "코스닥의 성장과 함께하라! 코스닥벤처펀드 소득 공제부터 공모주 우선 배정 효과까지!시장의 핵심 기회를 잡는 영리한 방법",
-   "start": "2026.03.05",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "코스닥의 성장과 함께하라! 코스닥벤처펀드",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-10-25"
-  },
-  {
-   "id": "f00adc2275",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "3X 채권형 ETN 시리즈채권형 ETN 처음이세요? 3X로 세걸음 먼저 시작하기국채, 미국채, 일본 국채까지 모두 다 있다!",
-   "start": "2025.12.31",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "3X 채권형 ETN 시리즈",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-10-25"
-  },
-  {
-   "id": "e497e670a4",
-   "institution": "메리츠증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "Super365 국내주식 완전제로 국내주식 거래하면, 누구나 유관기관 수수료 포함 완전 0원! (~26년 말, 매월 약정액 200억원까지)",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [
-    "0원",
-    "200억원"
-   ],
-   "desc": "Super365 국내주식 완전제로",
-   "url": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "listUrl": "https://home.imeritz.com/mobile/content/support/event_list.html",
-   "firstSeen": "2026-10-25"
-  },
-  {
    "id": "4c1b9f1078",
    "institution": "대신증권",
    "type": "증권사",
@@ -3413,223 +3246,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "be923f9592",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "나의 ETF DNA를 찾아라!◆Eugene ETF DNA LAB◇(조건 충족 시) D-Day 디지털 나의 ETF DNA를 찾아라!Eugene ETF DNA LAB (조건 충족 시)",
-   "start": "2026.09.01",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "나의 ETF DNA를 찾아라!◆Eugene ETF DNA LAB◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-10-31"
-  },
-  {
-   "id": "3697e15d6f",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "PUSH ON, BONUS POP!◆푸시 동의하면 터지는 혜택◇(조건 충족 시) 디지털 PUSH ON, BONUS POP!푸시 동의하면 터지는 혜택 (조건 충족 시)",
-   "start": "2026.10.12",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "PUSH ON, BONUS POP!◆푸시 동의하면 터지는 혜택◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "8d5792d6fd",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "isa"
-   ],
-   "title": "중개형ISA로 절세챙기고◆혜택은 더블로!◇(조건 충족 시) 디지털 중개형ISA로 절세챙기고혜택은 더블로! (조건 충족 시)",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "중개형ISA로 절세챙기고◆혜택은 더블로!◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "9866debd36",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "pension",
-    "savings"
-   ],
-   "title": "연금저축으로 환급챙기고◆혜택은 더블로!◇(조건 충족 시) 디지털 연금저축으로 환급챙기고혜택은 더블로! (조건 충족 시)",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "연금저축으로 환급챙기고◆혜택은 더블로!◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "c7e86eaa28",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "2030을 위한◆절세 투자 챌린지!◇(조건 충족 시) 전고객 2030을 위한절세 투자 챌린지! (조건 충족 시)",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "2030을 위한◆절세 투자 챌린지!◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "d7dba51b05",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "isa",
-    "pension",
-    "savings"
-   ],
-   "title": "중개형ISA&연금저축◆ETF 순매수 더블 혜택!◇(조건 충족 시) 디지털 중개형ISA&연금저축ETF 순매수 더블 혜택! (조건 충족 시)",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "중개형ISA&연금저축◆ETF 순매수 더블 혜택!◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "e7e8440154",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "투자 신입 공개 수배!◆현상금 5만원?!◇(조건 충족 시) 디지털 투자 신입 공개 수배!현상금 5만원?! (조건 충족 시)",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [
-    "5만원"
-   ],
-   "desc": "투자 신입 공개 수배!◆현상금 5만원?!◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "61995ac8a4",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "대여서비스◆Npay 3만원 혜택!◇(조건 충족 시) 디지털 국내주식 대여서비스Npay 3만원 혜택! (조건 충족 시)",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [
-    "3만원"
-   ],
-   "desc": "국내주식 대여서비스◆Npay 3만원 혜택!◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "7c12c9d085",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "4분기 신규상장 ETF◆일거래 이벤트◇(조건 충족 시) 디지털 4분기 신규상장 ETF일거래 이벤트 (조건 충족 시)",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "4분기 신규상장 ETF◆일거래 이벤트◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "0a77fc23d9",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "자산 이관 최대 200만원! ◆국내 대장주는 순입고 2배!◇(조건 충족 시) 전고객 자산 이관 최대 200만원! 국내 대장주는 순입고 2배! (조건 충족 시)",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [
-    "최대 200만원"
-   ],
-   "desc": "자산 이관 최대 200만원! ◆국내 대장주는 순입고 2배!◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "96a4f27362",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "휴면고객이라면 주목!◆6개월 간 국내주식 수수료 우대!◇(조건 충족 시) 전고객 휴면고객이라면 주목!6개월 간 국내주식 수수료 우대! (조건 충족 시)",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "휴면고객이라면 주목!◆6개월 간 국내주식 수수료 우대!◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "b3b3a80da6",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "개설 계좌를 위한◆국내주식 우대수수료 혜택◇(조건 충족 시) 디지털 신규개설 계좌를 위한국내주식 우대수수료 혜택 (조건 충족 시)",
-   "start": "2026.01.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "신규개설 계좌를 위한◆국내주식 우대수수료 혜택◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "716cdd8b63",
-   "institution": "유진투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "선물옵션도 유진에서!◆우대수수료 1년◇(조건 충족 시) 디지털 선물옵션도 유진에서!우대수수료 1년 (조건 충족 시)",
-   "start": "2026.01.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "선물옵션도 유진에서!◆우대수수료 1년◇(조건 충족 시)",
-   "url": "https://m.eugenefn.com/ev10r.do",
-   "listUrl": "https://m.eugenefn.com/ev10r.do",
-   "firstSeen": "2026-10-14"
-  },
-  {
    "id": "4776231844",
    "institution": "IBK투자증권",
    "type": "증권사",
@@ -3931,138 +3547,6 @@
    "url": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
    "listUrl": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
    "firstSeen": "2026-10-31"
-  },
-  {
-   "id": "b87f479c1a",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "해외 갈 땐 eSIM까지! 환전하면 데이터 1GB 무료!",
-   "start": "2026.10.01",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-29"
-  },
-  {
-   "id": "538df7ef29",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "【KB국민은행 X KB국민카드】 K-패스체크카드로 교통비 아끼고 선물 받기",
-   "start": "2026.09.09",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-29"
-  },
-  {
-   "id": "db244b1666",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "배부른 자가 승리한다! GS25에서 간식먹고 승률 높이기",
-   "start": "2026.09.01",
-   "end": "2026.10.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-29"
-  },
-  {
-   "id": "5a84d3cc16",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "【KB국민은행 X KB국민카드】 카드 미션 달성하고 3만원 상품권 받기",
-   "start": "2026.09.01",
-   "end": "2026.10.31",
-   "benefitHints": [
-    "3만원"
-   ],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-29"
-  },
-  {
-   "id": "c7be4d7c97",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "irp"
-   ],
-   "title": "더 좋아진 KB국민은행 IRP로, WELCOME♥ IRP옮기면, 전원 경품드려요!(조건 충족시)",
-   "start": "2026.10.12",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-29"
-  },
-  {
-   "id": "6837298002",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "「FUNDaily! 펀드를 일상처럼」 이벤트",
-   "start": "2026.10.01",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-29"
-  },
-  {
-   "id": "476e33642f",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "안티스미싱 서비스 오픈! 스미싱 걱정 OFF, 커피 한 잔 ON",
-   "start": "2026.10.01",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-29"
-  },
-  {
-   "id": "b3d8b823a9",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "KB Star FX 기업고객 100% 환율우대 이벤트",
-   "start": "2026.09.21",
-   "end": "2026.11.30",
-   "benefitHints": [
-    "100%"
-   ],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-10-29"
   },
   {
    "id": "0d4c511a65",
