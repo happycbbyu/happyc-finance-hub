@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-11-02 00:45 KST",
+ "crawledAt": "2026-11-02 10:20 KST",
  "summary": {
   "isa": 15,
-  "pension": 24,
-  "irp": 22,
+  "pension": 25,
+  "irp": 24,
   "cma": 9,
-  "savings": 27,
-  "other": 203
+  "savings": 29,
+  "other": 232
  },
  "sources": [
   {
@@ -43,7 +43,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 14
+   "count": 15
   },
   {
    "name": "KB증권",
@@ -52,7 +52,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 20
+   "count": 21
   },
   {
    "name": "하나증권",
@@ -97,7 +97,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 17
+   "count": 20
   },
   {
    "name": "토스증권",
@@ -178,7 +178,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 4
+   "count": 5
   },
   {
    "name": "LS증권",
@@ -187,7 +187,7 @@
    "ok": true,
    "error": "",
    "note": "봇 차단(Eversafe)으로 자동 수집 불가할 수 있음",
-   "count": 9
+   "count": 10
   },
   {
    "name": "DB증권",
@@ -205,7 +205,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 5
+   "count": 6
   },
   {
    "name": "신한은행",
@@ -238,19 +238,19 @@
    "name": "NH농협은행",
    "type": "은행",
    "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "ok": false,
-   "error": "Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://banking.nonghyup.com/nhbank.html",
+   "ok": true,
+   "error": "",
    "note": "",
-   "count": 0
+   "count": 2
   },
   {
    "name": "IBK기업은행",
    "type": "은행",
    "url": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
-   "ok": false,
-   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
+   "ok": true,
+   "error": "",
    "note": "",
-   "count": 0
+   "count": 21
   },
   {
    "name": "SC제일은행",
@@ -268,7 +268,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 13
+   "count": 14
   },
   {
    "name": "BNK부산은행",
@@ -286,7 +286,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 12
+   "count": 13
   },
   {
    "name": "광주은행",
@@ -857,6 +857,22 @@
    "firstSeen": "2026-11-01"
   },
   {
+   "id": "017f3264a2",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "[신규] 모니모 앱 가입 이벤트",
+   "start": "2026.11.01",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "10월에 모니모 가입하면 5천원 전원 증정!(신규,이벤트 신청 필수)(기간 : 26.10.1~10.31)",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=2171",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-11-02"
+  },
+  {
    "id": "c922af56ee",
    "institution": "삼성증권",
    "type": "증권사",
@@ -1347,6 +1363,22 @@
    "url": "https://www.kbsec.com/go.able?linkcd=s060902030000&seq=10003885&idt=20220223&clsfcd=6&gubun=1",
    "listUrl": "https://www.kbsec.com/go.able?linkcd=m06090002",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "1c043c825b",
+   "institution": "KB증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "비대면 계좌 온라인 국내주식위탁 수수료 평생 혜택",
+   "start": "2026.06.01",
+   "end": "2027.05.31",
+   "benefitHints": [],
+   "desc": "비대면 계좌 온라인 국내주식위탁 수수료 평생 혜택 이벤트",
+   "url": "https://www.kbsec.com/go.able?linkcd=s060902030000&seq=10002893&idt=20210527&clsfcd=6&gubun=1",
+   "listUrl": "https://www.kbsec.com/go.able?linkcd=m06090002",
+   "firstSeen": "2026-11-02"
   },
   {
    "id": "23a4b49564",
@@ -2506,6 +2538,40 @@
    "firstSeen": "2026-11-01"
   },
   {
+   "id": "94d5f0540f",
+   "institution": "대신증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "투자 상식 퀴즈 이벤트1 혜택도 받고 투자 상식도 높이자!",
+   "start": "2026.10.28",
+   "end": "2026.11.08",
+   "benefitHints": [],
+   "desc": "대신로고",
+   "url": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "a7121ee23e",
+   "institution": "대신증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "고배당 투자에 혜택을 더하다!2 최대 혜택 40만원",
+   "start": "2026.11.02",
+   "end": "2026.11.13",
+   "benefitHints": [
+    "40만원"
+   ],
+   "desc": "대신로고",
+   "url": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "firstSeen": "2026-11-02"
+  },
+  {
    "id": "4c1b9f1078",
    "institution": "대신증권",
    "type": "증권사",
@@ -2539,6 +2605,22 @@
    "url": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
    "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "9f8c063f3d",
+   "institution": "대신증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "주주를 먼저 생각하는 착한 기업에 투자하세요 대신증권 IRP 펀드 매수 이벤트",
+   "start": "2026.11.02",
+   "end": "2026.12.15",
+   "benefitHints": [],
+   "desc": "대신로고",
+   "url": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "firstSeen": "2026-11-02"
   },
   {
    "id": "94e272fdef",
@@ -3612,6 +3694,23 @@
    "firstSeen": "2026-10-27"
   },
   {
+   "id": "1d74f790ce",
+   "institution": "SK증권",
+   "type": "증권사",
+   "categories": [
+    "pension",
+    "savings"
+   ],
+   "title": "[영업점 고객]연금저축(랩) 순입금 캐시백 기부 이벤트 시작일 2026.11.02 종료일",
+   "start": "2026.11.02",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S02.cmd?senumber=28163&tab=ing&searchType=&searchVal=&page=1",
+   "listUrl": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S01.cmd",
+   "firstSeen": "2026-11-02"
+  },
+  {
    "id": "0779d78050",
    "institution": "SK증권",
    "type": "증권사",
@@ -3640,7 +3739,7 @@
    "benefitHints": [
     "최대 30%"
    ],
-   "desc": "더보기 (현재페이지4/총페이지4)",
+   "desc": "더보기 (현재페이지5/총페이지5)",
    "url": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S02.cmd?senumber=27784&tab=ing&searchType=&searchVal=&page=1",
    "listUrl": "https://www.sks.co.kr/main/customer/event/CU_13000_T01_S01.cmd",
    "firstSeen": "2026-10-01"
@@ -3802,10 +3901,26 @@
    "start": "2026.09.22",
    "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "",
+   "desc": "더보기",
    "url": "https://m.ls-sec.co.kr/cs/event/open",
    "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "01322a39cc",
+   "institution": "LS증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "신용융자 제로금리 이벤트",
+   "start": "2026.11.02",
+   "end": "2027.01.28",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.ls-sec.co.kr/cs/event/open",
+   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
+   "firstSeen": "2026-11-02"
   },
   {
    "id": "141d29dbda",
@@ -3822,6 +3937,22 @@
    "url": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
    "listUrl": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
    "firstSeen": "2026-11-01"
+  },
+  {
+   "id": "43374b2312",
+   "institution": "KB국민은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "중요한 문서, 어디서나 놓치지 않게! 전자문서 이용동의하고 혜택도 챙기세요!",
+   "start": "2026.11.02",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://omoney.kbstar.com/quics?page=C016559",
+   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
+   "firstSeen": "2026-11-02"
   },
   {
    "id": "c7be4d7c97",
@@ -4027,6 +4158,38 @@
    "firstSeen": "2026-10-07"
   },
   {
+   "id": "cd8c0f0ce9",
+   "institution": "하나은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "별도장 꾸~욱 찍으면미니 붕어빵이 무료! [놀이터] 11월 출석체크 이벤트",
+   "start": "2026.11.02",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.kebhana.com/cont/event/new/event01/1529259_152465.jsp",
+   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "5d97712638",
+   "institution": "하나은행",
+   "type": "은행",
+   "categories": [
+    "irp"
+   ],
+   "title": "개인형IRP 투자하고,배달의 민족 상품권 받자! 개인형IRP 펀드/ETF 순매수 이벤트",
+   "start": "2026.11.02",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.kebhana.com/cont/event/new/event01/1529249_152465.jsp",
+   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
+   "firstSeen": "2026-11-02"
+  },
+  {
    "id": "911033d800",
    "institution": "하나은행",
    "type": "은행",
@@ -4053,26 +4216,10 @@
    "start": "2026.10.01",
    "end": "2026.11.30",
    "benefitHints": [],
-   "desc": "",
+   "desc": "이전 목록으로 이동 1 2 3 다음 목록으로 이동",
    "url": "https://m.kebhana.com/cont/event/new/event01/1528582_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "7b937a1864",
-   "institution": "하나은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "첫거래 손님을 위한특별한 이벤트 혜택 첫거래 손님을 위한 특별이벤트",
-   "start": "2026.09.22",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "이전 목록으로 이동 1 2 3 다음 목록으로 이동",
-   "url": "https://m.kebhana.com/cont/event/new/event01/1528569_152465.jsp",
-   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
-   "firstSeen": "2026-10-31"
   },
   {
    "id": "1f6c579a86",
@@ -4141,22 +4288,376 @@
    "firstSeen": "2026-10-02"
   },
   {
-   "id": "adbd87c06d",
-   "institution": "하나은행",
+   "id": "634cdba9e2",
+   "institution": "NH농협은행",
+   "type": "은행",
+   "categories": [
+    "savings"
+   ],
+   "title": "휴면예금 찾기 이벤트 나의 휴면예금 캐치캐치",
+   "start": "2026.10.01",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "aaff1fb41b",
+   "institution": "NH농협은행",
    "type": "은행",
    "categories": [
     "other"
    ],
-   "title": "나라사랑카드 하나로,최대 53,000원 혜택! 하나 나라사랑카드 이벤트",
-   "start": "2026.10.01",
+   "title": "좋아요 3",
+   "start": "",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "1",
+   "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "ccf14f08ec",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "2026 입크콘서트 응모",
+   "start": "2026.08.11",
+   "end": "2026.11.08",
+   "benefitHints": [],
+   "desc": "2026 입크콘서트 응모",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103629&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "be127a0f32",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "11월 온라인 신규회원 연회비 포인트로",
+   "start": "2026.11.01",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "11월 온라인 신규회원 연회비 포인트로 돌려받자 이벤트",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103645&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "fcfbcd3b4b",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "「IBK와 키자니아가 함께하는 우리 아이",
+   "start": "2026.10.14",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "「IBK와 키자니아가 함께하는 우리 아이 금융체험 이벤트」실시",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103642&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "6d4e80460b",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "소셜 인플루언서 광고비 자동입금서비스 출",
+   "start": "2026.09.11",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "소셜 인플루언서 광고비 자동입금서비스 출시 이벤트",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103636&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "8e60bd20c3",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "강원 가GO, IBK카드 긁GO!",
+   "start": "2026.09.01",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "강원 가GO, IBK카드 긁GO!",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103631&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "56353d992e",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "청약 친구추천",
+   "start": "2026.07.24",
+   "end": "2026.12.15",
+   "benefitHints": [],
+   "desc": "청약 친구추천 이벤트",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103624&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "d0fd14f852",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "「청약 비긴어게인」 시즌2",
+   "start": "2026.09.15",
+   "end": "2026.12.18",
+   "benefitHints": [],
+   "desc": "「청약 비긴어게인」 시즌2",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103637&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "4b9d004614",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "IBK나라사랑카드 LAST CALL",
+   "start": "2026.11.02",
+   "end": "2026.12.22",
+   "benefitHints": [],
+   "desc": "IBK나라사랑카드 LAST CALL : '07년생 이벤트",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103647&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "b68b28d389",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "IBK나라사랑카드 받으면 바로 받는 혜택",
+   "start": "2026.09.30",
+   "end": "2026.12.30",
+   "benefitHints": [],
+   "desc": "IBK나라사랑카드 받으면 바로 받는 혜택",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103638&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "769ba13a03",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "호서대 i-ONE캠퍼스 통학버스 할인 시",
+   "start": "2026.10.30",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "호서대 i-ONE캠퍼스 통학버스 할인 시즌2 이벤트",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103644&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "edc2b2026a",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "IBK카드 업종별 무이자할부 혜택안내",
+   "start": "2026.10.02",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "IBK카드 업종별 무이자할부 혜택안내",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103641&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "443a2149be",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "키자니아에서 만나는 IBK기업은행!",
+   "start": "2026.09.08",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "키자니아에서 만나는 IBK기업은행!",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103635&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "25a5cc40b4",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "외환 목표달성 챌린지 시즌2",
+   "start": "2026.08.28",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "외환 목표달성 챌린지 시즌2 이벤트",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103630&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "d17902b1bf",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "'26년 하반기 IBK급여라운지 마케팅",
+   "start": "2026.07.06",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "'26년 하반기 IBK급여라운지 마케팅",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103619&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "1d94f3ee51",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "IBK카드 다이렉트 오토캐시백 마케팅",
+   "start": "2026.07.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "IBK카드 다이렉트 오토캐시백 마케팅",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103617&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "cac077b78f",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "2026년 IBK 청년 금융바우처 안내",
+   "start": "2026.03.24",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "2026년 IBK 청년 금융바우처 안내",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103584&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "782a2f983c",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "IBK유니온페이카드 「’일’단 사고 ‘본",
+   "start": "2026.02.20",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "IBK유니온페이카드 「’일’단 사고 ‘본’다! 마케팅」 안내",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103578&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "3dc6078ff7",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "'26년 상반기 IBK급여라운지 마케팅",
+   "start": "2026.01.19",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "'26년 상반기 IBK급여라운지 마케팅",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103561&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "8a2e639b06",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "IBK나라사랑카드 X SOCAR 50%",
+   "start": "2026.01.05",
    "end": "2026.12.31",
    "benefitHints": [
-    "최대 53,000원"
+    "50%"
    ],
-   "desc": "",
-   "url": "https://m.kebhana.com/cont/event/new/event01/1521922_152465.jsp",
-   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
-   "firstSeen": "2026-10-01"
+   "desc": "IBK나라사랑카드 X SOCAR 50% 할인쿠폰 받자!!",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103560&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "6c8b061c61",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "2026년 IBK 영유아 청소년 금융바우",
+   "start": "2026.01.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "2026년 IBK 영유아 청소년 금융바우처 안내",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103557&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "8eeff0da5b",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "IBK유니온페이카드 해외가맹점 10% 즉",
+   "start": "2026.08.10",
+   "end": "2027.01.31",
+   "benefitHints": [
+    "10%"
+   ],
+   "desc": "IBK유니온페이카드 해외가맹점 10% 즉시할인",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103628&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-02"
   },
   {
    "id": "7542ee0c2e",
@@ -4424,6 +4925,22 @@
    "firstSeen": "2026-09-29"
   },
   {
+   "id": "bd181ca533",
+   "institution": "iM뱅크",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "생활속 결제,최대 5개월 무이자로 가볍게!",
+   "start": "",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "생활속 결제, 최대 5개월 무이자로 가볍게!",
+   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
+   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
+   "firstSeen": "2026-11-02"
+  },
+  {
    "id": "e353b8fda9",
    "institution": "iM뱅크",
    "type": "은행",
@@ -4520,6 +5037,22 @@
    "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCMN601001001",
    "listUrl": "https://www.busanbank.co.kr/ib20/mnu/BHPCMN601001001",
    "firstSeen": "2026-11-01"
+  },
+  {
+   "id": "657138b8ac",
+   "institution": "BNK경남은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "올해도 함께, 모바일뱅킹과 행운을 만나보세요!",
+   "start": "2026.11.02",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "올해도 함께, 모바일뱅킹과 행운을 만나보세요!",
+   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "firstSeen": "2026-11-02"
   },
   {
    "id": "229b39e1fe",
@@ -4654,22 +5187,6 @@
    "firstSeen": "2026-11-02"
   },
   {
-   "id": "f6a1871a9f",
-   "institution": "BNK경남은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "경남은행 BC카드 이용하고 최대 5개월 무이자할부 혜택받자!",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "경남은행 BC카드 이용하고 최대 5개월 무이자할부 혜택받자!",
-   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "firstSeen": "2026-11-02"
-  },
-  {
    "id": "885fb6a227",
    "institution": "BNK경남은행",
    "type": "은행",
@@ -4683,6 +5200,22 @@
     "최대 4.5만원"
    ],
    "desc": "카드 자동납부로 편하게! 최대 4.5만원 할인까지!",
+   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "f6a1871a9f",
+   "institution": "BNK경남은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "경남은행 BC카드 이용하고 최대 5개월 무이자할부 혜택받자!",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "경남은행 BC카드 이용하고 최대 5개월 무이자할부 혜택받자!",
    "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "firstSeen": "2026-11-02"
@@ -4805,6 +5338,22 @@
    "firstSeen": "2026-10-20"
   },
   {
+   "id": "2a2efb77ca",
+   "institution": "전북은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "내 생각이 쏙! 함께 만드는 쏙뱅크 고객 제안 이벤트!",
+   "start": "2026.11.02",
+   "end": "2026.12.01",
+   "benefitHints": [],
+   "desc": "내 생각이 쏙! 함께 만드는 쏙뱅크 고객 제안 이벤트!이벤트관련 배너입니다.",
+   "url": "https://www.jbbank.co.kr/commonevents.act",
+   "listUrl": "https://www.jbbank.co.kr/commonevents.act",
+   "firstSeen": "2026-11-02"
+  },
+  {
    "id": "b6435606d4",
    "institution": "전북은행",
    "type": "은행",
@@ -4884,22 +5433,6 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "내 연금 골든체인지 이벤트이벤트관련 배너입니다.",
-   "url": "https://www.jbbank.co.kr/commonevents.act",
-   "listUrl": "https://www.jbbank.co.kr/commonevents.act",
-   "firstSeen": "2026-10-21"
-  },
-  {
-   "id": "9138b79745",
-   "institution": "전북은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "2026년 JB카드 무이자 할부 이벤트",
-   "start": "2026.07.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "2026년 JB카드 무이자 할부 이벤트이벤트관련 배너입니다.",
    "url": "https://www.jbbank.co.kr/commonevents.act",
    "listUrl": "https://www.jbbank.co.kr/commonevents.act",
    "firstSeen": "2026-10-21"
