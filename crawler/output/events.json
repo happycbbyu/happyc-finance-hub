@@ -1,8 +1,8 @@
 {
- "crawledAt": "2026-11-03 04:07 KST",
+ "crawledAt": "2026-11-03 12:22 KST",
  "summary": {
   "isa": 17,
-  "pension": 26,
+  "pension": 25,
   "irp": 26,
   "cma": 9,
   "savings": 30,
@@ -142,7 +142,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 19
+   "count": 18
   },
   {
    "name": "iM증권",
@@ -570,10 +570,26 @@
    "start": "2026.10.01",
    "end": "2026.11.30",
    "benefitHints": [],
-   "desc": "",
+   "desc": "처음으로 이전으로 현재페이지1 2 다음으로 마지막으로",
    "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "firstSeen": "2026-11-01"
+  },
+  {
+   "id": "1dab7afee0",
+   "institution": "한국투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "주식모으기 이벤트 시즌3",
+   "start": "2026.11.03",
+   "end": "2026.12.29",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "firstSeen": "2026-11-03"
   },
   {
    "id": "b9073e4804",
@@ -622,22 +638,6 @@
    "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "firstSeen": "2026-10-31"
-  },
-  {
-   "id": "daee681677",
-   "institution": "한국투자증권",
-   "type": "증권사",
-   "categories": [
-    "pension"
-   ],
-   "title": "개인연금 운용사 ETF 매수 이벤트",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "처음으로 이전으로 현재페이지1 2 다음으로 마지막으로",
-   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "firstSeen": "2026-11-01"
   },
   {
    "id": "de74a2fd99",
@@ -3442,22 +3442,6 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "주식대출 갈아타기 이벤트",
-   "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "38e0fe6dfb",
-   "institution": "한화투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "세무신고 무료 연계 대행 서비스",
-   "start": "2026.04.01",
-   "end": "2027.03.31",
-   "benefitHints": [],
-   "desc": "세무신고 무료 연계 대행 서비스",
    "url": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
    "listUrl": "https://www.hanwhawm.com/main/bbs/index.cmd?vc_bid=event&mode=center&gtab=1",
    "firstSeen": "2026-09-24"
