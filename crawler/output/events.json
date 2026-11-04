@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-11-04 01:50 KST",
+ "crawledAt": "2026-11-04 10:59 KST",
  "summary": {
   "isa": 18,
-  "pension": 25,
+  "pension": 24,
   "irp": 26,
-  "cma": 9,
+  "cma": 7,
   "savings": 30,
-  "other": 237
+  "other": 228
  },
  "sources": [
   {
@@ -133,7 +133,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 8
+   "count": 11
   },
   {
    "name": "한화투자증권",
@@ -265,10 +265,10 @@
    "name": "iM뱅크",
    "type": "은행",
    "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "ok": true,
-   "error": "",
+   "ok": false,
+   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
    "note": "",
-   "count": 15
+   "count": 0
   },
   {
    "name": "BNK부산은행",
@@ -2683,7 +2683,7 @@
    ],
    "title": "주주를 먼저 생각하는 착한 기업에 투자하세요 대신증권 IRP 펀드 매수 이벤트",
    "start": "2026.11.02",
-   "end": "2026.12.15",
+   "end": "2026.12.18",
    "benefitHints": [],
    "desc": "대신로고",
    "url": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
@@ -3093,6 +3093,22 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "263b9ef7a2",
+   "institution": "교보증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "국내 선물옵션 알아보기 진행예정",
+   "start": "2026.11.06",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "국내 선물옵션 알아보기 안내",
+   "url": "https://m.iprovest.com/weblogic/EventServlet/eventAll",
+   "listUrl": "https://m.iprovest.com/weblogic/EventServlet/eventAll",
+   "firstSeen": "2026-11-04"
+  },
+  {
    "id": "9b5fbb2444",
    "institution": "교보증권",
    "type": "증권사",
@@ -3107,6 +3123,38 @@
    "url": "https://m.iprovest.com/weblogic/EventServlet/eventAll",
    "listUrl": "https://m.iprovest.com/weblogic/EventServlet/eventAll",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "0c4bcd4211",
+   "institution": "교보증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "국내 파생상품 OX퀴즈 진행예정",
+   "start": "2026.11.06",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "국내 파생상품 OX퀴즈 안내",
+   "url": "https://m.iprovest.com/weblogic/EventServlet/eventAll",
+   "listUrl": "https://m.iprovest.com/weblogic/EventServlet/eventAll",
+   "firstSeen": "2026-11-04"
+  },
+  {
+   "id": "f86e7f9cee",
+   "institution": "교보증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "국내 파생상품 OX퀴즈 안내",
+   "start": "2026.01.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.iprovest.com/weblogic/EventServlet/eventAll",
+   "listUrl": "https://m.iprovest.com/weblogic/EventServlet/eventAll",
+   "firstSeen": "2026-11-04"
   },
   {
    "id": "c0359094c8",
@@ -4902,257 +4950,6 @@
    "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
    "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
    "firstSeen": "2026-10-07"
-  },
-  {
-   "id": "f1a2382334",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "pension"
-   ],
-   "title": "공적연금갈아타고5만원 지원금받기",
-   "start": "",
-   "end": "2026.11.20",
-   "benefitHints": [
-    "5만원"
-   ],
-   "desc": "연금갈아타고 5만원 지원금받기",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "f1f8289468",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "iM모임통장 만들고오승환 선수에게 야구 레슨 받기",
-   "start": "",
-   "end": "2026.11.22",
-   "benefitHints": [],
-   "desc": "iM모임통장 만들고 오승환 선수에게 야구 레슨 받기",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-10-20"
-  },
-  {
-   "id": "f874b3e728",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "행운가득 키크니 달력 패키지2027년 돈복 가득 챙기기",
-   "start": "",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "2027 키크니 스페셜 패키지 경품 추첨",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-11-03"
-  },
-  {
-   "id": "b8f9e9c834",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "iM뱅크-현대카드M 최대 10만원 상당 혜택",
-   "start": "",
-   "end": "2026.11.30",
-   "benefitHints": [
-    "최대 10만원"
-   ],
-   "desc": "iM뱅크-현대카드M 최대 10만원 상당 혜택",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "daa02ce074",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "iM증권 주식계좌 개설하고2만원 쿠폰 받기",
-   "start": "",
-   "end": "2026.11.30",
-   "benefitHints": [
-    "2만원"
-   ],
-   "desc": "iM증권 주식계좌 개설 이벤트",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "3923d15b2b",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "cma"
-   ],
-   "title": "텐텐통장 이벤트 참여하고아이폰, 갤럭시 당첨 도전하기",
-   "start": "",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "텐텐통장 이벤트",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "36606c115b",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "iM뱅크 앱 첫 로그인하고영화관람권 + 팝콘 세트 받기",
-   "start": "",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "iM뱅크 첫 로그인하고 영화관람권 + 팝콘 세트 받기",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "871b8885f6",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "자동충전 하이패스 카드 발급하고1천원 할인받기",
-   "start": "",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "자동충전 하이패스 카드 발급하고 1천원 할인받기",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "8c9e7d0da2",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "다같이 모임통장 만들고다같이 매달 혜택 챙기기",
-   "start": "",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "매달 혜택 쿠폰 받기",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "533589e16d",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "매주 200만원 받을 주인공 찾습니다.창립 59주년 기념",
-   "start": "",
-   "end": "2026.12.06",
-   "benefitHints": [
-    "200만원",
-    "59주"
-   ],
-   "desc": "추첨 이벤트 200만원",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-09-29"
-  },
-  {
-   "id": "bd181ca533",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "생활속 결제,최대 5개월 무이자로 가볍게!",
-   "start": "",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "생활속 결제, 최대 5개월 무이자로 가볍게!",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-11-02"
-  },
-  {
-   "id": "e353b8fda9",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "cma"
-   ],
-   "title": "금리도~착! 혜택도~착!착착통장 가입하고 혜택받기",
-   "start": "",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "착착통장",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "df75046dcc",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "iM뱅크 앱 첫 로그인하고티빙 4개월 무료로 보기",
-   "start": "",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "티빙 제휴 프로모션",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "df35c517cd",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "ZENITH 카드메탈플레이트 발급 수수료 면제",
-   "start": "",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "ZENITH 카드 발급비용 캐시백 이벤트",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "19c862b030",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "더 강력해진 비상금박스매월 최대 10만원 쿠폰 받기",
-   "start": "",
-   "end": "2027.01.31",
-   "benefitHints": [
-    "최대 10만원"
-   ],
-   "desc": "비상금박스 캐시백 이벤트 시즌4",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-10-28"
   },
   {
    "id": "b4bb1e339f",
