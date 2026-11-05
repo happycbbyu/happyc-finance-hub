@@ -1,11 +1,11 @@
 {
- "crawledAt": "2026-11-05 01:49 KST",
+ "crawledAt": "2026-11-05 11:03 KST",
  "summary": {
   "isa": 18,
   "pension": 26,
   "irp": 26,
   "cma": 9,
-  "savings": 31,
+  "savings": 32,
   "other": 239
  },
  "sources": [
@@ -295,7 +295,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 5
+   "count": 6
   },
   {
    "name": "전북은행",
@@ -5453,6 +5453,22 @@
    "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "bbced96fd7",
+   "institution": "광주은행",
+   "type": "은행",
+   "categories": [
+    "savings"
+   ],
+   "title": "광주은행과 함께한 시간 58년 동행, 더드림 예금 특판 이벤트",
+   "start": "2026.11.05",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://www.kjbank.com/ib20/mnu/BHPFTLF040100",
+   "listUrl": "https://www.kjbank.com/ib20/mnu/BHPFTLF040100",
+   "firstSeen": "2026-11-05"
   },
   {
    "id": "4ce9154221",
