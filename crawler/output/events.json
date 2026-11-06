@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-11-06 02:05 KST",
+ "crawledAt": "2026-11-06 11:02 KST",
  "summary": {
   "isa": 18,
   "pension": 26,
   "irp": 26,
   "cma": 9,
   "savings": 32,
-  "other": 240
+  "other": 239
  },
  "sources": [
   {
@@ -43,7 +43,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 19
+   "count": 18
   },
   {
    "name": "KB증권",
@@ -856,22 +856,6 @@
    "url": "https://m.mynamuh.com/customer/event/eventView?mNo=574",
    "listUrl": "https://m.mynamuh.com/customer/event/eventList",
    "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "1acd97deca",
-   "institution": "삼성증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "자녀증여이벤트",
-   "start": "2026.11.06",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3955",
-   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
-   "firstSeen": "2026-11-06"
   },
   {
    "id": "1a14b797e2",
@@ -4403,22 +4387,6 @@
    "firstSeen": "2026-10-20"
   },
   {
-   "id": "24fb79abf1",
-   "institution": "하나은행",
-   "type": "은행",
-   "categories": [
-    "savings"
-   ],
-   "title": "하나농구단 승리기원하나 농구 응원 적금 하나 농구 응원 적금 이벤트",
-   "start": "2026.10.01",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "이전 목록으로 이동 1 2 3 다음 목록으로 이동",
-   "url": "https://m.kebhana.com/cont/event/new/event01/1528582_152465.jsp",
-   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "id": "1f6c579a86",
    "institution": "하나은행",
    "type": "은행",
@@ -4433,6 +4401,24 @@
    "url": "https://m.kebhana.com/cont/event/new/event01/1529196_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "dfdf39dd77",
+   "institution": "하나은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "하나 나라사랑카드x도미노피자월 최대 1만원 혜택 하나 나라사랑카드x도미노피자",
+   "start": "2026.11.06",
+   "end": "2026.12.31",
+   "benefitHints": [
+    "최대 1만원"
+   ],
+   "desc": "",
+   "url": "https://m.kebhana.com/cont/event/new/event01/1529416_152465.jsp",
+   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
+   "firstSeen": "2026-11-06"
   },
   {
    "id": "6caf78af58",
@@ -4479,7 +4465,7 @@
    "start": "2026.10.01",
    "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "",
+   "desc": "이전 목록으로 이동 1 2 3 다음 목록으로 이동",
    "url": "https://m.kebhana.com/cont/event/new/event01/1528917_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-10-02"
@@ -4501,13 +4487,13 @@
    "firstSeen": "2026-11-02"
   },
   {
-   "id": "08f01cca76",
+   "id": "575c956d2a",
    "institution": "NH농협은행",
    "type": "은행",
    "categories": [
     "other"
    ],
-   "title": "좋아요 6",
+   "title": "좋아요 7",
    "start": "",
    "end": "2026.11.30",
    "benefitHints": [],
@@ -5567,6 +5553,24 @@
    "firstSeen": "2026-10-20"
   },
   {
+   "id": "fe251fb8fd",
+   "institution": "전북은행",
+   "type": "은행",
+   "categories": [
+    "savings"
+   ],
+   "title": "(57주년 창립기념)특판 예금 출시 이벤트",
+   "start": "2026.11.06",
+   "end": "2026.11.30",
+   "benefitHints": [
+    "57주"
+   ],
+   "desc": "(57주년 창립기념)특판 예금 출시 이벤트이벤트관련 배너입니다.",
+   "url": "https://www.jbbank.co.kr/commonevents.act",
+   "listUrl": "https://www.jbbank.co.kr/commonevents.act",
+   "firstSeen": "2026-11-06"
+  },
+  {
    "id": "2a2efb77ca",
    "institution": "전북은행",
    "type": "은행",
@@ -5646,22 +5650,6 @@
     "최대 1.6%"
    ],
    "desc": "자동차 FLEX하고 최대 1.6% 캐시백 받자!이벤트관련 배너입니다.",
-   "url": "https://www.jbbank.co.kr/commonevents.act",
-   "listUrl": "https://www.jbbank.co.kr/commonevents.act",
-   "firstSeen": "2026-10-21"
-  },
-  {
-   "id": "89ee60058c",
-   "institution": "전북은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "내 연금 골든체인지 이벤트",
-   "start": "2026.07.10",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "내 연금 골든체인지 이벤트이벤트관련 배너입니다.",
    "url": "https://www.jbbank.co.kr/commonevents.act",
    "listUrl": "https://www.jbbank.co.kr/commonevents.act",
    "firstSeen": "2026-10-21"
