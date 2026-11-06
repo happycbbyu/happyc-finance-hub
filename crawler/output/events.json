@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-11-06 11:02 KST",
+ "crawledAt": "2026-11-07 01:36 KST",
  "summary": {
   "isa": 18,
   "pension": 26,
-  "irp": 26,
+  "irp": 25,
   "cma": 9,
-  "savings": 32,
-  "other": 239
+  "savings": 33,
+  "other": 240
  },
  "sources": [
   {
@@ -43,7 +43,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 18
+   "count": 19
   },
   {
    "name": "KB증권",
@@ -52,7 +52,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 21
+   "count": 22
   },
   {
    "name": "하나증권",
@@ -187,7 +187,7 @@
    "ok": true,
    "error": "",
    "note": "봇 차단(Eversafe)으로 자동 수집 불가할 수 있음",
-   "count": 9
+   "count": 8
   },
   {
    "name": "DB증권",
@@ -560,20 +560,22 @@
    "firstSeen": "2026-10-01"
   },
   {
-   "id": "3af8d8d20d",
+   "id": "16ba669812",
    "institution": "한국투자증권",
    "type": "증권사",
    "categories": [
-    "irp"
+    "other"
    ],
-   "title": "퇴직연금 개인투자용 국채 매수 이벤트",
-   "start": "2026.10.01",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "처음으로 이전으로 현재페이지1 2 다음으로 마지막으로",
+   "title": "9회 실전투자 한투배틀 파이널리그 X 무신사 준비중 한투배틀,무신사와 함께. 국내주식 5개 리그 총 상금 4,325만원!!",
+   "start": "2026.11.09",
+   "end": "2026.12.04",
+   "benefitHints": [
+    "4,325만원"
+   ],
+   "desc": "",
    "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "firstSeen": "2026-11-01"
+   "firstSeen": "2026-11-07"
   },
   {
    "id": "1dab7afee0",
@@ -634,7 +636,7 @@
    "start": "2026.10.01",
    "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "",
+   "desc": "처음으로 이전으로 현재페이지1 2 다음으로 마지막으로",
    "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "firstSeen": "2026-10-31"
@@ -856,6 +858,22 @@
    "url": "https://m.mynamuh.com/customer/event/eventView?mNo=574",
    "listUrl": "https://m.mynamuh.com/customer/event/eventList",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "196cc9371a",
+   "institution": "삼성증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "미성년 자녀 대상 증여 이벤트",
+   "start": "2026.11.06",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3955",
+   "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
+   "firstSeen": "2026-11-07"
   },
   {
    "id": "1a14b797e2",
@@ -1285,6 +1303,22 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "1b2fe5fa04",
+   "institution": "KB증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "마이데이터 시즌4 내 돈, 잘있양?",
+   "start": "2026.11.09",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "마이데이터 시즌4 내 돈, 잘있양?",
+   "url": "https://www.kbsec.com/go.able?linkcd=s060902030000&seq=10010577&idt=20261105&clsfcd=1&gubun=1",
+   "listUrl": "https://www.kbsec.com/go.able?linkcd=m06090002",
+   "firstSeen": "2026-11-07"
+  },
+  {
    "id": "5e57db63b7",
    "institution": "KB증권",
    "type": "증권사",
@@ -1509,7 +1543,7 @@
    "end": "2026.11.17",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=701&startDate=00000000&endDate=20261106&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=701&startDate=00000000&endDate=20261107&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -1528,7 +1562,7 @@
     "5.7%"
    ],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=717&startDate=00000000&endDate=20261106&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=717&startDate=00000000&endDate=20261107&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -1544,7 +1578,7 @@
    "end": "2026.11.20",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261106&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261107&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -1560,7 +1594,7 @@
    "end": "2026.12.06",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261106&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261107&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-03"
   },
@@ -1576,7 +1610,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261106&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261107&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -1592,7 +1626,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=702&startDate=00000000&endDate=20261106&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=702&startDate=00000000&endDate=20261107&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -1608,7 +1642,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261106&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261107&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -1624,7 +1658,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261106&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261107&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -1640,7 +1674,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261106&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261107&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -1656,7 +1690,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "사이드바 열기",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261106&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261107&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -3960,22 +3994,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "a6d2af872b",
-   "institution": "LS증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "ETF 거래 이벤트(RISE코스닥커버드콜액티브)",
-   "start": "2026.10.01",
-   "end": "2026.11.06",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://m.ls-sec.co.kr/cs/event/open",
-   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "id": "64556f3769",
    "institution": "LS증권",
    "type": "증권사",
@@ -4104,20 +4122,20 @@
    "firstSeen": "2026-11-02"
   },
   {
-   "id": "141d29dbda",
+   "id": "41d34652ff",
    "institution": "DB증권",
    "type": "증권사",
    "categories": [
-    "other"
+    "savings"
    ],
-   "title": "채권 매수 이벤트 디지털 신규고객 이벤트",
-   "start": "2026.10.12",
-   "end": "2026.12.24",
+   "title": "디지털고객 전용 특판DLB 제182회 채권 매수 이벤트 디지털 신규고객 이벤트",
+   "start": "2026.11.09",
+   "end": "2026.11.13",
    "benefitHints": [],
-   "desc": "채권 매수 이벤트",
+   "desc": "디지털고객 전용 특판DLB 제182회",
    "url": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
    "listUrl": "https://www.dbsec.co.kr/custcenter/notices/cu_NoticesEvent_lst.do",
-   "firstSeen": "2026-11-01"
+   "firstSeen": "2026-11-07"
   },
   {
    "id": "43374b2312",
