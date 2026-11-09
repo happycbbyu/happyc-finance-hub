@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-11-09 00:46 KST",
+ "crawledAt": "2026-11-09 10:30 KST",
  "summary": {
   "isa": 18,
   "pension": 26,
   "irp": 25,
   "cma": 9,
   "savings": 33,
-  "other": 241
+  "other": 244
  },
  "sources": [
   {
@@ -97,7 +97,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 20
+   "count": 21
   },
   {
    "name": "토스증권",
@@ -160,7 +160,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 12
+   "count": 13
   },
   {
    "name": "IBK투자증권",
@@ -223,7 +223,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 2
+   "count": 3
   },
   {
    "name": "하나은행",
@@ -496,6 +496,22 @@
    "firstSeen": "2026-10-20"
   },
   {
+   "id": "fa7892fcad",
+   "institution": "한국투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "뱅키스 2027학년도 입시설명회",
+   "start": "2026.11.09",
+   "end": "2026.11.22",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "firstSeen": "2026-11-09"
+  },
+  {
    "id": "f74d99a513",
    "institution": "한국투자증권",
    "type": "증권사",
@@ -618,23 +634,7 @@
    "start": "2026.10.01",
    "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "",
-   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "firstSeen": "2026-10-31"
-  },
-  {
-   "id": "7007adc9c6",
-   "institution": "한국투자증권",
-   "type": "증권사",
-   "categories": [
-    "irp"
-   ],
-   "title": "IRP 대고객 이벤트",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "처음으로 이전으로 현재페이지1 2 다음으로 마지막으로",
+   "desc": "처음으로 이전으로 현재페이지1 2 3 다음으로 마지막으로",
    "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "firstSeen": "2026-10-31"
@@ -2673,6 +2673,22 @@
    "firstSeen": "2026-11-03"
   },
   {
+   "id": "63508260c5",
+   "institution": "대신증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "투자 상식 퀴즈 이벤트2 혜택도 받고 투자 상식도 높이자!",
+   "start": "2026.11.09",
+   "end": "2026.11.13",
+   "benefitHints": [],
+   "desc": "대신로고",
+   "url": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "firstSeen": "2026-11-09"
+  },
+  {
    "id": "4c1b9f1078",
    "institution": "대신증권",
    "type": "증권사",
@@ -3736,6 +3752,22 @@
    "firstSeen": "2026-11-01"
   },
   {
+   "id": "868efd878e",
+   "institution": "유진투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "매직스플릿 앱 출시 이벤트◆주식 분할 투자의 신세계!◇(조건 충족 시) 디지털 매직스플릿 앱 출시 이벤트주식 분할 투자의 신세계! (조건 충족 시)",
+   "start": "2026.11.09",
+   "end": "2026.12.07",
+   "benefitHints": [],
+   "desc": "매직스플릿 앱 출시 이벤트◆주식 분할 투자의 신세계!◇(조건 충족 시)",
+   "url": "https://m.eugenefn.com/ev10r.do",
+   "listUrl": "https://m.eugenefn.com/ev10r.do",
+   "firstSeen": "2026-11-09"
+  },
+  {
    "id": "8d5792d6fd",
    "institution": "유진투자증권",
    "type": "증권사",
@@ -4347,10 +4379,26 @@
    "start": "2026.01.14",
    "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "현재 : 1/1 페이지 현재1",
+   "desc": "",
    "url": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
    "listUrl": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
    "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "250abc42a3",
+   "institution": "우리은행",
+   "type": "은행",
+   "categories": [
+    "irp"
+   ],
+   "title": "키우자, 굴리자 퇴직연금 키우자, 굴리자 퇴직연금 선착순 배민 상품권 드려요!",
+   "start": "2026.11.09",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "현재 : 1/1 페이지 현재1",
+   "url": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
+   "listUrl": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
+   "firstSeen": "2026-11-09"
   },
   {
    "id": "d28dc7d4ab",
@@ -4535,20 +4583,20 @@
    "firstSeen": "2026-11-02"
   },
   {
-   "id": "575c956d2a",
+   "id": "febcbddbc1",
    "institution": "NH농협은행",
    "type": "은행",
    "categories": [
     "other"
    ],
-   "title": "좋아요 7",
+   "title": "좋아요 8",
    "start": "",
    "end": "2026.11.30",
    "benefitHints": [],
    "desc": "1",
    "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
    "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "firstSeen": "2026-11-06"
+   "firstSeen": "2026-11-09"
   },
   {
    "id": "be127a0f32",
