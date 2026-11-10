@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-11-10 04:29 KST",
+ "crawledAt": "2026-11-10 13:01 KST",
  "summary": {
   "isa": 18,
   "pension": 25,
   "irp": 25,
   "cma": 9,
   "savings": 32,
-  "other": 234
+  "other": 241
  },
  "sources": [
   {
@@ -97,7 +97,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 20
+   "count": 21
   },
   {
    "name": "토스증권",
@@ -250,7 +250,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 20
+   "count": 26
   },
   {
    "name": "SC제일은행",
@@ -2470,6 +2470,22 @@
    "firstSeen": "2026-11-03"
   },
   {
+   "id": "63508260c5",
+   "institution": "대신증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "투자 상식 퀴즈 이벤트2 혜택도 받고 투자 상식도 높이자!",
+   "start": "2026.11.09",
+   "end": "2026.11.13",
+   "benefitHints": [],
+   "desc": "대신로고",
+   "url": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "firstSeen": "2026-11-10"
+  },
+  {
    "id": "4c1b9f1078",
    "institution": "대신증권",
    "type": "증권사",
@@ -4212,7 +4228,7 @@
    "start": "2026.10.07",
    "end": "2026.11.27",
    "benefitHints": [],
-   "desc": "",
+   "desc": "이전 목록으로 이동 1 2 3 다음 목록으로 이동",
    "url": "https://m.kebhana.com/cont/event/new/event01/1528955_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-10-07"
@@ -4318,6 +4334,24 @@
    "firstSeen": "2026-10-30"
   },
   {
+   "id": "80910082f0",
+   "institution": "하나은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "군 급여이체 받으면현금 10만원 증정 나라사랑 군 급여이체 현금 증정 이벤트",
+   "start": "2026.10.29",
+   "end": "2026.12.31",
+   "benefitHints": [
+    "10만원"
+   ],
+   "desc": "",
+   "url": "https://m.kebhana.com/cont/event/new/event01/1529248_152465.jsp",
+   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
+   "firstSeen": "2026-11-10"
+  },
+  {
    "id": "423c2d5978",
    "institution": "하나은행",
    "type": "은행",
@@ -4332,22 +4366,6 @@
    "url": "https://m.kebhana.com/cont/event/new/event01/1528978_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-10-22"
-  },
-  {
-   "id": "6ef1482336",
-   "institution": "하나은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "하나급여멤버십 리뉴얼 이벤트전기자전거&아이패드 받자! 달달하나컴퍼니 리뉴얼 오픈 이벤트",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "이전 목록으로 이동 1 2 3 다음 목록으로 이동",
-   "url": "https://m.kebhana.com/cont/event/new/event01/1528917_152465.jsp",
-   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
-   "firstSeen": "2026-10-02"
   },
   {
    "id": "634cdba9e2",
@@ -4380,6 +4398,22 @@
    "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
    "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
    "firstSeen": "2026-11-09"
+  },
+  {
+   "id": "d6720a6818",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "i-ONE 모바일 신분증 출시",
+   "start": "2026.11.10",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "i-ONE 모바일 신분증 출시 이벤트",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103648&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-10"
   },
   {
    "id": "be127a0f32",
@@ -4492,6 +4526,86 @@
    "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103647&evnt_dscd=H&pageId=CM01060100",
    "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
    "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "e754730f9c",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "IBK나라사랑카드 먼저ON 이벤트(유웨이",
+   "start": "2026.11.10",
+   "end": "2026.12.25",
+   "benefitHints": [],
+   "desc": "IBK나라사랑카드 먼저ON 이벤트(유웨이)",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103650&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-10"
+  },
+  {
+   "id": "c26aa7a550",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "IBK나라사랑카드 먼저ON 이벤트(게토)",
+   "start": "2026.11.10",
+   "end": "2026.12.25",
+   "benefitHints": [],
+   "desc": "IBK나라사랑카드 먼저ON 이벤트(게토)",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103651&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-10"
+  },
+  {
+   "id": "992806cac7",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "IBK나라사랑카드 먼저ON 이벤트(진학사",
+   "start": "2026.11.10",
+   "end": "2026.12.25",
+   "benefitHints": [],
+   "desc": "IBK나라사랑카드 먼저ON 이벤트(진학사)",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103649&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-10"
+  },
+  {
+   "id": "e3f0007a5e",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "IBK나라사랑카드 먼저ON 이벤트(피카)",
+   "start": "2026.11.10",
+   "end": "2026.12.25",
+   "benefitHints": [],
+   "desc": "IBK나라사랑카드 먼저ON 이벤트(피카)",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103652&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-10"
+  },
+  {
+   "id": "4487b0fa99",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "IBK나라사랑카드 먼저ON 이벤트(기타채",
+   "start": "2026.11.10",
+   "end": "2026.12.25",
+   "benefitHints": [],
+   "desc": "IBK나라사랑카드 먼저ON 이벤트(기타채널)",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103653&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-10"
   },
   {
    "id": "b68b28d389",
