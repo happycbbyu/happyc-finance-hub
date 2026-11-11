@@ -1,8 +1,8 @@
 {
- "crawledAt": "2026-11-11 10:46 KST",
+ "crawledAt": "2026-11-12 01:57 KST",
  "summary": {
   "isa": 18,
-  "pension": 25,
+  "pension": 26,
   "irp": 25,
   "cma": 9,
   "savings": 32,
@@ -250,7 +250,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 26
+   "count": 27
   },
   {
    "name": "SC제일은행",
@@ -496,22 +496,6 @@
    "firstSeen": "2026-10-20"
   },
   {
-   "id": "fa7892fcad",
-   "institution": "한국투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "뱅키스 2027학년도 입시설명회",
-   "start": "2026.11.09",
-   "end": "2026.11.22",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "firstSeen": "2026-11-09"
-  },
-  {
    "id": "f74d99a513",
    "institution": "한국투자증권",
    "type": "증권사",
@@ -522,7 +506,7 @@
    "start": "2026.10.20",
    "end": "2026.11.27",
    "benefitHints": [],
-   "desc": "처음으로 이전으로 현재페이지1 2 3 다음으로 마지막으로",
+   "desc": "",
    "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "firstSeen": "2026-10-20"
@@ -638,6 +622,22 @@
    "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "a368570eec",
+   "institution": "한국투자증권",
+   "type": "증권사",
+   "categories": [
+    "pension"
+   ],
+   "title": "개인연금 대고객 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "처음으로 이전으로 현재페이지1 2 3 다음으로 마지막으로",
+   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "firstSeen": "2026-11-12"
   },
   {
    "id": "de74a2fd99",
@@ -1548,22 +1548,6 @@
    "firstSeen": "2026-10-13"
   },
   {
-   "id": "7973abddb6",
-   "institution": "하나증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "계좌개설 이벤트 오늘종료",
-   "start": "2026.08.27",
-   "end": "2026.11.11",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-11-11"
-  },
-  {
    "id": "7f2c0e595d",
    "institution": "하나증권",
    "type": "증권사",
@@ -1575,7 +1559,7 @@
    "end": "2026.11.17",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=701&startDate=00000000&endDate=20261111&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=701&startDate=00000000&endDate=20261112&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -1594,7 +1578,7 @@
     "5.7%"
    ],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=717&startDate=00000000&endDate=20261111&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=717&startDate=00000000&endDate=20261112&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -1610,7 +1594,7 @@
    "end": "2026.11.20",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261111&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=715&startDate=00000000&endDate=20261112&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -1626,9 +1610,25 @@
    "end": "2026.12.06",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261111&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261112&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-03"
+  },
+  {
+   "id": "bbe9b1a17f",
+   "institution": "하나증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "MOVING카드 추가 적립 이벤트",
+   "start": "2026.11.11",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=723&startDate=00000000&endDate=20261112&searchType=&curPage=1",
+   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
+   "firstSeen": "2026-11-12"
   },
   {
    "id": "7070f0871c",
@@ -1642,7 +1642,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261111&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261112&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -1658,7 +1658,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261111&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261112&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -1674,7 +1674,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261111&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261112&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -1690,7 +1690,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261111&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261112&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -1706,7 +1706,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "사이드바 열기",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261111&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261112&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-10-29"
   },
@@ -2259,20 +2259,20 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "6d642318f8",
+   "id": "cd08ec5562",
    "institution": "신한투자증권",
    "type": "증권사",
    "categories": [
     "other"
    ],
-   "title": "신한금융시장포럼 - 2027년 금융시장 및 주요 산업 전망",
+   "title": "Day 신한금융시장포럼 - 2027년 금융시장 및 주요 산업 전망",
    "start": "2026.11.11",
    "end": "2026.11.12",
    "benefitHints": [],
    "desc": "신한금융시장포럼 - 2027년 금융시장 및 주요 산업 전망",
    "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
    "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "firstSeen": "2026-10-31"
+   "firstSeen": "2026-11-12"
   },
   {
    "id": "2f380df5db",
@@ -4402,20 +4402,20 @@
    "firstSeen": "2026-11-02"
   },
   {
-   "id": "febcbddbc1",
+   "id": "5e78ab5e52",
    "institution": "NH농협은행",
    "type": "은행",
    "categories": [
     "other"
    ],
-   "title": "좋아요 8",
+   "title": "좋아요 9",
    "start": "",
    "end": "2026.11.30",
    "benefitHints": [],
    "desc": "1",
    "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
    "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "firstSeen": "2026-11-09"
+   "firstSeen": "2026-11-12"
   },
   {
    "id": "d6720a6818",
@@ -4514,6 +4514,22 @@
    "firstSeen": "2026-11-02"
   },
   {
+   "id": "d7e0cdf07c",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "고향사랑 행운더하기",
+   "start": "2026.11.11",
+   "end": "2026.12.18",
+   "benefitHints": [],
+   "desc": "고향사랑 행운더하기 이벤트",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103654&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-12"
+  },
+  {
    "id": "d0fd14f852",
    "institution": "IBK기업은행",
    "type": "은행",
@@ -4546,38 +4562,6 @@
    "firstSeen": "2026-11-02"
   },
   {
-   "id": "e3f0007a5e",
-   "institution": "IBK기업은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "IBK나라사랑카드 먼저ON 이벤트(피카)",
-   "start": "2026.11.10",
-   "end": "2026.12.25",
-   "benefitHints": [],
-   "desc": "IBK나라사랑카드 먼저ON 이벤트(피카)",
-   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103652&evnt_dscd=H&pageId=CM01060100",
-   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
-   "firstSeen": "2026-11-10"
-  },
-  {
-   "id": "e754730f9c",
-   "institution": "IBK기업은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "IBK나라사랑카드 먼저ON 이벤트(유웨이",
-   "start": "2026.11.10",
-   "end": "2026.12.25",
-   "benefitHints": [],
-   "desc": "IBK나라사랑카드 먼저ON 이벤트(유웨이)",
-   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103650&evnt_dscd=H&pageId=CM01060100",
-   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
-   "firstSeen": "2026-11-10"
-  },
-  {
    "id": "c26aa7a550",
    "institution": "IBK기업은행",
    "type": "은행",
@@ -4594,6 +4578,22 @@
    "firstSeen": "2026-11-10"
   },
   {
+   "id": "e3f0007a5e",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "IBK나라사랑카드 먼저ON 이벤트(피카)",
+   "start": "2026.11.10",
+   "end": "2026.12.25",
+   "benefitHints": [],
+   "desc": "IBK나라사랑카드 먼저ON 이벤트(피카)",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103652&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-10"
+  },
+  {
    "id": "992806cac7",
    "institution": "IBK기업은행",
    "type": "은행",
@@ -4606,6 +4606,22 @@
    "benefitHints": [],
    "desc": "IBK나라사랑카드 먼저ON 이벤트(진학사)",
    "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103649&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-10"
+  },
+  {
+   "id": "e754730f9c",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "IBK나라사랑카드 먼저ON 이벤트(유웨이",
+   "start": "2026.11.10",
+   "end": "2026.12.25",
+   "benefitHints": [],
+   "desc": "IBK나라사랑카드 먼저ON 이벤트(유웨이)",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103650&evnt_dscd=H&pageId=CM01060100",
    "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
    "firstSeen": "2026-11-10"
   },
