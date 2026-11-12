@@ -1,5 +1,5 @@
 {
- "crawledAt": "2026-11-12 01:57 KST",
+ "crawledAt": "2026-11-12 11:46 KST",
  "summary": {
   "isa": 18,
   "pension": 26,
@@ -4562,22 +4562,6 @@
    "firstSeen": "2026-11-02"
   },
   {
-   "id": "c26aa7a550",
-   "institution": "IBK기업은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "IBK나라사랑카드 먼저ON 이벤트(게토)",
-   "start": "2026.11.10",
-   "end": "2026.12.25",
-   "benefitHints": [],
-   "desc": "IBK나라사랑카드 먼저ON 이벤트(게토)",
-   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103651&evnt_dscd=H&pageId=CM01060100",
-   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
-   "firstSeen": "2026-11-10"
-  },
-  {
    "id": "e3f0007a5e",
    "institution": "IBK기업은행",
    "type": "은행",
@@ -4622,6 +4606,22 @@
    "benefitHints": [],
    "desc": "IBK나라사랑카드 먼저ON 이벤트(유웨이)",
    "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103650&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-10"
+  },
+  {
+   "id": "c26aa7a550",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "IBK나라사랑카드 먼저ON 이벤트(게토)",
+   "start": "2026.11.10",
+   "end": "2026.12.25",
+   "benefitHints": [],
+   "desc": "IBK나라사랑카드 먼저ON 이벤트(게토)",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103651&evnt_dscd=H&pageId=CM01060100",
    "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
    "firstSeen": "2026-11-10"
   },
