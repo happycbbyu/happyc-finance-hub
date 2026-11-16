@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-11-16 01:04 KST",
+ "crawledAt": "2026-11-16 10:38 KST",
  "summary": {
   "isa": 18,
-  "pension": 26,
+  "pension": 25,
   "irp": 25,
-  "cma": 10,
-  "savings": 31,
-  "other": 235
+  "cma": 11,
+  "savings": 30,
+  "other": 241
  },
  "sources": [
   {
@@ -70,7 +70,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 37
+   "count": 36
   },
   {
    "name": "신한투자증권",
@@ -79,7 +79,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 11
+   "count": 15
   },
   {
    "name": "메리츠증권",
@@ -97,7 +97,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 19
+   "count": 20
   },
   {
    "name": "토스증권",
@@ -205,7 +205,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 6
+   "count": 7
   },
   {
    "name": "신한은행",
@@ -490,7 +490,7 @@
    "start": "2026.10.20",
    "end": "2026.11.27",
    "benefitHints": [],
-   "desc": "",
+   "desc": "처음으로 이전으로 현재페이지1 2 3 다음으로 마지막으로",
    "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "firstSeen": "2026-10-20"
@@ -576,6 +576,22 @@
    "firstSeen": "2026-11-10"
   },
   {
+   "id": "5b28d7da95",
+   "institution": "한국투자증권",
+   "type": "증권사",
+   "categories": [
+    "cma"
+   ],
+   "title": "뱅키스 발행어음 이벤트 시즌2",
+   "start": "2026.11.13",
+   "end": "2026.12.18",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "firstSeen": "2026-11-16"
+  },
+  {
    "id": "1dab7afee0",
    "institution": "한국투자증권",
    "type": "증권사",
@@ -623,22 +639,6 @@
    "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "a368570eec",
-   "institution": "한국투자증권",
-   "type": "증권사",
-   "categories": [
-    "pension"
-   ],
-   "title": "개인연금 대고객 이벤트",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "처음으로 이전으로 현재페이지1 2 3 다음으로 마지막으로",
-   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "firstSeen": "2026-11-16"
   },
   {
    "id": "de74a2fd99",
@@ -1988,22 +1988,6 @@
    "firstSeen": "2026-10-15"
   },
   {
-   "id": "d58827fede",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "원스크린 주문 화면 안내페이지",
-   "start": "2026.10.15",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "원스크린 주문 화면 안내페이지",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-10-15"
-  },
-  {
    "id": "e400181e18",
    "institution": "키움증권",
    "type": "증권사",
@@ -2020,6 +2004,22 @@
    "firstSeen": "2026-10-16"
   },
   {
+   "id": "d58827fede",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "원스크린 주문 화면 안내페이지",
+   "start": "2026.10.15",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "원스크린 주문 화면 안내페이지",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-10-15"
+  },
+  {
    "id": "9f6f31d2d6",
    "institution": "키움증권",
    "type": "증권사",
@@ -2034,6 +2034,54 @@
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "722aa8058d",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "미성년자 생애최초 신규고객 이벤트(더모으기 쿠폰)",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "미성년자 생애최초 신규고객 이벤트(더모으기 쿠폰)",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "id": "b07cd1a813",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "퇴직연금 DC 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "퇴직연금 DC 이벤트",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "id": "50d420e272",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "퇴직연금 도입요청하기 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "퇴직연금 도입요청하기 이벤트",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-10-02"
   },
   {
    "id": "fde1120060",
@@ -2067,54 +2115,6 @@
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "b07cd1a813",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "irp"
-   ],
-   "title": "퇴직연금 DC 이벤트",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "퇴직연금 DC 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "id": "722aa8058d",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "미성년자 생애최초 신규고객 이벤트(더모으기 쿠폰)",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "미성년자 생애최초 신규고객 이벤트(더모으기 쿠폰)",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "id": "50d420e272",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "irp"
-   ],
-   "title": "퇴직연금 도입요청하기 이벤트",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "퇴직연금 도입요청하기 이벤트",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-10-02"
   },
   {
    "id": "71bdc16a9c",
@@ -2245,22 +2245,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "f5991956c0",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "키움증권 & 하나카드 PLCC 신용카드",
-   "start": "2026.11.16",
-   "end": "2027.12.31",
-   "benefitHints": [],
-   "desc": "키움증권 & 하나카드 PLCC 신용카드",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-11-16"
-  },
-  {
    "id": "f6d06793ae",
    "institution": "키움증권",
    "type": "증권사",
@@ -2323,6 +2307,70 @@
    "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
    "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
    "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "b43cf373b1",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "신한 Premier MyPB 멤버스 하반기 신규가입 이벤트",
+   "start": "2026.11.16",
+   "end": "2026.12.04",
+   "benefitHints": [],
+   "desc": "신한 Premier MyPB 멤버스 하반기 신규가입 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-16"
+  },
+  {
+   "id": "167b10ce81",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "탭메뉴 전체보기",
+   "start": "2026.11.16",
+   "end": "2026.12.24",
+   "benefitHints": [],
+   "desc": "메뉴더보기",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-16"
+  },
+  {
+   "id": "377f43ae87",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "메뉴더보기",
+   "start": "2026.11.16",
+   "end": "2026.12.24",
+   "benefitHints": [],
+   "desc": "진행중인 이벤트 종료된 이벤트 당첨자 조회",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-16"
+  },
+  {
+   "id": "a451e15898",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "거래 투자쿠폰 이벤트",
+   "start": "2026.11.16",
+   "end": "2026.12.24",
+   "benefitHints": [],
+   "desc": "국내주식 거래 투자쿠폰 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-16"
   },
   {
    "id": "5110ae45ce",
@@ -2488,6 +2536,22 @@
    "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
    "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
    "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "22e113cf9b",
+   "institution": "대신증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "(가을학기 릴레이 세미나) 27년 글로벌 증시 전망 (MARKET INSIGHT LIVE 세미나) 2026년 11월 26일(목) 16:00",
+   "start": "2026.11.13",
+   "end": "2026.11.26",
+   "benefitHints": [],
+   "desc": "대신로고",
+   "url": "https://www.daishin.com/content/w/customer/event/eventDetail.ds?m=1109&p=12933&v=12835&cid=7152",
+   "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "firstSeen": "2026-11-16"
   },
   {
    "id": "4c1b9f1078",
@@ -3973,6 +4037,22 @@
    "firstSeen": "2026-11-14"
   },
   {
+   "id": "634ea79c12",
+   "institution": "KB국민은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "「2027국민은행 X 민음사 행운 꾸러미」새해'북'많이 받으세요!",
+   "start": "2026.11.09",
+   "end": "2026.12.11",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://omoney.kbstar.com/quics?page=C016559",
+   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
+   "firstSeen": "2026-11-16"
+  },
+  {
    "id": "5a84d3cc16",
    "institution": "KB국민은행",
    "type": "은행",
@@ -4094,22 +4174,6 @@
    "firstSeen": "2026-10-28"
   },
   {
-   "id": "91058f6252",
-   "institution": "하나은행",
-   "type": "은행",
-   "categories": [
-    "savings"
-   ],
-   "title": "미래를 위한 첫 시작!청년미래적금 이벤트 청년미래적금 이벤트",
-   "start": "2026.10.07",
-   "end": "2026.11.27",
-   "benefitHints": [],
-   "desc": "이전 목록으로 이동 1 2 3 다음 목록으로 이동",
-   "url": "https://m.kebhana.com/cont/event/new/event01/1528955_152465.jsp",
-   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
-   "firstSeen": "2026-10-07"
-  },
-  {
    "id": "cd8c0f0ce9",
    "institution": "하나은행",
    "type": "은행",
@@ -4152,7 +4216,7 @@
    "start": "2026.10.20",
    "end": "2026.11.30",
    "benefitHints": [],
-   "desc": "",
+   "desc": "이전 목록으로 이동 1 2 3 4 다음 목록으로 이동",
    "url": "https://m.kebhana.com/cont/event/new/event01/1529211_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-10-20"
@@ -4172,6 +4236,22 @@
    "url": "https://m.kebhana.com/cont/event/new/event01/1529196_152465.jsp",
    "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
    "firstSeen": "2026-10-30"
+  },
+  {
+   "id": "dd6e348410",
+   "institution": "하나은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "토닥토닥, 수험생응원 프로젝트 토닥토닥 수험생 응원 프로젝트",
+   "start": "2026.11.16",
+   "end": "2026.12.18",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://m.kebhana.com/cont/event/new/event01/1529454_152465.jsp",
+   "listUrl": "https://m.kebhana.com/cont/event/new/event01/index.jsp",
+   "firstSeen": "2026-11-16"
   },
   {
    "id": "dfdf39dd77",
