@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-11-19 12:02 KST",
+ "crawledAt": "2026-11-20 02:58 KST",
  "summary": {
   "isa": 18,
   "pension": 25,
   "irp": 24,
-  "cma": 11,
-  "savings": 30,
-  "other": 241
+  "cma": 12,
+  "savings": 31,
+  "other": 244
  },
  "sources": [
   {
@@ -61,7 +61,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 10
+   "count": 11
   },
   {
    "name": "키움증권",
@@ -70,7 +70,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 36
+   "count": 39
   },
   {
    "name": "신한투자증권",
@@ -1515,23 +1515,23 @@
    "firstSeen": "2026-10-13"
   },
   {
-   "id": "d00d856555",
+   "id": "7956ca6a16",
    "institution": "하나증권",
    "type": "증권사",
    "categories": [
     "cma",
     "savings"
    ],
-   "title": "특판 발행어음 연 5.7%",
+   "title": "특판 발행어음 연 5.7% 오늘종료",
    "start": "2026.10.15",
    "end": "2026.11.20",
    "benefitHints": [
     "5.7%"
    ],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=717&startDate=00000000&endDate=20261119&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-11-19"
+   "firstSeen": "2026-11-20"
   },
   {
    "id": "bf57c59551",
@@ -1545,7 +1545,7 @@
    "end": "2026.12.06",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261119&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261120&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
   },
@@ -1563,9 +1563,25 @@
     "최대 4만원"
    ],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=721&startDate=00000000&endDate=20261119&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=721&startDate=00000000&endDate=20261120&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
+  },
+  {
+   "id": "be700ac212",
+   "institution": "하나증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "로보트 태권브이 여의도 출동 V-대작전!",
+   "start": "2026.11.19",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=725&startDate=00000000&endDate=20261120&searchType=&curPage=1",
+   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
+   "firstSeen": "2026-11-20"
   },
   {
    "id": "bbe9b1a17f",
@@ -1579,7 +1595,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=723&startDate=00000000&endDate=20261119&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=723&startDate=00000000&endDate=20261120&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
   },
@@ -1595,7 +1611,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=722&startDate=00000000&endDate=20261119&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=722&startDate=00000000&endDate=20261120&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
   },
@@ -1611,7 +1627,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261119&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261120&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
   },
@@ -1627,7 +1643,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261119&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261120&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
   },
@@ -1643,7 +1659,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261119&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261120&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
   },
@@ -1659,7 +1675,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261119&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261120&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
   },
@@ -1675,25 +1691,25 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "사이드바 열기",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261119&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261120&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
   },
   {
-   "id": "230129e198",
+   "id": "305c2c77c7",
    "institution": "키움증권",
    "type": "증권사",
    "categories": [
     "other"
    ],
-   "title": "알파캐치ETF 가입 이벤트",
-   "start": "2026.10.07",
-   "end": "2026.11.19",
+   "title": "서건창, 하영민, 김건희 선수 등장!",
+   "start": "2026.11.19",
+   "end": "2026.11.26",
    "benefitHints": [],
-   "desc": "알파캐치ETF 가입 이벤트",
+   "desc": "서건창, 하영민, 김건희 선수 등장!",
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-10-08"
+   "firstSeen": "2026-11-20"
   },
   {
    "id": "428bb08814",
@@ -1710,6 +1726,22 @@
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "bb2a4a828e",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "유튜브 채널 구독 이벤트",
+   "start": "2026.11.19",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "유튜브 채널 구독 이벤트",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-11-20"
   },
   {
    "id": "df84f859ee",
@@ -1938,6 +1970,39 @@
    "firstSeen": "2026-11-06"
   },
   {
+   "id": "e25140420d",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "cma",
+    "savings"
+   ],
+   "title": "가입자 대상 특판 발행어음",
+   "start": "2026.11.02",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "신규가입자 대상 특판 발행어음",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-11-20"
+  },
+  {
+   "id": "d58827fede",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "원스크린 주문 화면 안내페이지",
+   "start": "2026.10.15",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "원스크린 주문 화면 안내페이지",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-10-15"
+  },
+  {
    "id": "9485af0817",
    "institution": "키움증권",
    "type": "증권사",
@@ -1970,22 +2035,6 @@
    "firstSeen": "2026-10-16"
   },
   {
-   "id": "d58827fede",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "원스크린 주문 화면 안내페이지",
-   "start": "2026.10.15",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "원스크린 주문 화면 안내페이지",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-10-15"
-  },
-  {
    "id": "9f6f31d2d6",
    "institution": "키움증권",
    "type": "증권사",
@@ -2000,22 +2049,6 @@
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-09-24"
-  },
-  {
-   "id": "722aa8058d",
-   "institution": "키움증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "미성년자 생애최초 신규고객 이벤트(더모으기 쿠폰)",
-   "start": "2026.10.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "미성년자 생애최초 신규고객 이벤트(더모으기 쿠폰)",
-   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
-   "firstSeen": "2026-10-02"
   },
   {
    "id": "b07cd1a813",
@@ -2065,6 +2098,22 @@
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "722aa8058d",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "미성년자 생애최초 신규고객 이벤트(더모으기 쿠폰)",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "미성년자 생애최초 신규고객 이벤트(더모으기 쿠폰)",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-10-02"
   },
   {
    "id": "aed8580446",
@@ -2177,6 +2226,24 @@
    "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "de6ce1c2e0",
+   "institution": "키움증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "로보마켓 10주년 이벤트",
+   "start": "2026.11.19",
+   "end": "2027.02.04",
+   "benefitHints": [
+    "10주"
+   ],
+   "desc": "로보마켓 10주년 이벤트",
+   "url": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "listUrl": "https://www3.kiwoom.com/h/customer/event/VIngEventView?dummyVal=0",
+   "firstSeen": "2026-11-20"
   },
   {
    "id": "5033e7d88f",
@@ -4069,13 +4136,13 @@
    "firstSeen": "2026-11-19"
   },
   {
-   "id": "0d4c511a65",
+   "id": "27898f8203",
    "institution": "신한은행",
    "type": "은행",
    "categories": [
     "other"
    ],
-   "title": "신한으로 기초연금 받고 1만원 받아가세요! 연금은 신한은행, 최대 5만원 혜택 받자! SOL LINK 연계 이벤트 -SOL LINK와 레벨업",
+   "title": "신한으로 기초연금 받고 1만원 받아가세요! 연금은 신한은행, 최대 5만원 혜택 받자! D0SOL LINK 연계 이벤트 -SOL LINK와 레벨업",
    "start": "2026.09.28",
    "end": "2026.12.24",
    "benefitHints": [
@@ -4085,7 +4152,7 @@
    "desc": "신한으로 기초연금 받고 1만원 받아가세요!",
    "url": "https://www.shinhan.com/hpe/index.jsp#902304010000",
    "listUrl": "https://www.shinhan.com/hpe/index.jsp#902304010000",
-   "firstSeen": "2026-10-28"
+   "firstSeen": "2026-11-20"
   },
   {
    "id": "9f1376eb7a",
