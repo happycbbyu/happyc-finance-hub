@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-11-20 11:55 KST",
+ "crawledAt": "2026-11-21 02:32 KST",
  "summary": {
-  "isa": 18,
+  "isa": 19,
   "pension": 25,
   "irp": 24,
   "cma": 12,
   "savings": 31,
-  "other": 243
+  "other": 241
  },
  "sources": [
   {
@@ -61,7 +61,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 11
+   "count": 12
   },
   {
    "name": "키움증권",
@@ -97,7 +97,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 20
+   "count": 19
   },
   {
    "name": "토스증권",
@@ -187,7 +187,7 @@
    "ok": true,
    "error": "",
    "note": "봇 차단(Eversafe)으로 자동 수집 불가할 수 있음",
-   "count": 6
+   "count": 5
   },
   {
    "name": "DB증권",
@@ -336,22 +336,6 @@
  ],
  "events": [
   {
-   "id": "54e6580a68",
-   "institution": "미래에셋증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "지금은 국채에 투자할 시간",
-   "start": "2026.09.07",
-   "end": "2026.11.20",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://securities.miraeasset.com/hki/hki7000/r05.do",
-   "listUrl": "https://securities.miraeasset.com/hki/hki7000/r05.do",
-   "firstSeen": "2026-10-18"
-  },
-  {
    "id": "625997da62",
    "institution": "미래에셋증권",
    "type": "증권사",
@@ -432,6 +416,22 @@
    "firstSeen": "2026-11-05"
   },
   {
+   "id": "1cfe024054",
+   "institution": "미래에셋증권",
+   "type": "증권사",
+   "categories": [
+    "isa"
+   ],
+   "title": "다이렉트 중개형ISA 온라인 매매수수료 평생우대혜택 안내",
+   "start": "2026.01.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "다이렉트 중개형ISA 온라인 매매수수료 평생우대혜택 안내",
+   "url": "https://securities.miraeasset.com/hki/hki7000/r05.do",
+   "listUrl": "https://securities.miraeasset.com/hki/hki7000/r05.do",
+   "firstSeen": "2026-11-21"
+  },
+  {
    "id": "65a3adccd9",
    "institution": "미래에셋증권",
    "type": "증권사",
@@ -478,6 +478,38 @@
    "url": "https://securities.miraeasset.com/hki/hki7000/r05.do",
    "listUrl": "https://securities.miraeasset.com/hki/hki7000/r05.do",
    "firstSeen": "2026-10-31"
+  },
+  {
+   "id": "9fcaa7f76f",
+   "institution": "한국투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "뱅키스 IMA 9차 가입 이벤트",
+   "start": "2026.11.19",
+   "end": "2026.11.25",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "firstSeen": "2026-11-21"
+  },
+  {
+   "id": "7194ef70be",
+   "institution": "한국투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "한국투자 IMA 가입 이벤트 11월",
+   "start": "2026.11.20",
+   "end": "2026.11.25",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
+   "firstSeen": "2026-11-21"
   },
   {
    "id": "3adbbacc81",
@@ -544,22 +576,6 @@
    "firstSeen": "2026-11-09"
   },
   {
-   "id": "3704e9997d",
-   "institution": "한국투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "HANARO 삼성전기고정AI핵심기판 ETF 이벤트",
-   "start": "2026.11.10",
-   "end": "2026.12.11",
-   "benefitHints": [],
-   "desc": "처음으로 이전으로 현재페이지1 2 3 다음으로 마지막으로",
-   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "firstSeen": "2026-11-10"
-  },
-  {
    "id": "5b28d7da95",
    "institution": "한국투자증권",
    "type": "증권사",
@@ -592,22 +608,6 @@
    "firstSeen": "2026-11-03"
   },
   {
-   "id": "0be90d83a9",
-   "institution": "한국투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "Open API 미국주식 Rest API 유량확대 이벤트",
-   "start": "2026.11.18",
-   "end": "2026.12.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
-   "firstSeen": "2026-11-18"
-  },
-  {
    "id": "4e40498755",
    "institution": "한국투자증권",
    "type": "증권사",
@@ -635,7 +635,7 @@
    "start": "2026.10.01",
    "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "",
+   "desc": "처음으로 이전으로 현재페이지1 2 3 다음으로 마지막으로",
    "url": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "listUrl": "https://securities.koreainvestment.com/main/customer/notice/Event.jsp?gubun=i",
    "firstSeen": "2026-10-01"
@@ -1499,23 +1499,23 @@
    "firstSeen": "2026-10-13"
   },
   {
-   "id": "7956ca6a16",
+   "id": "d00d856555",
    "institution": "하나증권",
    "type": "증권사",
    "categories": [
     "cma",
     "savings"
    ],
-   "title": "특판 발행어음 연 5.7% 오늘종료",
+   "title": "특판 발행어음 연 5.7%",
    "start": "2026.10.15",
-   "end": "2026.11.20",
+   "end": "2026.11.30",
    "benefitHints": [
     "5.7%"
    ],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=717&startDate=00000000&endDate=20261121&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-11-20"
+   "firstSeen": "2026-11-21"
   },
   {
    "id": "bf57c59551",
@@ -1529,7 +1529,7 @@
    "end": "2026.12.06",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261120&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261121&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
   },
@@ -1547,7 +1547,7 @@
     "최대 4만원"
    ],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=721&startDate=00000000&endDate=20261120&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=721&startDate=00000000&endDate=20261121&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
   },
@@ -1563,7 +1563,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=725&startDate=00000000&endDate=20261120&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=725&startDate=00000000&endDate=20261121&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-20"
   },
@@ -1579,7 +1579,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=723&startDate=00000000&endDate=20261120&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=723&startDate=00000000&endDate=20261121&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
   },
@@ -1595,9 +1595,25 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=722&startDate=00000000&endDate=20261120&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=722&startDate=00000000&endDate=20261121&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
+  },
+  {
+   "id": "ac26d8158c",
+   "institution": "하나증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "ETF 자산모으기 이벤트",
+   "start": "2026.11.20",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=720&startDate=00000000&endDate=20261121&searchType=&curPage=1",
+   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
+   "firstSeen": "2026-11-21"
   },
   {
    "id": "7070f0871c",
@@ -1611,7 +1627,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261120&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261121&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
   },
@@ -1627,7 +1643,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261120&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261121&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
   },
@@ -1643,7 +1659,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261120&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261121&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
   },
@@ -1659,7 +1675,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261120&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261121&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
   },
@@ -1675,7 +1691,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "사이드바 열기",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261120&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261121&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-19"
   },
@@ -2553,22 +2569,6 @@
    "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
    "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
    "firstSeen": "2026-10-28"
-  },
-  {
-   "id": "22e113cf9b",
-   "institution": "대신증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "(가을학기 릴레이 세미나) 27년 글로벌 증시 전망 (MARKET INSIGHT LIVE 세미나) 2026년 11월 26일(목) 16:00",
-   "start": "2026.11.13",
-   "end": "2026.11.26",
-   "benefitHints": [],
-   "desc": "대신로고",
-   "url": "https://www.daishin.com/content/w/customer/event/eventDetail.ds?m=1109&p=12933&v=12835&cid=7152",
-   "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
-   "firstSeen": "2026-11-16"
   },
   {
    "id": "4c1b9f1078",
@@ -3876,22 +3876,6 @@
    "firstSeen": "2026-09-24"
   },
   {
-   "id": "58cf2e45b4",
-   "institution": "LS증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "카운트플로 가입 이벤트",
-   "start": "2026.10.26",
-   "end": "2026.11.20",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://m.ls-sec.co.kr/cs/event/open",
-   "listUrl": "https://m.ls-sec.co.kr/cs/event/open",
-   "firstSeen": "2026-10-27"
-  },
-  {
    "id": "08c36c5909",
    "institution": "LS증권",
    "type": "증권사",
@@ -4120,41 +4104,38 @@
    "firstSeen": "2026-11-19"
   },
   {
-   "id": "27898f8203",
+   "id": "3d7526aed0",
    "institution": "신한은행",
    "type": "은행",
    "categories": [
     "other"
    ],
-   "title": "신한으로 기초연금 받고 1만원 받아가세요! 연금은 신한은행, 최대 5만원 혜택 받자! D0SOL LINK 연계 이벤트 -SOL LINK와 레벨업",
+   "title": "신한으로 기초연금 받고 1만원 받아가세요! SOL LINK 연계 이벤트 -SOL LINK와 레벨업 첫 급여이체 혜택이 쭉! 계속드림 시즌2",
    "start": "2026.09.28",
    "end": "2026.12.24",
    "benefitHints": [
-    "1만원",
-    "최대 5만원"
+    "1만원"
    ],
    "desc": "신한으로 기초연금 받고 1만원 받아가세요!",
    "url": "https://www.shinhan.com/hpe/index.jsp#902304010000",
    "listUrl": "https://www.shinhan.com/hpe/index.jsp#902304010000",
-   "firstSeen": "2026-11-20"
+   "firstSeen": "2026-11-21"
   },
   {
-   "id": "9f1376eb7a",
+   "id": "7a2328c263",
    "institution": "신한은행",
    "type": "은행",
    "categories": [
     "other"
    ],
-   "title": "첫 급여이체 혜택이 쭉! 계속드림 시즌2 신한첫 월급 이체하고 매월 급여이체하면 혜택이 쭉! 신한신한 50+ 걸어요",
-   "start": "2026.07.29",
+   "title": "신한첫 월급 이체하고 매월 급여이체하면 혜택이 쭉! 신한신한 50+ 걸어요",
+   "start": "2026.01.21",
    "end": "2026.12.31",
-   "benefitHints": [
-    "최대5만원"
-   ],
-   "desc": "첫 급여이체부터 최대5만원 혜택이 쭉!",
+   "benefitHints": [],
+   "desc": "첫 월급 이체하고, 매월 급여이체하면 혜택이 쭉!",
    "url": "https://www.shinhan.com/hpe/index.jsp#902304010000",
    "listUrl": "https://www.shinhan.com/hpe/index.jsp#902304010000",
-   "firstSeen": "2026-10-28"
+   "firstSeen": "2026-11-21"
   },
   {
    "id": "0f8bd1f718",
@@ -4929,7 +4910,7 @@
    ],
    "title": "공적연금갈아타고5만원 지원금받기",
    "start": "",
-   "end": "2026.11.20",
+   "end": "2026.11.21",
    "benefitHints": [
     "5만원"
    ],
