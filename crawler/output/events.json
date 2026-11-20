@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-11-20 02:58 KST",
+ "crawledAt": "2026-11-20 11:55 KST",
  "summary": {
   "isa": 18,
   "pension": 25,
   "irp": 24,
   "cma": 12,
   "savings": 31,
-  "other": 244
+  "other": 243
  },
  "sources": [
   {
@@ -52,7 +52,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 21
+   "count": 20
   },
   {
    "name": "하나증권",
@@ -97,7 +97,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 21
+   "count": 20
   },
   {
    "name": "토스증권",
@@ -205,7 +205,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 7
+   "count": 8
   },
   {
    "name": "신한은행",
@@ -1170,22 +1170,6 @@
    "url": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventView&menuSeqNo=3942",
    "listUrl": "https://www.samsungpop.com/mbw/customer/noticeEvent.do?cmd=eventList",
    "firstSeen": "2026-11-03"
-  },
-  {
-   "id": "88ef4a5924",
-   "institution": "KB증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "연말 배당, KB에서 받으면 절반 더!",
-   "start": "2026.11.16",
-   "end": "2026.11.27",
-   "benefitHints": [],
-   "desc": "연말 배당, KB에서 받으면 절반 더!",
-   "url": "https://www.kbsec.com/go.able?linkcd=s060902030000&seq=10010606&idt=20261113&clsfcd=1&gubun=1",
-   "listUrl": "https://www.kbsec.com/go.able?linkcd=m06090002",
-   "firstSeen": "2026-11-14"
   },
   {
    "id": "530d420db2",
@@ -2569,22 +2553,6 @@
    "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
    "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
    "firstSeen": "2026-10-28"
-  },
-  {
-   "id": "9ecdde553f",
-   "institution": "대신증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "상장 앤트로픽 거래시작 알림 신청하기 앤트로픽 거래 시작하면 알려드려요",
-   "start": "2026.11.17",
-   "end": "2026.11.20",
-   "benefitHints": [],
-   "desc": "대신로고",
-   "url": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
-   "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
-   "firstSeen": "2026-11-18"
   },
   {
    "id": "22e113cf9b",
@@ -4116,6 +4084,22 @@
    "url": "https://omoney.kbstar.com/quics?page=C016559",
    "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
    "firstSeen": "2026-11-19"
+  },
+  {
+   "id": "b4aa52dcb3",
+   "institution": "KB국민은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "수능 끝! 고생한 만큼, KB국민은행이 통 크게 쏩니다!",
+   "start": "2026.11.20",
+   "end": "2026.12.19",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://omoney.kbstar.com/quics?page=C016559",
+   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
+   "firstSeen": "2026-11-20"
   },
   {
    "id": "5a84d3cc16",
@@ -5669,22 +5653,6 @@
    "firstSeen": "2026-10-21"
   },
   {
-   "id": "c8e8c550b8",
-   "institution": "전북은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "2026년 하반기 JB카드 자동납부 이벤트",
-   "start": "2026.07.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "2026년 하반기 JB카드 자동납부 이벤트이벤트관련 배너입니다.",
-   "url": "https://www.jbbank.co.kr/commonevents.act",
-   "listUrl": "https://www.jbbank.co.kr/commonevents.act",
-   "firstSeen": "2026-10-21"
-  },
-  {
    "id": "7b0c6c513a",
    "institution": "전북은행",
    "type": "은행",
@@ -5699,6 +5667,22 @@
    "url": "https://www.jbbank.co.kr/commonevents.act",
    "listUrl": "https://www.jbbank.co.kr/commonevents.act",
    "firstSeen": "2026-11-13"
+  },
+  {
+   "id": "acc020612b",
+   "institution": "전북은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "법인과 달콤한 시작 이벤트",
+   "start": "2026.11.20",
+   "end": "2027.03.31",
+   "benefitHints": [],
+   "desc": "법인과 달콤한 시작 이벤트이벤트관련 배너입니다.",
+   "url": "https://www.jbbank.co.kr/commonevents.act",
+   "listUrl": "https://www.jbbank.co.kr/commonevents.act",
+   "firstSeen": "2026-11-20"
   },
   {
    "id": "71597ded58",
