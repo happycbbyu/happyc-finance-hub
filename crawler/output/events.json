@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-11-21 12:02 KST",
+ "crawledAt": "2026-11-22 01:38 KST",
  "summary": {
   "isa": 19,
-  "pension": 25,
-  "irp": 24,
-  "cma": 12,
-  "savings": 31,
-  "other": 241
+  "pension": 23,
+  "irp": 22,
+  "cma": 11,
+  "savings": 30,
+  "other": 225
  },
  "sources": [
   {
@@ -58,10 +58,10 @@
    "name": "하나증권",
    "type": "증권사",
    "url": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "ok": true,
-   "error": "",
+   "ok": false,
+   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
    "note": "",
-   "count": 12
+   "count": 0
   },
   {
    "name": "키움증권",
@@ -202,10 +202,10 @@
    "name": "KB국민은행",
    "type": "은행",
    "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "ok": true,
-   "error": "",
+   "ok": false,
+   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
    "note": "",
-   "count": 8
+   "count": 0
   },
   {
    "name": "신한은행",
@@ -268,7 +268,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 15
+   "count": 14
   },
   {
    "name": "BNK부산은행",
@@ -1497,203 +1497,6 @@
    "url": "https://www.kbsec.com/go.able?linkcd=s060902030000&seq=10010482&idt=20261012&clsfcd=4&gubun=1",
    "listUrl": "https://www.kbsec.com/go.able?linkcd=m06090002",
    "firstSeen": "2026-10-13"
-  },
-  {
-   "id": "d00d856555",
-   "institution": "하나증권",
-   "type": "증권사",
-   "categories": [
-    "cma",
-    "savings"
-   ],
-   "title": "특판 발행어음 연 5.7%",
-   "start": "2026.10.15",
-   "end": "2026.11.30",
-   "benefitHints": [
-    "5.7%"
-   ],
-   "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=717&startDate=00000000&endDate=20261121&searchType=&curPage=1",
-   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-11-21"
-  },
-  {
-   "id": "bf57c59551",
-   "institution": "하나증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "쇼핑적립서비스 OPEN 이벤트",
-   "start": "2026.09.28",
-   "end": "2026.12.06",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261121&searchType=&curPage=1",
-   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-11-19"
-  },
-  {
-   "id": "2f725f9951",
-   "institution": "하나증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "웰컴쿠폰 최대 4만원 혜택",
-   "start": "2026.11.12",
-   "end": "2026.12.30",
-   "benefitHints": [
-    "최대 4만원"
-   ],
-   "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=721&startDate=00000000&endDate=20261121&searchType=&curPage=1",
-   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-11-19"
-  },
-  {
-   "id": "be700ac212",
-   "institution": "하나증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "로보트 태권브이 여의도 출동 V-대작전!",
-   "start": "2026.11.19",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=725&startDate=00000000&endDate=20261121&searchType=&curPage=1",
-   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-11-20"
-  },
-  {
-   "id": "bbe9b1a17f",
-   "institution": "하나증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "MOVING카드 추가 적립 이벤트",
-   "start": "2026.11.11",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=723&startDate=00000000&endDate=20261121&searchType=&curPage=1",
-   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-11-19"
-  },
-  {
-   "id": "92d98fcc35",
-   "institution": "하나증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "계좌개설 이벤트",
-   "start": "2026.11.12",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=722&startDate=00000000&endDate=20261121&searchType=&curPage=1",
-   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-11-19"
-  },
-  {
-   "id": "ac26d8158c",
-   "institution": "하나증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "ETF 자산모으기 이벤트",
-   "start": "2026.11.20",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=720&startDate=00000000&endDate=20261121&searchType=&curPage=1",
-   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-11-21"
-  },
-  {
-   "id": "7070f0871c",
-   "institution": "하나증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "대여서비스 신규가입 이벤트",
-   "start": "2026.09.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261121&searchType=&curPage=1",
-   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-11-19"
-  },
-  {
-   "id": "b0bfced700",
-   "institution": "하나증권",
-   "type": "증권사",
-   "categories": [
-    "irp"
-   ],
-   "title": "IRP 신규 & 순증 이벤트",
-   "start": "2026.07.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261121&searchType=&curPage=1",
-   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-11-19"
-  },
-  {
-   "id": "33b667782c",
-   "institution": "하나증권",
-   "type": "증권사",
-   "categories": [
-    "pension"
-   ],
-   "title": "개인연금 순증 이벤트",
-   "start": "2026.07.01",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261121&searchType=&curPage=1",
-   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-11-19"
-  },
-  {
-   "id": "5e32d15ca0",
-   "institution": "하나증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "상승률 상위 맞히기 이벤트",
-   "start": "2026.03.26",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261121&searchType=&curPage=1",
-   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-11-19"
-  },
-  {
-   "id": "db19de57db",
-   "institution": "하나증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "휴면 손님 혜택 이벤트",
-   "start": "2026.09.16",
-   "end": "2026.12.31",
-   "benefitHints": [],
-   "desc": "사이드바 열기",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261121&searchType=&curPage=1",
-   "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
-   "firstSeen": "2026-11-19"
   },
   {
    "id": "305c2c77c7",
@@ -3972,138 +3775,6 @@
    "firstSeen": "2026-11-14"
   },
   {
-   "id": "43374b2312",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "중요한 문서, 어디서나 놓치지 않게! 전자문서 이용동의하고 혜택도 챙기세요!",
-   "start": "2026.11.02",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-11-19"
-  },
-  {
-   "id": "c7be4d7c97",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "irp"
-   ],
-   "title": "더 좋아진 KB국민은행 IRP로, WELCOME♥ IRP옮기면, 전원 경품드려요!(조건 충족시)",
-   "start": "2026.10.12",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-11-19"
-  },
-  {
-   "id": "6837298002",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "「FUNDaily! 펀드를 일상처럼」 이벤트",
-   "start": "2026.10.01",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-11-19"
-  },
-  {
-   "id": "476e33642f",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "안티스미싱 서비스 오픈! 스미싱 걱정 OFF, 커피 한 잔 ON",
-   "start": "2026.10.01",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-11-19"
-  },
-  {
-   "id": "b3d8b823a9",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "KB Star FX 기업고객 100% 환율우대 이벤트",
-   "start": "2026.09.21",
-   "end": "2026.11.30",
-   "benefitHints": [
-    "100%"
-   ],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-11-19"
-  },
-  {
-   "id": "634ea79c12",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "「2027국민은행 X 민음사 행운 꾸러미」새해'북'많이 받으세요!",
-   "start": "2026.11.16",
-   "end": "2026.12.11",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-11-19"
-  },
-  {
-   "id": "b4aa52dcb3",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "수능 끝! 고생한 만큼, KB국민은행이 통 크게 쏩니다!",
-   "start": "2026.11.20",
-   "end": "2026.12.19",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-11-20"
-  },
-  {
-   "id": "5a84d3cc16",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "【KB국민은행 X KB국민카드】 카드 미션 달성하고 3만원 상품권 받기",
-   "start": "2026.11.01",
-   "end": "2026.12.31",
-   "benefitHints": [
-    "3만원"
-   ],
-   "desc": "",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-11-19"
-  },
-  {
    "id": "3d7526aed0",
    "institution": "신한은행",
    "type": "은행",
@@ -4900,24 +4571,6 @@
    "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
    "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
    "firstSeen": "2026-10-07"
-  },
-  {
-   "id": "f1a2382334",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "pension"
-   ],
-   "title": "공적연금갈아타고5만원 지원금받기",
-   "start": "",
-   "end": "2026.11.21",
-   "benefitHints": [
-    "5만원"
-   ],
-   "desc": "연금갈아타고 5만원 지원금받기",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-11-18"
   },
   {
    "id": "f1f8289468",
