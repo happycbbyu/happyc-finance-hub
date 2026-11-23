@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-11-23 11:21 KST",
+ "crawledAt": "2026-11-24 05:52 KST",
  "summary": {
   "isa": 19,
   "pension": 24,
   "irp": 24,
   "cma": 12,
   "savings": 31,
-  "other": 242
+  "other": 241
  },
  "sources": [
   {
@@ -97,7 +97,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 19
+   "count": 20
   },
   {
    "name": "토스증권",
@@ -167,9 +167,9 @@
    "type": "증권사",
    "url": "https://www.ibks.com/notice/event_list.do?progress_yn=Y",
    "ok": true,
-   "error": "",
+   "error": "이벤트를 하나도 못 찾음 — 페이지 구조 변경 확인 필요",
    "note": "",
-   "count": 1
+   "count": 0
   },
   {
    "name": "SK증권",
@@ -268,7 +268,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 14
+   "count": 13
   },
   {
    "name": "BNK부산은행",
@@ -1529,7 +1529,7 @@
     "5.7%"
    ],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=717&startDate=00000000&endDate=20261123&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=717&startDate=00000000&endDate=20261124&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-22"
   },
@@ -1545,7 +1545,7 @@
    "end": "2026.12.06",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261123&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=714&startDate=00000000&endDate=20261124&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-22"
   },
@@ -1563,7 +1563,7 @@
     "최대 4만원"
    ],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=721&startDate=00000000&endDate=20261123&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=721&startDate=00000000&endDate=20261124&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-22"
   },
@@ -1579,7 +1579,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=725&startDate=00000000&endDate=20261123&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=725&startDate=00000000&endDate=20261124&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-22"
   },
@@ -1595,7 +1595,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=723&startDate=00000000&endDate=20261123&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=723&startDate=00000000&endDate=20261124&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-22"
   },
@@ -1611,7 +1611,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=722&startDate=00000000&endDate=20261123&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=722&startDate=00000000&endDate=20261124&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-22"
   },
@@ -1627,7 +1627,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=720&startDate=00000000&endDate=20261123&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=720&startDate=00000000&endDate=20261124&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-22"
   },
@@ -1643,7 +1643,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261123&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=709&startDate=00000000&endDate=20261124&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-22"
   },
@@ -1659,7 +1659,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261123&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=697&startDate=00000000&endDate=20261124&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-22"
   },
@@ -1675,7 +1675,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261123&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=696&startDate=00000000&endDate=20261124&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-22"
   },
@@ -1691,7 +1691,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261123&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=666&startDate=00000000&endDate=20261124&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-22"
   },
@@ -1707,7 +1707,7 @@
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "사이드바 열기",
-   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261123&searchType=&curPage=1",
+   "url": "https://www.hanaw.com/corebbs5/eventNIng/view/view.cmd?bbsSeq=648&startDate=00000000&endDate=20261124&searchType=&curPage=1",
    "listUrl": "https://www.hanaw.com/corebbs5/eventNIng/list/list.cmd",
    "firstSeen": "2026-11-22"
   },
@@ -2585,6 +2585,22 @@
    "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
    "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
    "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "22e113cf9b",
+   "institution": "대신증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "(가을학기 릴레이 세미나) 27년 글로벌 증시 전망 (MARKET INSIGHT LIVE 세미나) 2026년 11월 26일(목) 16:00",
+   "start": "2026.11.13",
+   "end": "2026.11.26",
+   "benefitHints": [],
+   "desc": "대신로고",
+   "url": "https://www.daishin.com/content/w/customer/event/eventDetail.ds?m=1109&p=12933&v=12835&cid=7152",
+   "listUrl": "https://www.daishin.com/g.ds?m=1109&p=12931&v=12831",
+   "firstSeen": "2026-11-24"
   },
   {
    "id": "4c1b9f1078",
@@ -3789,22 +3805,6 @@
    "firstSeen": "2026-11-01"
   },
   {
-   "id": "4776231844",
-   "institution": "IBK투자증권",
-   "type": "증권사",
-   "categories": [
-    "other"
-   ],
-   "title": "주식대여서비스 신규가입이벤트",
-   "start": "2026.09.07",
-   "end": "2026.11.30",
-   "benefitHints": [],
-   "desc": "",
-   "url": "https://www.ibks.com/notice/event_list.do?progress_yn=Y",
-   "listUrl": "https://www.ibks.com/notice/event_list.do?progress_yn=Y",
-   "firstSeen": "2026-09-24"
-  },
-  {
    "id": "93192149fb",
    "institution": "SK증권",
    "type": "증권사",
@@ -4916,22 +4916,6 @@
    "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
    "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
    "firstSeen": "2026-10-07"
-  },
-  {
-   "id": "f1f8289468",
-   "institution": "iM뱅크",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "iM모임통장 만들고오승환 선수에게 야구 레슨 받기",
-   "start": "",
-   "end": "2026.11.23",
-   "benefitHints": [],
-   "desc": "iM모임통장 만들고 오승환 선수에게 야구 레슨 받기",
-   "url": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "listUrl": "https://mbanking.imbank.co.kr/react/benefit/events",
-   "firstSeen": "2026-11-18"
   },
   {
    "id": "3923d15b2b",
