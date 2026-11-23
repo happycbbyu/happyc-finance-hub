@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-11-23 01:53 KST",
+ "crawledAt": "2026-11-23 11:21 KST",
  "summary": {
   "isa": 19,
   "pension": 24,
   "irp": 24,
   "cma": 12,
   "savings": 31,
-  "other": 241
+  "other": 242
  },
  "sources": [
   {
@@ -34,7 +34,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 13
+   "count": 14
   },
   {
    "name": "삼성증권",
@@ -723,6 +723,22 @@
    "url": "https://m.mynamuh.com/customer/event/eventView?mNo=993",
    "listUrl": "https://m.mynamuh.com/customer/event/eventList",
    "firstSeen": "2026-09-24"
+  },
+  {
+   "id": "64cedd0903",
+   "institution": "NH투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "AI가 진단하고 로보어드바이저로 완성",
+   "start": "2026.11.23",
+   "end": "2026.12.30",
+   "benefitHints": [],
+   "desc": "가입시 리워드 지급 이벤트",
+   "url": "https://m.mynamuh.com/customer/event/eventView?mNo=1069",
+   "listUrl": "https://m.mynamuh.com/customer/event/eventList",
+   "firstSeen": "2026-11-23"
   },
   {
    "id": "234e32175e",
@@ -4514,22 +4530,6 @@
    "firstSeen": "2026-11-23"
   },
   {
-   "id": "e754730f9c",
-   "institution": "IBK기업은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "IBK나라사랑카드 먼저ON 이벤트(유웨이",
-   "start": "2026.11.10",
-   "end": "2026.12.25",
-   "benefitHints": [],
-   "desc": "IBK나라사랑카드 먼저ON 이벤트(유웨이)",
-   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103650&evnt_dscd=H&pageId=CM01060100",
-   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
-   "firstSeen": "2026-11-23"
-  },
-  {
    "id": "4487b0fa99",
    "institution": "IBK기업은행",
    "type": "은행",
@@ -4542,6 +4542,22 @@
    "benefitHints": [],
    "desc": "IBK나라사랑카드 먼저ON 이벤트(기타채널)",
    "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103653&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-23"
+  },
+  {
+   "id": "e754730f9c",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "IBK나라사랑카드 먼저ON 이벤트(유웨이",
+   "start": "2026.11.10",
+   "end": "2026.12.25",
+   "benefitHints": [],
+   "desc": "IBK나라사랑카드 먼저ON 이벤트(유웨이)",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103650&evnt_dscd=H&pageId=CM01060100",
    "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
    "firstSeen": "2026-11-23"
   },
