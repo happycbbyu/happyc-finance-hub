@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-11-25 04:56 KST",
+ "crawledAt": "2026-11-25 13:49 KST",
  "summary": {
   "isa": 19,
   "pension": 24,
   "irp": 25,
   "cma": 12,
   "savings": 31,
-  "other": 241
+  "other": 242
  },
  "sources": [
   {
@@ -167,9 +167,9 @@
    "type": "증권사",
    "url": "https://www.ibks.com/notice/event_list.do?progress_yn=Y",
    "ok": true,
-   "error": "이벤트를 하나도 못 찾음 — 페이지 구조 변경 확인 필요",
+   "error": "",
    "note": "",
-   "count": 0
+   "count": 1
   },
   {
    "name": "SK증권",
@@ -205,7 +205,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 9
+   "count": 8
   },
   {
    "name": "신한은행",
@@ -250,7 +250,7 @@
    "ok": true,
    "error": "",
    "note": "",
-   "count": 27
+   "count": 28
   },
   {
    "name": "SC제일은행",
@@ -3789,6 +3789,22 @@
    "firstSeen": "2026-11-01"
   },
   {
+   "id": "4776231844",
+   "institution": "IBK투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "주식대여서비스 신규가입이벤트",
+   "start": "2026.09.07",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://www.ibks.com/notice/event_list.do?progress_yn=Y",
+   "listUrl": "https://www.ibks.com/notice/event_list.do?progress_yn=Y",
+   "firstSeen": "2026-11-25"
+  },
+  {
    "id": "93192149fb",
    "institution": "SK증권",
    "type": "증권사",
@@ -4064,26 +4080,10 @@
    "benefitHints": [
     "100%"
    ],
-   "desc": "다음 페이지",
-   "url": "https://omoney.kbstar.com/quics?page=C016559",
-   "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-11-22"
-  },
-  {
-   "id": "f9414914d8",
-   "institution": "KB국민은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "[2차]‘수고했어 2026’ KB국민인증서로 간편인증하고 연말선물 받자!",
-   "start": "2026.11.23",
-   "end": "2026.12.06",
-   "benefitHints": [],
    "desc": "",
    "url": "https://omoney.kbstar.com/quics?page=C016559",
    "listUrl": "https://omoney.kbstar.com/quics?page=C016559",
-   "firstSeen": "2026-11-25"
+   "firstSeen": "2026-11-22"
   },
   {
    "id": "634ea79c12",
@@ -4370,20 +4370,20 @@
    "firstSeen": "2026-11-23"
   },
   {
-   "id": "fbd708533e",
+   "id": "340397715d",
    "institution": "NH농협은행",
    "type": "은행",
    "categories": [
     "other"
    ],
-   "title": "좋아요 23",
+   "title": "좋아요 25",
    "start": "",
    "end": "2026.11.30",
    "benefitHints": [],
    "desc": "1",
    "url": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
    "listUrl": "https://banking.nonghyup.com/servlet/IPNLP5611R.view",
-   "firstSeen": "2026-11-23"
+   "firstSeen": "2026-11-25"
   },
   {
    "id": "d6720a6818",
@@ -4820,6 +4820,22 @@
    "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103628&evnt_dscd=H&pageId=CM01060100",
    "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
    "firstSeen": "2026-11-23"
+  },
+  {
+   "id": "7fa7a188b8",
+   "institution": "IBK기업은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "마카오 호텔 2+1의 찬스",
+   "start": "2026.11.25",
+   "end": "2027.03.31",
+   "benefitHints": [],
+   "desc": "마카오 호텔 2+1의 찬스",
+   "url": "https://www.ibk.co.kr/event/ingDetailEvent.ibk?evnt_srno=103655&evnt_dscd=H&pageId=CM01060100",
+   "listUrl": "https://www.ibk.co.kr/event/ingListEvent.ibk?pageId=CM01060100&evnt_dscd=H",
+   "firstSeen": "2026-11-25"
   },
   {
    "id": "7542ee0c2e",
