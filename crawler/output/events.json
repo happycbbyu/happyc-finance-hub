@@ -1,12 +1,12 @@
 {
- "crawledAt": "2026-11-28 03:43 KST",
+ "crawledAt": "2026-11-28 12:48 KST",
  "summary": {
-  "isa": 11,
-  "pension": 20,
-  "irp": 16,
+  "isa": 13,
+  "pension": 21,
+  "irp": 21,
   "cma": 10,
-  "savings": 26,
-  "other": 214
+  "savings": 27,
+  "other": 215
  },
  "sources": [
   {
@@ -76,10 +76,10 @@
    "name": "신한투자증권",
    "type": "증권사",
    "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
-   "ok": false,
-   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
+   "ok": true,
+   "error": "",
    "note": "",
-   "count": 0
+   "count": 15
   },
   {
    "name": "메리츠증권",
@@ -220,10 +220,10 @@
    "name": "우리은행",
    "type": "은행",
    "url": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
-   "ok": false,
-   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
+   "ok": true,
+   "error": "",
    "note": "",
-   "count": 0
+   "count": 1
   },
   {
    "name": "하나은행",
@@ -257,9 +257,9 @@
    "type": "은행",
    "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
    "ok": true,
-   "error": "",
+   "error": "이벤트를 하나도 못 찾음 — 페이지 구조 변경 확인 필요",
    "note": "목록에 기간 표시 없음",
-   "count": 7
+   "count": 0
   },
   {
    "name": "iM뱅크",
@@ -1997,6 +1997,251 @@
    "firstSeen": "2026-09-24"
   },
   {
+   "id": "1bb4305dc2",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "퇴직연금 로보자동투자 이벤트",
+   "start": "2026.08.28",
+   "end": "2026.11.30",
+   "benefitHints": [],
+   "desc": "퇴직연금 로보자동투자 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-28"
+  },
+  {
+   "id": "b43cf373b1",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "신한 Premier MyPB 멤버스 하반기 신규가입 이벤트",
+   "start": "2026.11.16",
+   "end": "2026.12.04",
+   "benefitHints": [],
+   "desc": "신한 Premier MyPB 멤버스 하반기 신규가입 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-28"
+  },
+  {
+   "id": "167b10ce81",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "탭메뉴 전체보기",
+   "start": "2026.11.16",
+   "end": "2026.12.24",
+   "benefitHints": [],
+   "desc": "메뉴더보기",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-28"
+  },
+  {
+   "id": "377f43ae87",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "메뉴더보기",
+   "start": "2026.11.16",
+   "end": "2026.12.24",
+   "benefitHints": [],
+   "desc": "진행중인 이벤트 종료된 이벤트 당첨자 조회",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-28"
+  },
+  {
+   "id": "a451e15898",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "거래 투자쿠폰 이벤트",
+   "start": "2026.11.16",
+   "end": "2026.12.24",
+   "benefitHints": [],
+   "desc": "국내주식 거래 투자쿠폰 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-28"
+  },
+  {
+   "id": "5110ae45ce",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "연말 세제혜택계좌 3종 이벤트 체크리스트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "연말 세제혜택계좌 3종 이벤트 체크리스트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-28"
+  },
+  {
+   "id": "02a47d89c2",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "IRP 신규·입금/이전 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "IRP 신규·입금/이전 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-28"
+  },
+  {
+   "id": "5a4f85eecc",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "pension",
+    "savings"
+   ],
+   "title": "연금저축 신규·입금/이전 이벤트",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "연금저축 신규·입금/이전 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-28"
+  },
+  {
+   "id": "24ee8328c2",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "isa"
+   ],
+   "title": "중개형ISA 신규ㆍ이전고객 최대 111만원 혜택",
+   "start": "2026.10.01",
+   "end": "2026.12.31",
+   "benefitHints": [
+    "최대 111만원"
+   ],
+   "desc": "중개형ISA 신규ㆍ이전고객 최대 111만원 혜택",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-28"
+  },
+  {
+   "id": "ebb2f94c13",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "온라인 수수료 제로베이스 이벤트",
+   "start": "2026.04.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "국내주식 온라인 수수료 제로베이스 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-28"
+  },
+  {
+   "id": "5816f472dd",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "퇴직연금 DC 신규 웰컴 이벤트",
+   "start": "2026.04.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "퇴직연금 DC 신규 웰컴 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-28"
+  },
+  {
+   "id": "cb7ba7f75c",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "퇴직연금 디폴트옵션 이벤트",
+   "start": "2026.04.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "퇴직연금 디폴트옵션 이벤트",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-28"
+  },
+  {
+   "id": "d185caa55b",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "isa"
+   ],
+   "title": "중개형 ISA 국내주식 수수료 혜택",
+   "start": "2026.01.02",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "중개형 ISA 국내주식 수수료 혜택",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-28"
+  },
+  {
+   "id": "c0356a89e5",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "other"
+   ],
+   "title": "공모주 청약 한도 300% 우대",
+   "start": "2026.01.01",
+   "end": "2026.12.31",
+   "benefitHints": [
+    "300%"
+   ],
+   "desc": "공모주 청약 한도 300% 우대",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-28"
+  },
+  {
+   "id": "eed25458ba",
+   "institution": "신한투자증권",
+   "type": "증권사",
+   "categories": [
+    "irp"
+   ],
+   "title": "프로 %IRP 관리 수수료 혜택",
+   "start": "2026.01.01",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "프로 %IRP 관리 수수료 혜택",
+   "url": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "listUrl": "https://m.shinhansec.com/mweb/anev/evnt/aevnt0001?tab=1",
+   "firstSeen": "2026-11-28"
+  },
+  {
    "id": "da21094612",
    "institution": "유안타증권",
    "type": "증권사",
@@ -3325,6 +3570,22 @@
    "firstSeen": "2026-11-21"
   },
   {
+   "id": "0f8bd1f718",
+   "institution": "우리은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "우리은행이랑 카톡 친구하면 혜택이 가득~! 우리은행이랑 카톡 친구하면 혜택이 가득~! 카카오톡 채널의 친구가 되어주세요!",
+   "start": "2026.01.14",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "현재 : 1/1 페이지 현재1",
+   "url": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
+   "listUrl": "https://spot.wooribank.com/pot/Dream?withyou=EVEVT0001",
+   "firstSeen": "2026-11-28"
+  },
+  {
    "id": "cd8c0f0ce9",
    "institution": "하나은행",
    "type": "은행",
@@ -3977,118 +4238,6 @@
    "firstSeen": "2026-11-25"
   },
   {
-   "id": "7542ee0c2e",
-   "institution": "SC제일은행",
-   "type": "은행",
-   "categories": [
-    "savings"
-   ],
-   "title": "대한항공 마일리지 예금 신상품 출시 이벤트 대한항공 마일리지 예금 신상품 출시 이벤트",
-   "start": "",
-   "end": "",
-   "benefitHints": [],
-   "desc": "대한항공 마일리지 예금 신상품 출시 이벤트",
-   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "firstSeen": "2026-10-07"
-  },
-  {
-   "id": "93c18f3886",
-   "institution": "SC제일은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "SC제일은행 해외송금 2차 이벤트 해외송금 이벤트",
-   "start": "",
-   "end": "",
-   "benefitHints": [],
-   "desc": "SC제일은행 해외송금 2차 이벤트",
-   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "firstSeen": "2026-10-07"
-  },
-  {
-   "id": "99c2028e7f",
-   "institution": "SC제일은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "Priority Private 서비스 신청 이벤트 [바즈] Priority Banking 서비스 신청 이벤트 [바즈]",
-   "start": "",
-   "end": "",
-   "benefitHints": [],
-   "desc": "Priority Private 서비스 신청 이벤트 [바즈]",
-   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "firstSeen": "2026-10-07"
-  },
-  {
-   "id": "35a90b29ed",
-   "institution": "SC제일은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "Priority Private 서비스 신청 이벤트 [파트너사] Priority Banking 서비스 신청 이벤트 [파트너사]",
-   "start": "",
-   "end": "",
-   "benefitHints": [],
-   "desc": "Priority Private 서비스 신청 이벤트 [파트너사]",
-   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "firstSeen": "2026-10-07"
-  },
-  {
-   "id": "1afe38d10c",
-   "institution": "SC제일은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "SC제일은행-현대카드 이벤트 다양한 'SC제일은행-현대카드'의 혜택을 지금 만나보세요.",
-   "start": "",
-   "end": "",
-   "benefitHints": [],
-   "desc": "SC제일은행-현대카드 이벤트",
-   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "firstSeen": "2026-10-07"
-  },
-  {
-   "id": "d1cbd5da4d",
-   "institution": "SC제일은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "금융결제원 CMS 신규 계약 이벤트 금융결제원 CMS 신규 계약 이벤트",
-   "start": "",
-   "end": "",
-   "benefitHints": [],
-   "desc": "금융결제원 CMS 신규 계약 이벤트",
-   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "firstSeen": "2026-10-07"
-  },
-  {
-   "id": "bbad083dcb",
-   "institution": "SC제일은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "비즈니스뱅킹 수수료면제 이벤트 비즈니스뱅킹 수수료면제 이벤트",
-   "start": "",
-   "end": "",
-   "benefitHints": [],
-   "desc": "비즈니스뱅킹 수수료면제 이벤트",
-   "url": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "listUrl": "https://www.standardchartered.co.kr/np/kr/cm/et/EventOngoingList.jsp",
-   "firstSeen": "2026-10-07"
-  },
-  {
    "id": "3923d15b2b",
    "institution": "iM뱅크",
    "type": "은행",
@@ -4348,7 +4497,7 @@
    "start": "2026.11.16",
    "end": "2026.11.30",
    "benefitHints": [],
-   "desc": "이벤트 캐시백부터 경품까지다양한 혜택이 있어요",
+   "desc": "",
    "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "firstSeen": "2026-11-27"
@@ -4490,6 +4639,22 @@
    "firstSeen": "2026-11-27"
   },
   {
+   "id": "e9f4102370",
+   "institution": "BNK경남은행",
+   "type": "은행",
+   "categories": [
+    "other"
+   ],
+   "title": "LG전자 Privilege경남은행 연회비 캐시백 준법감시인 심의필. 2026-H-4902심의일자 2026.11.12 유효기일",
+   "start": "2026.11.12",
+   "end": "2026.12.31",
+   "benefitHints": [],
+   "desc": "",
+   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
+   "firstSeen": "2026-11-27"
+  },
+  {
    "id": "415ef373d1",
    "institution": "BNK경남은행",
    "type": "은행",
@@ -4518,42 +4683,26 @@
    "benefitHints": [
     "최대 4.5만원"
    ],
-   "desc": "",
-   "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "firstSeen": "2026-11-27"
-  },
-  {
-   "id": "e9f4102370",
-   "institution": "BNK경남은행",
-   "type": "은행",
-   "categories": [
-    "other"
-   ],
-   "title": "LG전자 Privilege경남은행 연회비 캐시백 준법감시인 심의필. 2026-H-4902심의일자 2026.11.12 유효기일",
-   "start": "2026.11.12",
-   "end": "2026.12.31",
-   "benefitHints": [],
    "desc": "마감임박이벤트 놓친 이벤트가 있다면 지금이 바로 참여 기회!",
    "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "firstSeen": "2026-11-27"
   },
   {
-   "id": "a07217b938",
+   "id": "fa0b17723e",
    "institution": "BNK경남은행",
    "type": "은행",
    "categories": [
-    "other"
+    "savings"
    ],
-   "title": "햇살론 이자현금으로 돌려드려요! 준법감시인 심의필. 2026-H-4832심의일자 2026.10.26 유효기일",
-   "start": "2026.10.26",
+   "title": "BNK포춘적금 출시가입하고 선물받자! 준법감시인 심의필. 2026-H-4813심의일자 2026.10.21 유효기일",
+   "start": "2026.10.21",
    "end": "2026.12.31",
    "benefitHints": [],
    "desc": "",
    "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
-   "firstSeen": "2026-11-27"
+   "firstSeen": "2026-11-28"
   },
   {
    "id": "0b861273ce",
@@ -4566,7 +4715,7 @@
    "start": "2026.10.29",
    "end": "2026.12.31",
    "benefitHints": [],
-   "desc": "",
+   "desc": "이벤트 캐시백부터 경품까지다양한 혜택이 있어요",
    "url": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "listUrl": "https://www.knbank.co.kr/ib20/mnu/BHPOLY000000000",
    "firstSeen": "2026-11-27"
